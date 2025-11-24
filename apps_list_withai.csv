@@ -1,0 +1,2025 @@
+N,ID,X,Name,Social.or.Nonsocial,Category,SocialType,Public.private,SAMPLE,notes,is_social_media
+1,io.Crowdcast.CrowdcastMobile,241,Crowdcast,social,livestream,,-,additional_added_for_maps,,0
+2,com.triller.projectx,318,Triller,social,tiktok-like,,,additional_added_for_maps,,0
+3,com.juphoon.JusTalk,139,JusTalk,social,video chat,,private,additional_added_for_maps,confirm if this is messages or dialing,1
+4,com.fivemobile.wattpad,84,Wattpad,social,writing,,public,additional_added_for_maps,"story writing, but also commenting/messaging?",0
+5,wp.wattpad,264,Wattpad,social,writing,,public,PREDICT_MAPS,"story writing, but also commenting/messaging?",0
+6,com.innersloth.spacemafia,136,Among Us,social,game,,private,additional_added_for_maps,not sure if text will be game play or chat,0
+7,com.herzick.houseparty,196,House Party,social,game,,private,PREDICT_ONLY,not sure if text will be game play or chat,1
+8,com.platoapp.Plato,174,Plato,social,game,,private,additional_added_for_maps,not sure if text will be game play or chat,1
+9,com.innersloth.amongus,135,AmongUs,social,party game,,private,PREDICT_MAPS,not sure if text will be game play or chat,0
+10,com.gamerdelights.gamepigeon.ext,85,Game Pigeon,social,party game,,private,PREDICT_MAPS,not sure if text will be game play or chat,0
+11,com.wb.psych,227,Psyched,social,party game,,private,additional_added_for_maps,not sure if text will be game play or chat,0
+12,com.google.android.apps.googlevoice,291,google voice,social,calling,live,private,PREDICT_MAPS,confirm if this is messages or dialing,1
+13,com.narvii.master,159,Amino,social,chat?,,private,additional_added_for_maps,,1
+14,com.narvii.x198687438,160,Amino,social,chat?,,private,additional_added_for_maps,,1
+15,com.bottledapp.bottled,278,Bottled,social,chat?,,private,additional_added_for_maps,,1
+16,com.imvu.mobilecordova,133,IMVU,social,chat?,,private,additional_added_for_maps,,1
+17,com.lightspace.lmk,147,LMK,social,chat?,,private,additional_added_for_maps,,1
+18,com.wacompany.mydol,324,Mydol,social,chat?,,private,additional_added_for_maps,,1
+19,com.Popshow.YOLO,7,Yolo - snapchat app,social,chat?,,private,PREDICT_MAPS,,1
+20,com.badoo.mobile,276,Badoo,social,dating,dating,private,additional_added_for_maps,,1
+21,com.moxco.bumble,158,Bumble,social,dating,dating,private,PREDICT_MAPS,,1
+22,com.bumble.app,49,Bumble,social,dating,dating,private,PREDICT_ONLY,,1
+23,com.coffeemeetsbagel.mobile.ios,59,Coffee Meets Bagel,social,dating,dating,private,additional_added_for_maps,,1
+24,com.grindrguy.grindrx,122,Grindr,social,dating,dating,private,PREDICT_MAPS,,1
+25,com.dattch.dattch,181,Her,social,dating,dating,private,PREDICT_ONLY,,1
+26,co.hinge.mobile.ios,2,Hinge,social,dating,dating,private,PREDICT_MAPS,,1
+27,com.hookupdating,128,Hookup,social,dating,dating,private,additional_added_for_maps,,1
+28,com.dazz.hoop,280,Hoop,social,dating,dating,private,additional_added_for_maps,,1
+29,com.idealmatch.idma,197,Iris,social,dating,dating,private,PREDICT_ONLY,,1
+30,com.random.chat.app,178,RandomChat,social,dating,dating,private,additional_added_for_maps,,1
+31,com.infostream.seekingarrangement,134,Seeking,social,dating,dating,private,additional_added_for_maps,,1
+32,com.taimi.ios,211,Taimi,social,dating,dating,private,PREDICT_ONLY,,1
+33,com.cardify.tinder,58,Tinder,social,dating,dating,private,PREDICT_MAPS,,1
+34,com.tinder,317,Tinder,social,dating,dating,private,PREDICT_MAPS,,1
+35,co.ninecount.wink,3,Wink,social,dating,dating,private,additional_added_for_maps,,1
+36,com.vlbapps.wizz,154,Wizz,social,dating,dating,private,PREDICT_ONLY,,1
+37,co.yellw.Yellow,5,Yellow,social,dating,dating,private,PREDICT_MAPS,,1
+38,co.yellw.yellowapp,6,Yubo -snapchat,social,dating,dating,private,additional_added_for_maps,,1
+39,com.android.email,274,Email,social,email,,private,additional_added_for_maps,,1
+40,com.easilydo.mail,282,Email,social,email,,private,additional_added_for_maps,,1
+41,com.apple.mobilemail,42,Email,social,email,,private,PREDICT_MAPS,,1
+42,com.google.android.gm,108,Gmail,social,email,,private,PREDICT_MAPS,,1
+43,com.google.Gmail,91,Gmail,social,email,,private,PREDICT_MAPS,,1
+44,com.apple.MailCompositionService,26,Mail,social,email,,private,PREDICT_MAPS,,1
+45,com.microsoft.Office.Outlook,151,Outlook,social,email,,private,PREDICT_MAPS,,1
+46,com.microsoft.office.outlook,153,Outlook,social,email,,private,PREDICT_MAPS,,1
+47,com.yahoo.Aerogram,328,Yahoo Mail,social,email,,private,PREDICT_MAPS,,1
+48,com.google.Gmail.ShareExtension,92,Gmail,social,extension,,private,PREDICT_MAPS,confirm?,1
+49,com.apple.MobileSMS.MessagesNotificationExtension,30,Messages,social,messaging,messaging,private,PREDICT_MAPS,confirm?,1
+50,com.playstation.eu.mobilemessages,175,Playstation,nonsocial,game,,private,additional_added_for_maps,,1
+51,com.fullsenders.sendit,287,SendIt - snapchat,social,game,,private,additional_added_for_maps,,1
+52,com.vent,323,Vent,social,journal,,public,additional_added_for_maps,,1
+53,com.discord,68,Discord,social,messaging,messaging,private,PREDICT_MAPS,,1
+54,com.hammerandchisel.discord,127,Discord,social,messaging,messaging,private,PREDICT_MAPS,,1
+55,com.facebook.Messenger,79,Facebook Messenger,social,messaging,messaging,private,PREDICT_MAPS,,1
+56,com.facebook.orca,81,Facebook Messenger,social,messaging,messaging,private,PREDICT_MAPS,,1
+57,com.groupme.android,123,GroupMe,social,messaging,messaging,private,PREDICT_MAPS,,1
+58,com.groupme.iphone-app,124,GroupMe,social,messaging,messaging,private,PREDICT_MAPS,,1
+59,cm.operation.Honk,1,Honk,social,messaging,messaging,private,PREDICT_ONLY,,0
+60,com.burbn.instagram,56,Instagram,social,messaging,socialmedia,both,PREDICT_MAPS,,1
+61,com.instagram.threadsapp,107,Instagram,social,messaging,socialmedia,private,PREDICT_ONLY,,1
+62,com.iwilab.KakaoTalk,108,Kakao,social,messaging,messaging,private,PREDICT_ONLY,,1
+63,com.kik.chat,140,Kik,social,messaging,messaging,private,additional_added_for_maps,,1
+64,kik.android,243,Kik,social,messaging,messaging,private,additional_added_for_maps,,1
+65,com.android.mms,17,Messages,social,messaging,messaging,private,PREDICT_MAPS,,1
+66,com.apple.MobileSMS,29,Messages,social,messaging,messaging,Private,PREDICT_MAPS,,1
+67,com.apple.mobilesms.compose,47,Messages,social,messaging,messaging,private,PREDICT_MAPS,,1
+68,com.google.android.apps.messaging,101,Messages,social,messaging,messaging,private,PREDICT_MAPS,,1
+69,com.google.GoogleMobile,93,Messages,social,messaging,messaging,private,PREDICT_MAPS,,1
+70,com.verizon.messaging.vzmsgs,223,Messages,social,messaging,messaging,private,PREDICT_MAPS,,1
+71,org.telegram.messenger,335,Telegram,social,messaging,messaging,private,PREDICT_MAPS,,1
+72,com.htc.sense.mms,131,MMS,social,messaging,messaging,private,additional_added_for_maps,,1
+73,com.motorola.messaging,157,MMS,social,messaging,messaging,private,additional_added_for_maps,,1
+74,com.samsung.android.messaging,192,MMS,social,messaging,messaging,private,additional_added_for_maps,,1
+75,com.app.schiffadam,275,Patio,social,messaging,messaging,private,PREDICT_MAPS,,1
+76,is.signal.ios,242,Signal,social,messaging,messaging,private,additional_added_for_maps,,1
+77,org.whispersystems.signal,256,Signal,social,messaging,messaging,private,PREDICT_MAPS,,1
+78,org.thoughtcrime.securesms,222,Signal,social,messaging,messaging,private,PREDICT_ONLY,,1
+79,com.tinyspeck.chatlyio,208,Slack,social,messaging,messaging,private,PREDICT_MAPS,,1
+80,com.Slack,7,Slack,social,messaging,messaging,private,PREDICT_ONLY,,1
+81,com.snapchat.android,199,Snapchat,social,messaging,socialmedia,both,PREDICT_MAPS,,1
+82,com.toyopagroup.picaboo,209,Snapchat,social,messaging,socialmedia,both,PREDICT_MAPS,,1
+83,com.toyopagroup.picaboo.share,212,Snapchat,social,messaging,messaging,both,PREDICT_ONLY,,1
+84,com.google.android.talk,115,Talk/Hangouts,social,messaging,live,private,additional_added_for_maps,confirm if this is messages or dialing??,1
+85,com.microsoft.teams,299,Teams,social,messaging,messaging,private,additional_added_for_maps,confirm if this is messages or dialing??,1
+86,de.tellonym.app,217,Tellonym,social,messaging,messaging,private,PREDICT_ONLY,,1
+87,tv.twitch.android.app,262,twitch,social,messaging,messaging,private,additional_added_for_maps,,1
+88,com.tencent.mm,207,WeChat,social,messaging,messaging,private,additional_added_for_maps,,1
+89,com.whatsapp,228,Whatsapp,social,messaging,messaging,private,PREDICT_MAPS,,1
+90,net.whatsapp.WhatsApp,248,Whatsapp,social,messaging,messaging,private,PREDICT_MAPS,,1
+91,com.burbn.threads,177,Instagram Threads,social,posting/messaging,socialmedia,both,PREDICT_ONLY,,1
+92,com.Artfol,170,Artfol,social,posting/messaging/search,,both,PREDICT_ONLY,,1
+93,com.deviantart.android.damobile,66,DeviantArt,social,posting/messaging/search,,both,additional_added_for_maps,,1
+94,com.instagram.android,137,Instagram,social,posting/messaging/search,socialmedia,both,PREDICT_MAPS,,1
+95,com.nextdoor.nextdoor,164,NextDoor,social,posting/messaging/search,,both,additional_added_for_maps,,1
+96,com.reddit.frontpage,309,Reddit,social,posting/messaging/search,,both,additional_added_for_maps,,1
+97,com.reddit.Reddit,180,Reddit,social,posting/messaging/search,,both,PREDICT_MAPS,,1
+98,com.zhiliaoapp.musically,232,TikTok,social,posting/messaging/search,socialmedia,both,PREDICT_MAPS,,1
+99,com.tumblr,210,Tumblr,social,posting/messaging/search,,both,PREDICT_MAPS,,1
+100,com.tumblr.tumblr,211,Tumblr,social,posting/messaging/search,,both,PREDICT_MAPS,,1
+101,com.atebits.Tweetie2,52,Twitter,social,posting/messaging/search,socialmedia,tbd,PREDICT_MAPS,,1
+102,com.twitter.android,212,Twitter,social,posting/messaging/search,socialmedia,both,PREDICT_MAPS,,1
+103,com.facebook.Facebook,78,Facebook,social,posting/search,socialmedia,public,PREDICT_MAPS,,1
+104,com.facebook.katana,80,Facebook,social,posting/search,socialmedia,public,PREDICT_MAPS,,1
+105,com.tencent.xin,139,wechat,social,social,messaging,both,PREDICT_ONLY,,1
+106,com.apple.facetime,40,FaceTime,social,video chat,live,private,PREDICT_MAPS,confirm if this is messages or dialing,0
+107,com.google.hangouts,119,google hangouts,social,video chat,live,private,PREDICT_MAPS,confirm if this is messages or dialing,1
+108,com.microsoft.skype.teams,154,Skype,social,video chat,live,private,PREDICT_MAPS,confirm if this is messages or dialing??,1
+109,us.zoom.videomeetings,263,Zoom,social,video chat,live,private,PREDICT_MAPS,,1
+110,com.picsart.studio.messagesextension,170,Picsart,nonsocial,video editing,,private,additional_added_for_maps,,0
+111,com.wemesh.android,326,Rave Watch party,social,watch with friends,,private,additional_added_for_maps,,0
+112,inc.speramus.ios.crew,240,Crew,social,work,,private,additional_added_for_maps,,0
+113,com.htc.lockscreen,130,Lockscreen,REMOVE,system,,-,additional_added_for_maps,entering passcode,0
+114,com.android.systemui,21,System,REMOVE,system,,-,PREDICT_MAPS,entering passcode,0
+115,com.vmbc.amc,224,AMC,nonsocial,account,,-,additional_added_for_maps,,0
+116,com.nuance.nmc.sihome.metropcs,203,myMetroPCS,nonsocial,account,,-,PREDICT_ONLY,,0
+117,com.pnc.pncmobile,177,PNC Mobile,nonsocial,account,,-,additional_added_for_maps,,0
+118,com.starbucks.mystarbucks,205,Starbucks,nonsocial,account,,-,additional_added_for_maps,,0
+119,com.ulta.UltaMcommerceApp,217,Ulta,nonsocial,account,,-,additional_added_for_maps,,0
+120,ryan.schiller.FirebaseApp,259,Firebase,nonsocial,apps,,-,additional_added_for_maps,,0
+121,tv.lifechurch.bible,261,Bible,nonsocial,bible,,-,additional_added_for_maps,,0
+122,com.alohabrowser.alohabrowser,10,Aloha Browser,nonsocial,browser,,-,PREDICT_ONLY,,0
+123,com.microsoft.bing,114,Bing,nonsocial,browser,,-,PREDICT_ONLY,,0
+124,com.sec.android.app.sbrowser,195,Browser,nonsocial,browser,,-,additional_added_for_maps,,0
+125,com.ume.browser.northamerica,220,Browser,nonsocial,browser,,-,additional_added_for_maps,,0
+126,com.android.chrome,13,Chrome,nonsocial,browser,,-,PREDICT_MAPS,,0
+127,com.google.chrome.ios,118,Chrome,nonsocial,browser,,-,PREDICT_MAPS,,0
+128,com.duckduckgo.mobile.android,56,DuckDuckGo,nonsocial,browser,,-,PREDICT_ONLY,,0
+129,com.duckduckgo.mobile.ios,57,DuckDuckGo,nonsocial,browser,,-,PREDICT_ONLY,,0
+130,com.ecosia.ecosiaapp,73,Ecosia,nonsocial,browser,,-,additional_added_for_maps,,0
+131,org.mozilla.focus,253,Firefox,nonsocial,browser,,-,additional_added_for_maps,,0
+132,org.mozilla.ios.Firefox,254,Firefox,nonsocial,browser,,-,additional_added_for_maps,,0
+133,com.google.android.googlequicksearchbox,110,Google,nonsocial,browser,,,PREDICT_MAPS,,0
+134,com.apple.mobilesafari,45,Safari,nonsocial,browser,,-,PREDICT_MAPS,,0
+135,com.apple.SafariViewService,36,Safari,nonsocial,browser,,-,PREDICT_MAPS,,0
+136,org.torproject.torbrowser,255,TorBrowser,nonsocial,browser,,-,additional_added_for_maps,,0
+137,com.busykid.app.mobile,57,BusyKid,nonsocial,chores,,-,additional_added_for_maps,,0
+138,com.naver.linewebtoon,161,Webtoon,nonsocial,comics,,-,PREDICT_MAPS,,0
+139,org.howwefeel,219,HowWeFeel,nonsocial,covid checkin?,,-,PREDICT_ONLY,,0
+140,com.pleco.chinesesystem,176,Chinese Dictionary,nonsocial,dictionary,,-,additional_added_for_maps,,0
+141,com.curiositymedia.SpanishDict,63,Spanish Dictionary,nonsocial,dictionary,,-,additional_added_for_maps,,0
+142,com.google.android.apps.translate,102,Translate,nonsocial,dictionary,,-,additional_added_for_maps,,0
+143,com.microsoft.translator,155,Translate,nonsocial,dictionary,,-,additional_added_for_maps,,0
+144,com.urbandictionary.iphone,222,UrbanDictionary,nonsocial,dictionary,,-,additional_added_for_maps,,0
+145,com.wordreference,229,Word Reference,nonsocial,dictionary,,-,additional_added_for_maps,,0
+146,com.demandmedia.calorietrackerlite,64,Calorie Tracker,nonsocial,diet/exercise,,-,additional_added_for_maps,,0
+147,com.fitbit.FitbitMobile,285,Fitbit,nonsocial,diet/exercise,,-,additional_added_for_maps,,0
+148,com.skyfitsports.skyfit,198,Skyfit,nonsocial,diet/exercise,,-,additional_added_for_maps,,0
+149,com.teamworks.twmobileNext,314,TeamWords,nonsocial,diet/exercise,,-,additional_added_for_maps,,0
+150,com.crowdcompass.tumbleweed,62,CrowdCompass,nonsocial,event planning,,-,additional_added_for_maps,,0
+151,com.apple.siri.parsec.HashtagImagesApp.HashtagImagesExtension,50,Keyboard,nonsocial,extension,,-,PREDICT_MAPS,,0
+152,com.chipotle.Chipotle,52,Chipotle,nonsocial,food,,-,PREDICT_ONLY,,0
+153,com.doordash.dasher,69,Door Dash,nonsocial,food,,-,additional_added_for_maps,,0
+154,com.dd.doordash,281,DoorDash,nonsocial,food,,-,additional_added_for_maps,,0
+155,doordash.DoorDashConsumer,236,DoorDash,nonsocial,food,,-,PREDICT_MAPS,,0
+156,com.gopuff.gopuff,99,GoPuff,nonsocial,food,,-,PREDICT_ONLY,,0
+157,com.grubhub.search,125,GrubHub,nonsocial,food,,-,PREDICT_MAPS,,0
+158,com.itshappyhour.HappyHour,296,HappyHour,nonsocial,food,,-,additional_added_for_maps,,0
+159,com.peets.loyalty,204,Peets Coffee,nonsocial,food,,-,PREDICT_ONLY,,0
+160,com.postmates.getitnow,306,Postmates,nonsocial,food,,-,additional_added_for_maps,,0
+161,com.ubercab.eats,216,UberEats,nonsocial,food,,-,additional_added_for_maps,,0
+162,com.ubercab.UberEats,215,UberEats,nonsocial,food,,-,PREDICT_MAPS,,0
+163,com.scimob.ninetyfour.percent,194,0.94,nonsocial,game,,-,additional_added_for_maps,,0
+164,com.aidungeon,8,AI dungeon,nonsocial,game,,-,additional_added_for_maps,,0
+165,org.akrew.NookazonApp,251,Animal Crossing,nonsocial,game,,-,additional_added_for_maps,,0
+166,com.lockwoodpublishing.avakinlife,148,Avakin Life,nonsocial,game,,-,additional_added_for_maps,,0
+167,com.apple.Bridge,174,Bridge,nonsocial,game,,-,PREDICT_ONLY,,0
+168,com.pixelberrystudios.choices,172,Choices,nonsocial,game,,-,additional_added_for_maps,,0
+169,com.supercell.scroll,135,Clash Royale,nonsocial,game,,-,PREDICT_ONLY,,0
+170,com.colorswitch.switch2,179,Color Switch,nonsocial,game,,-,PREDICT_ONLY,,0
+171,com.oculus.twilight,125,FB game?,nonsocial,game,,,PREDICT_ONLY,,0
+172,com.dirtybit.fra,67,FunRun,nonsocial,game,,-,additional_added_for_maps,,0
+173,com.miHoYo.GenshinImpact,113,Genshin Impact,nonsocial,game,,-,PREDICT_ONLY,,0
+174,com.godvillegame.android,289,Godville,nonsocial,game,,-,additional_added_for_maps,,0
+175,com.supercell.soil,210,Hay Day,nonsocial,game,,-,PREDICT_ONLY,,0
+176,com.pixelberrystudios.hssandroid,173,High School story,nonsocial,game,,-,additional_added_for_maps,,0
+177,com.instcoffee.instlife,293,InstLife,nonsocial,game,,-,additional_added_for_maps,,0
+178,com.letterboxd.LetterboxdApp,297,Letterboxd,nonsocial,game,,-,additional_added_for_maps,,0
+179,com.lilithgame.hgame.gp,298,Lilith,nonsocial,game,,-,additional_added_for_maps,,0
+180,com.elex.nikki,74,Love Nikki,nonsocial,game,,-,additional_added_for_maps,,0
+181,com.nintendo.zaka,302,MarioKart,nonsocial,game,,-,additional_added_for_maps,,0
+182,com.vade.raftOnline,321,Ocean Survival,nonsocial,game,,-,additional_added_for_maps,,0
+183,com.flipline.papalouiepals,186,Papa Louie Pals,nonsocial,game,,-,PREDICT_ONLY,,0
+184,com.nianticlabs.pikmin,121,Pikmin,nonsocial,game,,-,PREDICT_ONLY,,0
+185,com.geobits.pokemon.pokedextra,88,Pokemon,nonsocial,game,,-,additional_added_for_maps,,0
+186,com.nianticlabs.pokemongo,165,PokemonGo,nonsocial,game,,-,PREDICT_MAPS,,0
+187,com.miniclip.8ballpoolmult,156,Pool,nonsocial,game,,-,additional_added_for_maps,,0
+188,com.miniclip.eightballpool,300,Pool,nonsocial,game,,-,additional_added_for_maps,,0
+189,ai.replika.app,0,Replika,nonsocial,game,,-,additional_added_for_maps,,0
+190,ai.replika.app,146,RealLife Exp,nonsocial,research,,-,additional_added_for_maps,,0
+191,com.roblox.client,183,Roblox,nonsocial,game,,-,PREDICT_MAPS,,0
+192,com.roblox.robloxmobile,184,Roblox,nonsocial,game,,-,PREDICT_MAPS,,0
+193,com.rocketleaguegarage.rlgarage,130,Rocket League,nonsocial,game,,-,PREDICT_ONLY,,0
+194,com.blankmediagames.townofsalemthecoven,55,Salem,nonsocial,game,,-,additional_added_for_maps,,0
+195,com.kingsgroup.ss,199,State of Survival,nonsocial,game,,-,PREDICT_ONLY,,0
+196,com.xdg.ios.wll,327,Ulala,nonsocial,game,,-,additional_added_for_maps,,0
+197,com.xim5.manager,231,Xbox manager,nonsocial,game,,-,additional_added_for_maps,,0
+198,com.microsoft.smartglass,115,XBox Smart Glass,nonsocial,game,,-,PREDICT_ONLY,,0
+199,cm.aptoide.pt,0,Aptoide,nonsocial,game store,,-,PREDICT_ONLY,,0
+200,com.mercariapp.ios.mercari,149,grocery,nonsocial,grocery,,-,PREDICT_MAPS,,0
+201,org.nyulmc.clinical.mychart,221,MyChart,nonsocial,health,,,PREDICT_ONLY,,0
+202,com.apple.ios.StoreKitUIService,176,StoreKitUIService,nonsocial,ios emulator?,,-,PREDICT_ONLY,,0
+203,com.guardiansd.recoveryrecord,126,ED Record,nonsocial,journal,,-,additional_added_for_maps,,0
+204,com.thehungrywasp.iamsober,316,I Am Sober,nonsocial,journal,,-,additional_added_for_maps,,0
+205,miki.EMMODay,218,Mind Journal,nonsocial,journal,,-,PREDICT_ONLY,,0
+206,edu.berkeley.icampus,237,Berkley,nonsocial,learning,,-,additional_added_for_maps,,0
+207,com.instructure.candroid,294,Canvas,nonsocial,learning,,-,additional_added_for_maps,,0
+208,com.duolingo,70,DuoLingo,nonsocial,learning,,-,PREDICT_MAPS,,0
+209,com.duolingo.DuolingoMobile,71,DuoLingo,nonsocial,learning,,-,PREDICT_MAPS,,0
+210,com.goodreads.Goodreads,290,GoodReads,nonsocial,learning,,-,PREDICT_MAPS,,0
+211,daldev.android.gradehelper,332,GradeHelper,nonsocial,learning,,-,additional_added_for_maps,,0
+212,com.kadama.kadama,110,Kadama,nonsocial,learning,,-,PREDICT_ONLY,,0
+213,com.panareadigital.NearpodTeacher,303,Nearpod,nonsocial,learning,,-,additional_added_for_maps,,0
+214,com.quizlet.quizlet,307,Quizlet,nonsocial,learning,,-,additional_added_for_maps,,0
+215,com.quizlet.quizletandroid,308,Quizlet,nonsocial,learning,,-,additional_added_for_maps,,0
+216,co.suitable.app.Suitable,267,Suitable,nonsocial,learning,,-,additional_added_for_maps,,0
+217,com.turningTech.Responseware,319,TurningPoint,nonsocial,learning,,-,additional_added_for_maps,,0
+218,edu.pitt.mobile,238,UPItt,nonsocial,learning,,-,additional_added_for_maps,,0
+219,com.life360.safetymap,145,Life360,nonsocial,maps,,-,additional_added_for_maps,,0
+220,com.google.android.apps.maps,100,Maps,nonsocial,maps,,-,PREDICT_MAPS,,0
+221,com.sprucehealth.messenger-live,209,Spruce Health,nonsocial,medical,,-,PREDICT_ONLY,,0
+222,com.squareup.cash,204,CashApp,nonsocial,money,,-,additional_added_for_maps,,0
+223,com.nicehash.mobile,123,NiceHash,nonsocial,money,,-,PREDICT_ONLY,,0
+224,com.pnc.ecommerce.mobile.vw.android,305,PNC Mobile,nonsocial,money,,-,additional_added_for_maps,,0
+225,com.robinhood.release.Robinhood,182,Robinhood,nonsocial,money,,-,additional_added_for_maps,,0
+226,com.tdbank,206,TD Bank,nonsocial,money,,-,additional_added_for_maps,,0
+227,com.venmo,322,Venmo,nonsocial,money,,-,PREDICT_MAPS,,0
+228,net.kortina.labs.Venmo,246,Venmo,nonsocial,money,,-,PREDICT_MAPS,,0
+229,com.ultimateguitar.tabs,218,GuitarTabs,nonsocial,music,,-,additional_added_for_maps,,0
+230,com.ultimateguitar.tabs100,219,GuitarTabs,nonsocial,music,,-,additional_added_for_maps,,0
+231,com.feelthemusi.musi,82,Musi,nonsocial,music,,-,PREDICT_MAPS,,0
+232,com.google.android.music,113,Music,nonsocial,music,,-,additional_added_for_maps,,0
+233,com.lge.music,143,Music,nonsocial,music,,-,additional_added_for_maps,,0
+234,com.apple.Music,32,Music,nonsocial,music,,-,PREDICT_MAPS,,0
+235,com.smule.magicpiano,311,Piano,nonsocial,music,,-,additional_added_for_maps,,0
+236,com.rapgenius.RapGenius,179,Rap Genius,nonsocial,music,,-,additional_added_for_maps,,0
+237,mf.gnidnert.Songify,245,Songify,nonsocial,music,,-,additional_added_for_maps,,0
+238,com.sonos.SonosController,312,Sonos,nonsocial,music,,-,additional_added_for_maps,,0
+239,com.soundcloud.android,201,SoundCloud,nonsocial,music,,-,additional_added_for_maps,,0
+240,com.soundcloud.TouchApp,200,SoundCloud,nonsocial,music,,-,PREDICT_MAPS,,0
+241,com.spotify.client,202,Spotify,nonsocial,music,,-,PREDICT_MAPS,,0
+242,com.spotify.music,203,Spotify,nonsocial,music,,-,PREDICT_MAPS,,0
+243,com.google.ios.youtubemusic,121,Youtube,nonsocial,music,,-,PREDICT_MAPS,,0
+244,com.google.android.apps.youtube.music,103,Youtube Music,nonsocial,music,,-,additional_added_for_maps,,0
+245,com.audiomack,53,Audiomack,nonsocial,music sharing,,-,additional_added_for_maps,,0
+246,MSPMobile,266,MSP Mobile,nonsocial,news,,-,additional_added_for_maps,,0
+247,reddit.news,258,Reddit News,nonsocial,news,,-,additional_added_for_maps,,0
+248,com.anydo,23,AnyDo,nonsocial,notes/work,,-,additional_added_for_maps,,0
+249,com.wtfapps.apollo16,230,Apollo 16,nonsocial,notes/work,,-,additional_added_for_maps,,0
+250,com.celtx.screenwriter,178,Celtx,nonsocial,notes/work,,-,PREDICT_ONLY,,0
+251,com.google.android.apps.docs,99,Docs,nonsocial,notes/work,,-,additional_added_for_maps,,0
+252,com.google.Drive,75,Drive,nonsocial,notes/work,,-,PREDICT_ONLY,,0
+253,com.getdropbox.Dropbox,70,Dropbox,nonsocial,notes/work,,-,PREDICT_ONLY,,0
+254,com.evernote,184,Evernote,nonsocial,notes/work,,-,PREDICT_ONLY,,0
+255,com.google.Sheets,95,Excel,nonsocial,notes/work,,-,PREDICT_MAPS,,0
+256,com.google.Docs,90,Google Docs,nonsocial,notes/work,,-,PREDICT_MAPS,,0
+257,com.indeed.JobSearch,104,Indeed,nonsocial,notes/work,,-,PREDICT_ONLY,,0
+258,com.nhstudio.inote.noteios.noteiphone,202,iNote,nonsocial,notes/work,,-,PREDICT_ONLY,,0
+259,com.google.Jam,190,Jam,nonsocial,notes/work,,-,PREDICT_ONLY,,0
+260,org.jw.jwlibrary,252,Jehovah's Witness Library,nonsocial,notes/work,,-,PREDICT_MAPS,,0
+261,com.google.android.keep,112,Keep,nonsocial,notes/work,,-,PREDICT_MAPS,,0
+262,com.bijoysingh.quicknote,54,Notes,nonsocial,notes/work,,-,additional_added_for_maps,,0
+263,com.lge.qmemoplus,144,Notes,nonsocial,notes/work,,-,additional_added_for_maps,,0
+264,com.samsung.android.app.memo,186,Notes,nonsocial,notes/work,,-,additional_added_for_maps,,0
+265,easynotes.notes.notepad.notebook.privatenotes.note,334,Notes,nonsocial,notes/work,,-,additional_added_for_maps,,0
+266,notepad.note.notas.notes.notizen,250,Notes,nonsocial,notes/work,,-,additional_added_for_maps,,0
+267,com.apple.mobilenotes,43,Notes,nonsocial,notes/work,,-,PREDICT_MAPS,,0
+268,com.samsung.android.app.notes,187,Notes,nonsocial,notes/work,,-,PREDICT_MAPS,,0
+269,com.apple.Pages,33,Pages,nonsocial,notes/work,,-,additional_added_for_maps,,0
+270,com.google.Slides,96,Powerpoint,nonsocial,notes/work,,-,PREDICT_MAPS,,0
+271,com.apple.reminders,49,Reminders,nonsocial,notes/work,,-,PREDICT_MAPS,,0
+272,com.google.Stella,97,Sheets addon,nonsocial,notes/work,,-,additional_added_for_maps,,0
+273,com.sublime.capture,313,Sublime,nonsocial,notes/work,,-,additional_added_for_maps,,0
+274,com.whentowork.iOS.WhenToWork-Employee-Scheduling,215,Whentowork,nonsocial,notes/work,,-,PREDICT_ONLY,,0
+275,com.microsoft.Office.Word,152,Word,nonsocial,notes/work,,-,additional_added_for_maps,,0
+276,co.visualsupply.cam,4,VSCO,nonsocial,photo,,-,PREDICT_MAPS,,0
+277,com.google.b612,91,B612,nonsocial,photo editing,,-,PREDICT_ONLY,,0
+278,com.photoaffections.freeprints,304,FreePrints,nonsocial,photos,,-,additional_added_for_maps,,0
+279,com.apple.mobileslideshow,46,Photos,nonsocial,photos,,-,PREDICT_MAPS,,0
+280,com.google.android.apps.photos,82,Photos,nonsocial,photos,,-,PREDICT_ONLY,,0
+281,com.text.art.addtext.textonphoto,315,TextArt,nonsocial,photos,,-,additional_added_for_maps,,0
+282,com.thestorygraph.thestorygraph,140,StoryGraph,nonsocial,reading,,,PREDICT_ONLY,,0
+283,com.vokal.dscout,225,dscout,nonsocial,research,,-,additional_added_for_maps,,0
+284,edu.uoregon.EARS,239,EARS,nonsocial,research,,-,PREDICT_MAPS,,0
+285,com.metricwire.android3,150,EMA,nonsocial,research,,-,additional_added_for_maps,,0
+286,digital.lamp.mindlamp,333,Mindlamp,nonsocial,research,,-,additional_added_for_maps,,0
+287,com.instructure.icanvas,295,Canvas,nonsocial,school,,-,PREDICT_MAPS,,0
+288,com.edpuzzle.EDpuzzle,183,Edpuzzle,nonsocial,school,,-,PREDICT_ONLY,,0
+289,com.datacation.pupilpath,279,Pupilpath,nonsocial,school,,-,PREDICT_MAPS,,0
+290,com.schoology.app,310,Schoology,nonsocial,school,,-,PREDICT_MAPS,,0
+291,com.google.Classroom,89,Google Classroom,nonsocial,school,,-,PREDICT_MAPS,,0
+292,com.genius.android,87,Genius,nonsocial,search,,-,additional_added_for_maps,,0
+293,st.babyli.BabyList,260,BabyRegistry,nonsocial,searching,,-,additional_added_for_maps,,0
+294,com.pinterest,171,Pinterest,nonsocial,searching,,-,PREDICT_MAPS,,0
+295,pinterest,257,Pinterest,nonsocial,searching,,-,PREDICT_MAPS,,0
+296,com.adp.adpmobile,8,ADP Mobile,nonsocial,security,,-,PREDICT_ONLY,,0
+297,com.alibaba.aliexpresshd,272,Alibaba,nonsocial,shopping,,-,PREDICT_MAPS,,0
+298,com.alibaba.iAliexpress,9,Alibaba,nonsocial,shopping,,-,PREDICT_ONLY,,0
+299,com.amazon.Amazon,9,Amazon,nonsocial,shopping,,-,PREDICT_MAPS,,0
+300,com.amazon.mShop.android.shopping,11,Amazon,nonsocial,shopping,,-,PREDICT_MAPS,,0
+301,com.ae.ae,269,American Eagle,nonsocial,shopping,,-,additional_added_for_maps,,0
+302,com.depop,65,Depop,nonsocial,shopping,,-,PREDICT_MAPS,,0
+303,com.garageitaly.garage,86,Depop,nonsocial,shopping,,-,PREDICT_MAPS,,0
+304,com.eastbay.eastbay,283,Eastbay,nonsocial,shopping,,-,additional_added_for_maps,,0
+305,com.ebay.iphone,72,Ebay,nonsocial,shopping,,-,additional_added_for_maps,,0
+306,com.etsy.sellonetsy,77,Etsy,nonsocial,shopping,,-,additional_added_for_maps,,0
+307,com.etsy.etsyforios,76,Etsy,nonsocial,shopping,,-,PREDICT_MAPS,,0
+308,com.airgoat.goat,271,GOAT,nonsocial,shopping,,-,additional_added_for_maps,,0
+309,com.letgo.ios,141,letgo,nonsocial,shopping,,-,additional_added_for_maps,,0
+310,com.nike.omega,166,Nike,nonsocial,shopping,,-,additional_added_for_maps,,0
+311,com.pacsun.pacsun,167,Pacsun,nonsocial,shopping,,-,additional_added_for_maps,,0
+312,com.petco.mobile,168,Petco,nonsocial,shopping,,-,additional_added_for_maps,,0
+313,com.poshmark.poshmark,205,Poshmark,nonsocial,shopping,,-,PREDICT_ONLY,,0
+314,com.zzkko,235,SHEIN,nonsocial,shopping,,-,additional_added_for_maps,,0
+315,zzkko.com.ZZKKO,265,Shein,nonsocial,shopping,,-,PREDICT_MAPS,,0
+316,com.target.Target,138,Target,nonsocial,shopping,,-,PREDICT_ONLY,,0
+317,com.ups.mobile.android,320,UPS,nonsocial,shopping,,-,additional_added_for_maps,,0
+318,com.uo.StoreLocator,221,UrbanOutfitters,nonsocial,shopping,,-,additional_added_for_maps,,0
+319,com.walmart.android,325,Walmart,nonsocial,shopping,,-,additional_added_for_maps,,0
+320,com.contextlogic.Wish,60,Wish,nonsocial,shopping,,-,additional_added_for_maps,,0
+321,com.contextlogic.wish,61,Wish,nonsocial,shopping,,-,additional_added_for_maps,,0
+322,com.yesstyle.app,329,YesStyle,nonsocial,shopping,,-,PREDICT_MAPS,,0
+323,com.zillow.android.zillowmap,233,Zillow,nonsocial,shopping,,-,additional_added_for_maps,,0
+324,com.apple.AppStore,24,app store,nonsocial,system,,-,PREDICT_MAPS,,0
+325,com.apkupdater,21,App updater,nonsocial,system,,-,PREDICT_ONLY,,0
+326,com.apple.springboard,51,Application management,nonsocial,system,,-,PREDICT_MAPS,,0
+327,com.android.vending,22,AppStore,nonsocial,system,,-,PREDICT_MAPS,,0
+328,com.google.android.captiveportallogin,105,Authenication,nonsocial,system,,-,additional_added_for_maps,,0
+329,com.android.calendar,12,Calendar,nonsocial,system,,-,additional_added_for_maps,,0
+330,com.samsung.android.calendar,188,Calendar,nonsocial,system,,-,additional_added_for_maps,,0
+331,com.apple.mobilecal,41,Calendar,nonsocial,system,,-,PREDICT_MAPS,,0
+332,com.google.android.calendar,104,Calendar,nonsocial,system,,-,PREDICT_MAPS,,0
+333,com.google.calendar,117,Calendar,nonsocial,system,,-,PREDICT_MAPS,,0
+334,com.android.incallui,16,Caller,nonsocial,system,,-,additional_added_for_maps,,0
+335,com.apple.camera.CameraMessagesApp,39,Camera iMessage extension,nonsocial,system,,-,additional_added_for_maps,,0
+336,com.apple.mobiletimer,48,Clock,nonsocial,system,,-,PREDICT_MAPS,,0
+337,com.htc.contacts,129,Contacts,nonsocial,system,live,-,additional_added_for_maps,,0
+338,com.samsung.android.contacts,189,Contacts,nonsocial,system,live,-,additional_added_for_maps,,0
+339,com.android.contacts,14,Contacts,nonsocial,system,live,-,PREDICT_MAPS,,0
+340,com.apple.MobileAddressBook,28,Contacts,nonsocial,system,live,-,PREDICT_MAPS,,0
+341,com.google.android.contacts,106,Contacts,nonsocial,system,live,-,PREDICT_MAPS,,0
+342,com.google.android.dialer,107,Contacts,nonsocial,system,live,-,PREDICT_MAPS,,0
+343,com.taptics.countdown,137,Countdown widget,nonsocial,system,,-,PREDICT_ONLY,,0
+344,com.android.dialer,15,Dialer,nonsocial,system,live,-,additional_added_for_maps,,0
+345,com.samsung.android.dialer,190,Dialer,nonsocial,system,live,-,additional_added_for_maps,,0
+346,com.samsung.android.incallui,191,Dialer,nonsocial,system,live,-,additional_added_for_maps,,0
+347,com.android.documentsui,16,DocumentsUI,nonsocial,system,,-,PREDICT_ONLY,,0
+348,com.emoji.keyboard.touchpal,75,Emoji,nonsocial,system,,-,additional_added_for_maps,,0
+349,com.jrdcom.filemanager,109,File Manager,nonsocial,system,,-,PREDICT_ONLY,,0
+350,com.samsung.android.app.galaxyfinder,185,Finder,nonsocial,system,,-,additional_added_for_maps,,0
+351,co.airapps.fontbot,1,Fontbot,nonsocial,system,,-,additional_added_for_maps,,0
+352,com.google.android.inputmethod.latin,111,Gboard,nonsocial,system,,-,PREDICT_MAPS,,0
+353,com.paloaltonetworks.globalprotect,126,GlobalProtect VPN,nonsocial,system,,-,PREDICT_ONLY,,0
+354,com.google.android.gms,109,Google Play,nonsocial,system,,-,PREDICT_MAPS,,0
+355,com.sec.android.inputmethod,197,Keyboard,nonsocial,system,,-,additional_added_for_maps,,0
+356,com.lge.launcher3,142,Launcher,nonsocial,system,,-,additional_added_for_maps,,0
+357,net.oneplus.launcher,247,Launcher,nonsocial,system,,-,additional_added_for_maps,,0
+358,com.motorola.launcher3,116,Launcher,nonsocial,system,,-,PREDICT_ONLY,,0
+359,com.apple.Maps,27,Map,nonsocial,system,,-,PREDICT_MAPS,,0
+360,com.google.Maps,94,Map,nonsocial,system,,-,PREDICT_MAPS,,0
+361,com.android.phone,18,Phone,nonsocial,system,,-,additional_added_for_maps,,0
+362,com.apple.InCallService,25,Phone,nonsocial,system,,-,PREDICT_MAPS,,0
+363,com.apple.mobilephone,44,Phone,nonsocial,system,,-,PREDICT_MAPS,,0
+364,com.youthhr.Phonto,331,Phonto,nonsocial,system,,-,additional_added_for_maps,,0
+365,com.google.photos,98,Photos,nonsocial,photos,,-,PREDICT_ONLY,,0
+366,com.apple.Preferences,35,Preferences,nonsocial,system,,-,PREDICT_MAPS,,0
+367,com.android.settings.intelligence,20,Settings,nonsocial,system,,-,additional_added_for_maps,,0
+368,com.google.android.settings.intelligence,114,Settings,nonsocial,system,,-,additional_added_for_maps,,0
+369,com.android.settings,19,Settings,nonsocial,system,,-,PREDICT_MAPS,,0
+370,com.apple.siri,44,Siri,nonsocial,system,,-,PREDICT_ONLY,,0
+371,com.apple.Spotlight,37,Spotlight,nonsocial,system,,-,PREDICT_MAPS,,0
+372,com.apple.MobileStore,31,Store,nonsocial,system,,-,additional_added_for_maps,,0
+373,com.bestai.TextScanner,277,Text Scanner,nonsocial,system,,-,additional_added_for_maps,,0
+374,com.apple.Translate,38,Translate,nonsocial,system,,-,PREDICT_MAPS,,0
+375,com.google.Translate,98,Translate,nonsocial,system,,-,PREDICT_MAPS,,0
+376,com.sec.android.app.voicenote,196,VoiceNote,nonsocial,system,,-,additional_added_for_maps,,0
+377,com.apple.Passbook,34,Wallet,nonsocial,system,,-,additional_added_for_maps,,0
+378,com.apple.weather,47,Weather,nonsocial,system,,-,PREDICT_ONLY,,0
+379,net.zedge.android,249,ZEDGE,nonsocial,system,,-,additional_added_for_maps,,0
+380,com.americanwell.OnlineCareMember.Wellpoint,273,AmWell,nonsocial,telehealth,,-,additional_added_for_maps,,0
+381,com.airbnb.app,270,Airbnb,nonsocial,transit/travel,,-,additional_added_for_maps,,0
+382,com.amtrak.rider,13,Amtrak,nonsocial,transit/travel,,-,PREDICT_ONLY,,0
+383,com.expedia.bookings,185,Expedia,nonsocial,transit/travel,,-,PREDICT_ONLY,,0
+384,se.resenatverket.FlightRadar24-Free,167,FlightRadar,nonsocial,transit/travel,,-,PREDICT_ONLY,,0
+385,com.flyfrontier.ios,67,Frontier,nonsocial,transit/travel,,-,PREDICT_ONLY,,0
+386,com.hopper.flights,292,Hopper,nonsocial,transit/travel,,-,additional_added_for_maps,,0
+387,me.lyft.android,244,Lyft,nonsocial,transit/travel,,-,additional_added_for_maps,,0
+388,com.tranzmate,145,Moovit,nonsocial,transit/travel,,-,PREDICT_ONLY,,0
+389,com.njtransit.njtapp,124,NJ Transit,nonsocial,transit/travel,,-,PREDICT_ONLY,,0
+390,com.samvermette.Transit,193,Transit,nonsocial,transit/travel,,-,additional_added_for_maps,,0
+391,com.ubercab,213,Uber,nonsocial,transit/travel,,-,PREDICT_MAPS,,0
+392,com.ubercab.UberClient,214,Uber,nonsocial,transit/travel,,-,PREDICT_MAPS,,0
+393,com.ridewithvia.ViaRider,181,Via,nonsocial,transit/travel,,-,additional_added_for_maps,,0
+394,com.waze.iphone,226,Waze,nonsocial,transit/travel,,-,additional_added_for_maps,,0
+395,com.zimride.instant,234,Zimride,nonsocial,transit/travel,,-,additional_added_for_maps,,0
+396,com.turner.asvideo,147,AdultSwim Video,nonsocial,video,,-,PREDICT_ONLY,,0
+397,com.amazon.aiv.AIVApp,10,Amazon Video,nonsocial,video,,-,PREDICT_MAPS,,0
+398,com.disney.disneyplus,55,Disney+,nonsocial,video,,-,PREDICT_ONLY,,0
+399,com.hulu.plus,132,Hulu,nonsocial,video,,-,additional_added_for_maps,,0
+400,com.netflix.mediaclient,163,Netflix,nonsocial,video,,-,additional_added_for_maps,,0
+401,com.netflix.Netflix,162,Netflix,nonsocial,video,,-,additional_added_for_maps,,0
+402,com.ellation.vrv,284,VRV,nonsocial,video,,-,additional_added_for_maps,,0
+403,com.younow.YouNowMobile,330,YouNow,nonsocial,video,,-,additional_added_for_maps,,1
+404,com.google.android.youtube,116,Youtube,nonsocial,video,,-,PREDICT_MAPS,,0
+405,com.google.ios.youtube,120,Youtube,nonsocial,video,,-,PREDICT_MAPS,,0
+406,com.picsart.studio,169,Picsart,nonsocial,video editing,,-,additional_added_for_maps,,0
+407,com.frontierdesign.videostar,286,Video Star,nonsocial,video editing,,-,PREDICT_MAPS,,0
+408,com.weather.TWC,155,Weather,nonsocial,weather,,-,PREDICT_ONLY,,0
+409,com.joinhomebase.mobile,138,HomeBase,nonsocial,work,,-,additional_added_for_maps,,0
+410,com.swipeclock.workforce,136,Swipeclock,nonsocial,work,,-,PREDICT_ONLY,,1
+411,net.matrixteo.apps.Social-Maker,162,Social Maker,nonsocial,writing,,-,PREDICT_ONLY,,0
+412,com.garmin.android.apps.vivokid,288,Garmin,nonsocial,,,-,additional_added_for_maps,,0
+413,com.trilliarden.mematic,213,MemeMaker,nonsocial,,,-,PREDICT_ONLY,,0
+414,com.medsphere.pharmavision,111,PharmaVision,nonsocial,,,-,PREDICT_ONLY,,0
+415,com.thetileapp.tile,141,Tile,nonsocial,,,-,PREDICT_ONLY,,0
+416,com.google.ios.ytcreator,97,YouTube Studio,nonsocial,video editing,,-,PREDICT_ONLY,,0
+417,com.nhncorp.m2app,120,,nonsocial,game??,,,PREDICT_ONLY,,0
+418,com.LTML.Flipgrid,5,Flip Grid,nonsocial,video editing/sharing?,,,PREDICT_ONLY,,0
+419,com.apple.mobileslideshow.StreamShareService,40,Photos,nonsocial,photos,,-,PREDICT_ONLY,,0
+420,com.gmail.heagoo.apkeditor.parser,71,APK parser,nonsocial,system,,-,PREDICT_ONLY,,0
+421,com.amazon.mp3,NA,Amazon Music,nonsocial,music,,,additional_added_for_maps,,0
+422,com.atomczak.notepat,NA,Notepad,nonsocial,notes/work,,,additional_added_for_maps,,0
+423,com.audiomack.iphone,NA,Audiomack,nonsocial,music,,,additional_added_for_maps,,0
+424,com.christianselig.Apollo,NA,Reddit,social,posting/messaging/search,,,additional_added_for_maps,,0
+425,com.chrome.dev,NA,Chrome,nonsocial,browser,,,additional_added_for_maps,,0
+426,com.dote.Dote,NA,dote,nonsocial,shopping,,,additional_added_for_maps,,0
+427,com.elex.nikkigp,NA,Love Nikki,nonsocial,game,,,additional_added_for_maps,,0
+428,com.enulus.Sunrise,NA,Dawn,nonsocial,calendar,,,additional_added_for_maps,,0
+429,com.gianteagle.apps.grocery,NA,Giant,nonsocial,food,,,additional_added_for_maps,,0
+430,com.google.android.apps.docs.editors.docs,NA,Docs,nonsocial,notes/work,,,additional_added_for_maps,,0
+431,com.google.android.deskclock,NA,clock,nonsocial,system,,,additional_added_for_maps,,0
+432,com.instacart.shopper,NA,Instacart,nonsocial,food,,,additional_added_for_maps,,0
+433,com.joinhandshake.Handshake.student,NA,Handshake,nonsocial,school,,,additional_added_for_maps,,0
+434,com.jumprampgames.lucktastic,NA,Lucktastic,nonsocial,game,,,additional_added_for_maps,,0
+435,com.mealmeapp.MealMeApp,NA,MealMe,nonsocial,food,,,additional_added_for_maps,,0
+436,com.miniclip.plagueinc,NA,Plague Inc,nonsocial,game,,,additional_added_for_maps,,0
+437,com.mojang.minecraftpe,NA,Minecraft,nonsocial,game,,,additional_added_for_maps,,0
+438,com.myunidays.UNiDAYS,NA,Unidays,nonsocial,school,,,additional_added_for_maps,,0
+439,com.oblivionburn.nlp,NA,Real AI,nonsocial,game,,,additional_added_for_maps,,0
+440,com.oneplus.note,NA,OneNote,nonsocial,notes/work,,,additional_added_for_maps,,0
+441,com.sec.android.gallery3d,NA,Photos,nonsocial,photos,,,additional_added_for_maps,,0
+442,com.sephora.sephoramobile,NA,Sephora,nonsocial,shopping,,,additional_added_for_maps,,0
+443,com.SevenCupsOfTea.app,NA,7 cups,social,therapy,,,additional_added_for_maps,,0
+444,com.varsitytutors.TutoringTools,NA,Varsity Tutors,nonsocial,school,,,additional_added_for_maps,,0
+445,com.zillow.ZillowMap,NA,Zillow,nonsocial,shopping,,,additional_added_for_maps,,0
+446,gwyndurbridge.texttospeech,NA,TextToSpeech,nonsocial,,,,additional_added_for_maps,,0
+447,name.obrien.dave.icelock,NA,ICE Lock,nonsocial,system,,,additional_added_for_maps,,0
+448,notion.id,NA,Notion,nonsocial,notes/work,,,additional_added_for_maps,,0
+449,org.adblockplus.browser,NA,Adblock Browser,nonsocial,browser,,,additional_added_for_maps,,0
+450,tv.twitch,NA,Twitch,social,,,,additional_added_for_maps,,1
+451,com.flowerave.sidechat,NA,Sidechat,social,posting/messaging/search,socialmedia,,new in maps,,1
+452,com.google.Dynamite,NA,Google Chat,social,messaging,messaging,,new in maps,,1
+453,com.hammerandchisel.discord.Share,NA,Discord,social,messaging,messaging,,new in maps,,1
+454,com.samsung.android.email.provider,NA,Samsung Email,social,email,,,new in maps,,0
+455,com.sugardaddieslovefree.com.app,NA,Sugar Daddies Free,social,dating,dating,,new in maps,,0
+456,TTYL.Inc.Poparazzi,NA,Poparazzi,social,posting,socialmedia,,new in maps,,1
+457,com.valvesoftware.android.steam.community,NA,Steam Community,social,game,,,new in maps,,0
+458,com.zynga.WordsWithFriends3,NA,Words With Friends,nonsocial,game,,,new in maps,,0
+459,com.Campless.Campless,NA,Campless,nonsocial,shopping,,,new in maps,,0
+460,com.emn8.mobilem8.native.bkrewards,NA,Burger King,nonsocial,food,,,new in maps,,0
+461,com.hottopic.ios,NA,Hot Topic,nonsocial,shopping,,,new in maps,,0
+462,com.nike.onenikecommerce,NA,Nike SNKRS,nonsocial,shopping,,,new in maps,,0
+463,com.paypal.android.p2pmobile,NA,Paypal,nonsocial,money,,,new in maps,,0
+464,com.realtimeboard.rtbPhone,NA,Miro,nonsocial,work,,,new in maps,,0
+465,com.teslacoilsw.launcher,NA,Launcher,nonsocial,system,,,new in maps,,0
+466,com.trinetexpense.mobile,NA,TriNet Expense,nonsocial,money,,,new in maps,,0
+467,com.vanced.android.youtube,NA,YouTube,nonsocial,video,,,new in maps,,0
+468,com.weightwatchers.wwmobile,NA,Weight Watchers,nonsocial,diet/exercise,,,new in maps,,0
+469,works.jubilee.timetree,NA,TimeTree,nonsocial,calendar,,,new in maps,,0
+470,AlexisBarreyat.BeReal,NA,BeReal,social,posting/messaging/search,socialmedia,both,new_in_predict,,0
+471,com.AgainstGravity.RecRoomBeta,NA,Rec Room,social,game,,public,new_in_predict,"a ""world"" where you can develop your own game and play other people's games",1
+472,com.facebook.mlite,NA,Facebook Messenger,social,messaging,messaging,private,new_in_predict,"lite (i.e., faster/less data-heavy) version of Facebook messenger",1
+473,com.kakao.talk,NA,Kakao,social,messaging,messaging,private,new_in_predict,"Hugely popular in Korea. Similar to whatsapp (e.g., has messaging/calling), but also has shopping ",1
+474,com.linkedin.LinkedIn,NA,LinkedIn,social,posting/messaging/search,socialmedia,both,new_in_predict,,1
+475,com.meet.andr,NA,Google Meet,social,video chat,live,private,new_in_predict,,1
+476,com.npe.status,NA,Tuned,social,self-help,messaging,private,new_in_predict,"messaging/self-app for couples (allows/encourages couples to message each other, whereas there is no messaging in Coral)",1
+477,com.oneplus.mms,NA,OnePlus Messages,social,messaging,messaging,private,new_in_predict,,1
+478,com.sp0n.vigilante,NA,Citizen,social,posting/messaging/search,,both,new_in_predict,can message and share your location with friends,1
+479,com.tinginteractive.usms,NA,TextNow,social,messaging,messaging,private,new_in_predict,,1
+480,com.vkontakte.android,NA,VKontakte,social,posting/messaging/search,socialmedia,both,new_in_predict,,1
+481,com.yikyak.2,NA,Yik Yak,social,posting/search,socialmedia,public,new_in_predict,,1
+482,com.zeemee.ZeeMee,NA,ZeeMee,social,posting/messaging/search,socialmedia,both,new_in_predict,social media for college students and applicants,1
+483,cz.poetizer.App,NA,Poetizer,social,posting/search,,public,new_in_predict,"social media platform for all things poetry (can read, write, and post poetry and follow other users)",1
+484,io.betterhalf.app,NA,Paired,social,self-help,messaging,private,new_in_predict,couples identify issues and improve their relationship (can pair your account with your partner's and probably send messages),1
+485,jp.ne.ibis.ibisPaintX,NA,ibis Paint X,social,posting/search,,public,new_in_predict,primarily is an app for creating drawings. has a social network feature (can post and view drawings and videos),1
+486,net.whatsapp.WhatsApp.ShareExtension,NA,Whatsapp,social,extension,messaging,private,new_in_predict,,1
+487,ph.telegra.Telegraph,NA,Telegram Messenger,social,messaging,messaging,private,new_in_predict,,1
+488,sh.whisper.whisperapp,NA,Whisper,social,posting/messaging/search,socialmedia,both,new_in_predict,,1
+489,us.personals,NA,Lex,social,dating,dating,private,new_in_predict,,1
+490,Bloomz,NA,Bloomz,nonsocial,school,,,new_in_predict,"for teachers to share announcements, etc. with parents and students",1
+491,Raise.me.RaiseMeStudent,NA,RaiseMe,nonsocial,money,,,new_in_predict,for identifying and qualifying for college scholarships,1
+492,RunKeeperPro,NA,Runkeeper,nonsocial,diet/exercise,,,new_in_predict,,1
+493,app.getcoral.m,NA,Coral: Relationship Coach,nonsocial,self-help,,,new_in_predict,self-help app for couples to improve intimacy,1
+494,ch.deletescape.lawnchair.plah,NA,Launcher,nonsocial,system,,,new_in_predict,,0
+495,com.5thfinger.redshop.joann,NA,Jo-Ann Fabric and Crafts,nonsocial,shopping,,,new_in_predict,,0
+496,com.adobe.reader,NA,Adobe Acrobat Reader,nonsocial,work,,,new_in_predict,,0
+497,com.apple.DocumentManagerUICore.SaveToFiles,NA,DocumentsUI,nonsocial,system,,,new_in_predict,,0
+498,com.apple.DocumentManagerUICore.Service,NA,DocumentsUI,nonsocial,system,,,new_in_predict,,0
+499,com.apple.VoiceMemos,NA,Voice Memos,nonsocial,system,,,new_in_predict,,0
+500,com.apple.iMovie,NA,iMovie,nonsocial,video editing,,,new_in_predict,,0
+501,com.apple.quicklook.extension.previewUI,NA,QuickLook,nonsocial,system,,,new_in_predict,,0
+502,com.beatstars.mobile,NA,BeatStars,nonsocial,music,,,new_in_predict,has a social feature (can follow/interact with musicians),0
+503,com.bhn.careapp,NA,BHN Home Security,nonsocial,security,,,new_in_predict,,0
+504,com.bk.pop-us-mobile,NA,Pop Us!,nonsocial,game,,,new_in_predict,,0
+505,com.brainly.us,NA,Brainly,nonsocial,learning,,,new_in_predict,,0
+506,com.cameronchow.Strong,NA,Strong,nonsocial,diet/exercise,,,new_in_predict,,0
+507,com.cbord.getmobile,NA,CBORD Patient,nonsocial,medical,,,new_in_predict,for ordering hospital meals (while you're in the hospital),0
+508,com.chase.sig.android,NA,Chase,nonsocial,money,,,new_in_predict,,0
+509,com.chess.iphone,NA,Chess,nonsocial,game,,,new_in_predict,has a social feature (can play against the computer or friends/strangers),0
+510,com.chowbus.chowbus,NA,Chowbus,nonsocial,food,,,new_in_predict,,0
+511,com.citibikenyc.citibike,NA,Citi Bike,nonsocial,transit/travel,,,new_in_predict,,0
+512,com.coinout.coinout,NA,CoinOut,nonsocial,money,,,new_in_predict,earn cash back by scanning receipts,0
+513,com.crossforward.WidgetSmith,NA,Widgetsmith,nonsocial,system,,,new_in_predict,personalize your home screen,0
+514,com.ebay.mobile,NA,Ebay,nonsocial,shopping,,,new_in_predict,,0
+515,com.eftours.leslie,NA,EF Traveler,nonsocial,transit/travel,,,new_in_predict,"for tour leaders and travelers with EF Tours, which runs educational trips",0
+516,com.ellumehealth.homecovid.ios,NA,Ellume COVID-19 Home Test,nonsocial,medical,,,new_in_predict,,0
+517,com.epiphany.lunadiary,NA,Luna diary,nonsocial,journal,,,new_in_predict,,0
+518,com.fidelity.watchlist,NA,Fidelity,nonsocial,money,,,new_in_predict,,0
+519,com.finch.finch,NA,Finch,nonsocial,self-help,,,new_in_predict,virtual pet for purpose of self-care (modern version of tamagotchi),0
+520,com.flybreeze.booking,NA,Breeze Airways,nonsocial,transit/travel,,,new_in_predict,,0
+521,com.foruslabs.timebloc,NA,TimeBloc,nonsocial,notes/work,,,new_in_predict,,0
+522,com.freecloud.Physics,NA,Monster Physics,nonsocial,game,,,new_in_predict,educational game that teaches physics,0
+523,com.geewhiz.Lancelot.Lancelot,NA,Eureka,nonsocial,work,,,new_in_predict,get paid for completing surveys,0
+524,com.getir.ios,NA,Getir,nonsocial,grocery,,,new_in_predict,,0
+525,com.ghostrhymer.ghostrhymer,NA,Rhymer's Block,nonsocial,notes/work,,,new_in_predict,write down ideas for song/rap lyrics,0
+526,com.google.Keep,NA,Google Keep,nonsocial,notes/work,,,new_in_predict,,0
+527,com.google.android.apps.classroom,NA,Google Classroom,nonsocial,school,,,new_in_predict,,0
+528,com.google.android.apps.searchlite,NA,Google Go,nonsocial,browser,,,new_in_predict,Faster version of Google search,0
+529,com.gravitytank.dscoutApp,NA,dscout,nonsocial,work,,,new_in_predict,participate in paid research studies,0
+530,com.hbo.hbonow,NA,HBO Now,nonsocial,video,,,new_in_predict,,0
+531,com.infinitecampus.student.campusportalhybrid,NA,Campus Student,nonsocial,school,,,new_in_predict,,0
+532,com.intsig.CamScannerLite,NA,CamScanner,nonsocial,work,,,new_in_predict,PDF Scanner App,0
+533,com.magmic.ios.squash,NA,Scattergories,nonsocial,game,,,new_in_predict,has a social feature (can play against the computer or friends/strangers),0
+534,com.meamobile.PhotoPrintsNow,NA,CVS Photo,nonsocial,shopping,,,new_in_predict,print photos through CVS,0
+535,com.merriamwebster,NA,Merriam-Webster Dictionary,nonsocial,dictionary,,,new_in_predict,,0
+536,com.metricwire.metricwire3,NA,EMA,nonsocial,research,,,new_in_predict,,0
+537,com.microsoft.officelens,NA,Microsoft Lens,nonsocial,work,,,new_in_predict,PDF Scanner App,0
+538,com.microsoft.skydrive,NA,Microsoft OneDrive,nonsocial,notes/work,,,new_in_predict,,0
+539,com.myfitnesspal.android,NA,MyFitnessPal,nonsocial,diet/exercise,,,new_in_predict,,0
+540,com.ndemiccreations.plagueinc,NA,Plague Inc.,nonsocial,game,,,new_in_predict,,0
+541,com.neonfun.catalog,NA,Episode,nonsocial,game,,,new_in_predict,,0
+542,com.offerup.iphone.consumer,NA,OfferUp,nonsocial,shopping,,,new_in_predict,,0
+543,com.pearsoned.IndusApp,NA,Revel,nonsocial,learning,,,new_in_predict,,0
+544,com.playstation.eu.playstationadhoc,NA,PlayStation,nonsocial,game,,both,new_in_predict,similar to Xbox SmartGlass. Can message/voice chat with friends and shop in the playstation store,0
+545,com.readdle.CalendarsLite,NA,Calendars,nonsocial,calendar,,,new_in_predict,,0
+546,com.relayrides.ios.RelayRides,NA,RelayRIDE,nonsocial,transit/travel,,,new_in_predict,,0
+547,com.remind101.Remind101,NA,Remind,nonsocial,school,,,new_in_predict,,1
+548,com.roku.ios.roku,NA,Roku,nonsocial,video,,,new_in_predict,,0
+549,com.runmifit.android,NA,Runmifit,nonsocial,diet/exercise,,,new_in_predict,"companion app for viewing/organizing data collected by the Runmifit smartwatch, which tracks exercise, sleep, blood pressure, heart rate, etc",0
+550,com.schoology.schoology,NA,Schoology,nonsocial,school,,,new_in_predict,,0
+551,com.signnow.signnow,NA,signNow,nonsocial,work,,,new_in_predict,sign and edit PDFs,0
+552,com.silvercloudhealth.android.app,NA,SilverCloud,nonsocial,self-help,,,new_in_predict,"self-help app for mental health (mindfulness exercises, mood tracker, etc.)",0
+553,com.sirma.mobile.bible.android,NA,YouVersion Bible,nonsocial,bible,,,new_in_predict,,0
+554,com.spanishdict.spanishdict,NA,SpanishDict Translator,nonsocial,dictionary,,,new_in_predict,,0
+555,com.squaretwo.verybreaker,NA,Verybreaker,nonsocial,game,,,new_in_predict,,0
+556,com.surveymonkey.Rewards,NA,SurveyMonkey Rewards,nonsocial,work,,,new_in_predict,get rewards for completing surveys,0
+557,com.tdbank.iphoneapp,NA,TD Bank,nonsocial,nonsocial,,,new_in_predict,,0
+558,com.vertaler.fren,NA,Translator,nonsocial,dictionary,,,new_in_predict,"couldn't find the exact app, but it's clearly a translater app (""vertaler"" means translater in Dutch)",0
+559,com.wagwalking.walker,NA,Wag!,nonsocial,pet care,,,new_in_predict,helps dog walkers/sitters and customers find each other,0
+560,com.yum.pizzahut,NA,Pizza Hut,nonsocial,food,,,new_in_predict,,0
+561,com.zigzagame.evertale,NA,Evertale,nonsocial,game,,,new_in_predict,has a social feature (can play against the computer or friends/strangers),0
+562,devian.tubemate.v3,NA,TubeMate,nonsocial,video,,,new_in_predict,download YouTube videos on Android,0
+563,epic.mychart.android,NA,MyChart,nonsocial,medical,,,new_in_predict,,0
+564,io.routeapp.route,NA,Route,nonsocial,shopping,,,new_in_predict,tracks packages from online shopping,0
+565,net.daylio.Daylio,NA,Daylio,nonsocial,journal,,,new_in_predict,diary and mood-tracking app,0
+566,org.iggymedia.periodtracker,NA,Flo Period & Ovulation Tracker,nonsocial,health,,,new_in_predict,has a social network feature,0
+567,org.mozilla.firefox,NA,Firefox,nonsocial,browser,,,new_in_predict,,0
+568,CRONOMETER-GOLD,NA,Cronometer,nonsocial,diet/exercise,,,new_in_predict_oct_22,,0
+569,com.NCSAAthleticRecruiting.ClientRMSMobile,NA,NCSA Athletic Recruiting,nonsocial,,,,new_in_predict_oct_22,"Connects high school students to college coaches, not sure if social or not",0
+570,com.apple.ContactsUI.ContactsViewService,NA,Contacts,nonsocial,system,,,new_in_predict_oct_22,,0
+571,com.canva.canvaeditor,NA,Canva,nonsocial,design/editing,,,new_in_predict_oct_22,Could also include as 'photo' or 'photo editing',0
+572,com.devsisters.ck,NA,Cookie Run,nonsocial,game,,,new_in_predict_oct_22,,0
+573,com.feverup.iphone,NA,Fever,nonsocial,events,,,new_in_predict_oct_22,Helps find events in the city,0
+574,com.hidea.cat,NA,Cats & Soup,nonsocial,game,,,new_in_predict_oct_22,,0
+575,com.kabam.bullseye,NA,Disney Mirrorverse,nonsocial,game,,,new_in_predict_oct_22,,0
+576,com.mirmay.DownloaderFREE,NA,Private Downloader,nonsocial,video downloader,,,new_in_predict_oct_22,,0
+577,com.remind101,NA,Remind,nonsocial,school,,,new_in_predict_oct_22,,0
+578,com.sensoriumxr.app,NA,Sensorium,nonsocial,,,,new_in_predict_oct_22,So confused! Seems like social VR?,0
+579,com.strava.stravaride,NA,Strava,nonsocial,diet/exercise,,,new_in_predict_oct_22,Seems the app has social networks,0
+580,com.tapcart.npQt0DXZpj,NA,Tapcart,nonsocial,work,,,new_in_predict_oct_22,App that helps Shopify vendors make mobile apps,0
+581,com.teamsnap.ios,NA,TeamSnap,social,diet/exercise,,,new_in_predict_oct_22,Social/management app specific to sports teams,0
+582,health.alike.app,NA,Alike,social,health,,,new_in_predict_oct_22,Connects people with similar health problems,0
+583,com.amazon.mp3.AmazonCloudPlayer,NA,Amazon Cloud Player,nonsocial,music,,,new_in_maps_dec_22,,0
+584,com.apple.MarkupUI.MarkupPhotoExtension,NA,Photo Markups,nonsocial,photos,,,new_in_maps_dec_22,category can be photos or system?,0
+585,com.apple.mobileslideshow.PhotosMessagesApp,NA,Photos,nonsocial,photos,,,new_in_maps_dec_22,,0
+586,com.apple.podcasts,NA,Apple Podcasts,nonsocial,podcasts,,,new_in_maps_dec_22,category?,0
+587,com.artfulagenda,NA,Artful Agenda,nonsocial,planner,,,new_in_maps_dec_22,category? is a planning app,0
+588,com.catch84.litsy,NA,Litsy,social,books,,,new_in_maps_dec_22,seems like a planner/journal mix,0
+589,com.chaehui.DoingDoing,NA,Doing Doing,nonsocial,planner,,,new_in_maps_dec_22,,0
+590,com.cyberpsyc.welltrackapp,NA,WellTrack Boost,nonsocial,self-help,,,new_in_maps_dec_22,,0
+591,com.edufii.athlete,NA,CoachNow,social,school,,,new_in_maps_dec_22,category? app helps coaches communicate with teams,0
+592,com.instacart,NA,Instacart,nonsocial,grocery,,,new_in_maps_dec_22,,0
+593,com.lemon.lvoverseas,NA,CapCut,nonsocial,video editing,,,new_in_maps_dec_22,,0
+594,com.lifedata.reallife-exp,NA,RealLife Exp,nonsocial,research,,,new_in_maps_dec_22,,0
+595,com.mynetdiary.MyNetDiary,NA,MyNetDiary,nonsocial,diet/exercise,,,new_in_maps_dec_22,,0
+596,com.mypossibleself.mpsapp,NA,My Possible Self,nonsocial,self-help,,,new_in_maps_dec_22,,0
+597,com.naver.papago,NA,Papago,nonsocial,translation,,,new_in_maps_dec_22,other translate apps categorised as dictionary,0
+598,com.onemt.ios.kc,NA,King's Choice,nonsocial,game,,,new_in_maps_dec_22,,0
+599,com.pacificalabs.pacifica,NA,Sanvello,nonsocial,self-help,,,new_in_maps_dec_22,,0
+600,com.realreal.shop,NA,The RealReal,nonsocial,shopping,,,new_in_maps_dec_22,,0
+601,com.shakesmart.shakesmart.ios,NA,Shake Smart,nonsocial,food,,,new_in_maps_dec_22,,0
+602,com.sportsyou.sportsyouapp,NA,sportsYou,social,school,,,new_in_maps_dec_22,category? app helps coaches communicate with teams,0
+603,com.vsee.VSee.iPhone,NA,Vsee Messenger,nonsocial,telehealth,,,new_in_maps_dec_22,,0
+604,com.workday.workdayapp,NA,Workday,nonsocial,work,,,new_in_maps_dec_22,,0
+605,com.yourfuzzy.fuzzyhealth,NA,Fuzzy,nonsocial,pet care,,,new_in_maps_dec_22,,0
+606,edu.columbia.columbiaconnect,NA,Columbia Connect,nonsocial,telehealth,,,new_in_maps_dec_22,,0
+607,com.ClassDojo,NA,Class Dojo,social,school,,,new_in_lisa_ed_mar_23,helps teachers and families communicate,0
+608,com.amazon.Lassen,NA,Lassen?,nonsocial,shopping?,,,new_in_lisa_ed_mar_23,,0
+609,com.apple.WebSheet,NA,Websheet,nonsocial,system,,,new_in_lisa_ed_mar_23,an internal (not user accessible) iOS app which is used when you connect to certain public WiFi networks,0
+610,com.attapoll.ios,NA,Attapoll,nonsocial,research,,,new_in_lisa_ed_mar_23,connects user withi companies/org looking for people to do surveys,0
+611,com.bagatrix.mathway,NA,Mathway,nonsocial,school?,,,new_in_lisa_ed_mar_23,"calculator, solves math problems",0
+612,com.beauchamp.Messenger.external,NA,Chai,nonsocial,messaging,,,new_in_lisa_ed_mar_23,chat with AI friends? ,0
+613,com.blackboard.student,NA,Blackboard,nonsocial,school,,,new_in_lisa_ed_mar_23,,0
+614,com.dcdwebdesign.saturn,NA,Saturn,nonsocial,planner,,,new_in_lisa_ed_mar_23,App to schedule social calendar and allows chatting (social?),0
+615,com.droidhang.tdm.ios.foreign,NA,Purrfect Tale,nonsocial,game,,,new_in_lisa_ed_mar_23,,0
+616,com.eventscase.gasworld.h2view,NA,H2 View,nonsocial,news,,,new_in_lisa_ed_mar_23,news only about hydrogen,0
+617,com.hyperbeard.adorablehome,NA,Adorable Home,nonsocial,game,,,new_in_lisa_ed_mar_23,,0
+618,com.mathpapa.MathPapa,NA,MathPapa,nonsocial,calculator,,,new_in_lisa_ed_mar_23,,0
+619,com.microsoft.emmx,NA,Microsoft Edge,nonsocial,browser,,,new_in_lisa_ed_mar_23,,0
+620,com.microsoft.officemobile,NA,Microsoft Office,nonsocial,work,,,new_in_lisa_ed_mar_23,,0
+621,com.microsoft.to-do,NA,Microsoft To Do,nonsocial,planner,,,new_in_lisa_ed_mar_23,,0
+622,com.sonos.SonosController2,NA,Sonos,nonsocial,speaker,,,new_in_lisa_ed_mar_23,,0
+623,com.tapcart.wwBqDebtw5,NA,Tapcart,nonsocial,shopping,,,new_in_lisa_ed_mar_23,helps manage shops on shopify,0
+624,org.weillcornell.mobile,NA,Weill Cornell Medicine,nonsocial,health,,,new_in_lisa_ed_mar_23,,0
+625,com.enflick.android.TextNow,NA,TextNow,social,messaging,,,new_in_maps_jul_23,,0
+626,com.google.android.apps.docs.editors.sheets,NA,Excel,nonsocial,notes/work,,,new_in_maps_jul_23,,0
+627,com.mercariapp.mercari,NA,Mercari,nonsocial,grocery,,,new_in_maps_jul_23,,0
+628,com.reflectly.app,NA,Reflectly,nonsocial,journal,,,new_in_maps_jul_23,"seems like a mental health journal, tracks mood, shows quotes ",0
+629,com.samsung.android.honeyboard,NA,Keyboard,nonsocial,system,,,new_in_maps_jul_23,default Samsung keyboard,0
+630,nextapp.fx,NA,FX File Explorer,nonsocial,system,,,new_in_maps_jul_23,,0
+631,com.amazon.avod.thirdpartyclient,NA,Amazon Video,,,,,,,0
+632,com.bambuna.podcastaddict,NA,Podcast Addict,,,,,,,0
+633,com.mathmaster,NA,Math Master,,,,,,,0
+634,com.BirthdayCountdown,NA,Birthday Countdown,,,,,,,0
+635,com.candywriter.bitlife,NA,BitLife,,,,,,,0
+636,com.cardinalblue.piccollage.google,NA,PicCollage,,,,,,,0
+637,com.cg.android.countdown,NA,Countdown Timer,,,,,,,0
+638,com.etermax.preguntados.lite,NA,Trivia Crack Lite,,,,,,,0
+639,com.google.android.apps.chromecast.app,NA,Google Chromecast,,,,,,,0
+640,com.indeed.android.jobsearch,NA,Indeed Job Search,,,,,,,0
+641,com.lipsisoftware.lipsi,NA,Lipsi,,,,,,,0
+642,com.nixhydragames.thearcana,NA,The Arcana,,,,,,,0
+643,com.sec.android.app.clockpackage,NA,Samsung Clock,,,,,,,0
+644,com.sec.android.app.launcher,NA,Samsung Launcher,,,,,,,0
+645,com.sec.android.mimage.photoretouching,NA,Samsung Photo Editor,,,,,,,0
+646,com.snagajob.jobseeker,NA,Snagajob,,,,,,,0
+647,com.steady.steadyapp.com,NA,Steady App,,,,,,,0
+648,com.teenjobfind,NA,Teen Job Find,,,,,,,0
+649,com.apple.GameCenterUI.GameCenterAuthenticateExtension,NA,Apple Game Center,,,,,,,0
+650,com.midasplayer.apps.candycrushsaga,NA,Candy Crush Saga,,,,,,,0
+651,com.overdrive.dewey,NA,Overdrive/Dewey,,,,,,,0
+652,com.peoplefun.wordcross,NA,Word Cross Puzzle,,,,,,,0
+653,com.amazon.kindle,NA,Amazon Kindle,,,,,,,0
+654,com.blackboard.android.bbstudent,NA,Blackboard Student,,,,,,,0
+655,com.dominospizza,NA,Domino's Pizza,,,,,,,0
+656,com.infonow.bofa,NA,Bank of America Mobile,,,,,,,0
+657,com.microsoft.office.word,NA,Microsoft Word,,,,,,,0
+658,com.mnv.reef,NA,Reef App,,,,,,,0
+659,com.Project100Pi.themusicplayer,NA,The Music Player,,,,,,,0
+660,com.securew2.paladin,NA,SecureW2 Paladin,,,,,,,0
+661,com.webcomics.manga,NA,Web Comics Manga Reader,,,,,,,0
+662,com.apple.datadetectors.DDActionsService,NA,Apple Data Detectors,,,,,,,0
+663,com.groupme.iphone-app.sharing-ext,NA,GroupMe,social,,,,,,0
+664,com.microblink.PhotoMath,NA,PhotoMath,,,,,,,0
+665,no.mobitroll.kahoot.controller,NA,Kahoot,,,,,,,0
+666,com.alltrails.AllTrails,NA,AllTrails,,,,,,,0
+667,com.care.provider,NA,Care Provider,,,,,,,0
+668,com.costarastrology.costar-mobile,NA,Co-Star Astrology,,,,,,,0
+669,com.discoverfinancial.mobile,NA,Discover Credit Card,,,,,,,0
+670,com.experticity.Member,NA,Experticity,,,,,,,0
+671,com.namely.namely,NA,Namely HR Platform,,,,,,,0
+672,com.rei.eCommerce,NA,REI Online Store,,,,,,,0
+673,com.tripadvisor.LocalPicks,NA,TripAdvisor Local Picks,,,,,,,0
+674,com.yelp.yelpiphone,NA,Yelp,,,,,,,0
+675,com.apple.ContactsUI.ContactViewViewService,NA,Apple Contacts,,,,,,,0
+676,com.cardinalblue.PicCollage,NA,PicCollage,,,,,,,0
+677,com.mindifi.lawofattractionhypnosisbymindifi,NA,Law of Attraction Hypnosis,,,,,,,0
+678,com.narvii.x112800332,NA,Amino Apps,,,,,,,0
+679,ome.tv,NA,OmeTV,,,,,,,0
+680,com.android.captiveportallogin,NA,Captive Portal Login,,,,,,,0
+681,com.dayforce.mobile,NA,Dayforce Mobile,,,,,,,0
+682,com.discogs.app,NA,Discogs,,,,,,,0
+683,com.facebook.work,NA,Facebook Workplace,,,,,,,0
+684,com.facebook.workchat,NA,Facebook Workplace Chat,social,,,,,,0
+685,com.livenation.mobile.android.na,NA,Live Nation,,,,,,,0
+686,com.microsoft.launcher,NA,Microsoft Launcher,,,,,,,0
+687,com.mss.managego,NA,Manage Go,,,,,,,0
+688,com.mta.mobileapp,NA,MTA Mobile,,,,,,,0
+689,com.nice.mobileapp,NA,Nice Mobile App,,,,,,,0
+690,com.quora.android,NA,Quora,social,,,,,,0
+691,com.robinhood.android,NA,Robinhood,,,,,,,0
+692,com.samsung.android.authfw,NA,Samsung Authentication,,,,,,,0
+693,com.songkick,NA,Songkick,,,,,,,0
+694,com.stubhub,NA,StubHub,,,,,,,0
+695,com.sudyapp,NA,Sudy App,,,,,,,0
+696,com.sugardaddydating.sugardaddymeet,NA,Sugar Daddy Dating,social,,,,,,0
+697,com.tacobell.ordering,NA,Taco Bell Ordering,,,,,,,0
+698,com.taskrabbit.droid.consumer,NA,TaskRabbit,,,,,,,0
+699,com.ticketmaster.mobile.android.na,NA,Ticketmaster,,,,,,,0
+700,com.ulta,NA,Ulta Beauty,,,,,,,0
+701,com.yanflex.craigslist,NA,Craigslist,,,,,,,0
+702,com.yelp.android,NA,Yelp,,,,,,,0
+703,info.mta.metro_north.train_time,NA,Metro-North Train Time,,,,,,,0
+704,org.lirr.portal,NA,Long Island Rail Road Portal,,,,,,,0
+705,azdev.citymapper,NA,Citymapper,,,,,,,0
+706,com.apple.mobileme.fmf1,NA,Find My Friends,,,,,,,0
+707,com.axs.AXSMobile,NA,AXS Mobile,,,,,,,0
+708,com.cramfighter.chipper,NA,Chipper,,,,,,,0
+709,com.eventbrite.attendee,NA,Eventbrite,,,,,,,0
+710,com.geniussoftware.GeniusScan,NA,Genius Scan,,,,,,,0
+711,com.hbo.hbogo,NA,HBO Go,,,,,,,0
+712,com.hp.printer.control,NA,HP Printer Control,,,,,,,0
+713,com.kiosoft.cscpaymobile,NA,CSC Pay Mobile,,,,,,,0
+714,com.transloc.rider,NA,TransLoc Rider,,,,,,,0
+715,com.vilcsak.bitcoin2,NA,Bitcoin Wallet,,,,,,,0
+716,edu.uchicago.uchicago,NA,University of Chicago,,,,,,,0
+717,mediaplayer.box.ios,NA,Box Media Player,,,,,,,0
+718,mega.ios,NA,Mega,,,,,,,0
+719,cn.zte.music,NA,ZTE Music Player,,,,,,,0
+720,org.xwalk.core,NA,Crosswalk Core,,,,,,,0
+721,com.adrise.tubitv,NA,Tubi TV,,,,,,,0
+722,com.audible.iphone,NA,Audible,,,,,,,0
+723,com.jagex.oldschool,NA,Old School RuneScape,,,,,,,0
+724,com.playrix.gardenscapes-sweethome,NA,Gardenscapes,,,,,,,0
+725,com.riffsy.RiffsyKeyboard.TenorMessages,NA,Tenor GIF Keyboard,,,,,,,0
+726,com.ubisoft.mightyquest.dungeon.hero.rpg.game,NA,Mighty Quest,,,,,,,0
+727,com.uniqlo.main.us,NA,Uniqlo,,,,,,,0
+728,com.apple.VoiceMemos.VoiceMemosShareExtension,NA,Voice Memos,,,,,,,0
+729,com.papajohns.ios,NA,Papa John's,,,,,,,0
+730,org.pcrm.VeganKickstartES,NA,Vegan Kickstart,,,,,,,0
+731,CesarKuriyama.OneSecondEveryday,NA,One Second Everyday,,,,,,,0
+732,com.aircrunch.shopalerts,NA,Shop Alerts,,,,,,,0
+733,com.allrecipes.dinnerspinner,NA,AllRecipes Dinner Spinner,,,,,,,0
+734,com.apple.Health,NA,Apple Health,,,,,,,0
+735,com.apple.shortcuts,NA,Apple Shortcuts,,,,,,,0
+736,com.datatherapy.pret,NA,Pret,,,,,,,0
+737,com.diginn.diginn.ios,NA,Diginn,,,,,,,0
+738,com.kfteausa.kungfutea.ios,NA,Kung Fu Tea,,,,,,,0
+739,com.polleverywhere.mobile,NA,Poll Everywhere,,,,,,,0
+740,com.spotify.client.imessage,NA,Spotify iMessage,social,,,,,,0
+741,com.viki.viki-ios,NA,Viki,,,,,,,0
+742,swc,NA,SWC App,,,,,,,0
+743,com.amazon.echo,NA,Amazon Echo,,,,,,,0
+744,com.bublup.bublup-p,NA,Bublup,,,,,,,0
+745,com.buzzfeed.tasty,NA,Buzzfeed Tasty,,,,,,,0
+746,com.disney.WATCHDisneyChannel,NA,Watch Disney Channel,,,,,,,0
+747,com.forever21.Forever21,NA,Forever 21,,,,,,,0
+748,com.fuseboxgames.loveisland,NA,Love Island Game,,,,,,,0
+749,com.gpshopper.express,NA,GPS Shopper Express,,,,,,,0
+750,com.hm.goe,NA,H&M,,,,,,,0
+751,com.leafly.app,NA,Leafly,,,,,,,0
+752,com.minogames.cats.beta,NA,Cats Mobile Game,,,,,,,0
+753,com.nastygal.nastygal-iphone,NA,Nasty Gal,,,,,,,0
+754,com.nicheinc.nichealpha,NA,Niche Alpha,,,,,,,0
+755,com.romwe.dotfashion,NA,Romwe,,,,,,,0
+756,com.schoolemy.august,NA,Schoolemy August,,,,,,,0
+757,com.techthattalks.mim,NA,MIM Tech,,,,,,,0
+758,com.tillys.alert,NA,Tillys,,,,,,,0
+759,com.tnvapps.TextingStoryMaker,NA,Texting Story Maker,,,,,,,0
+760,com.madfingergames.legends,NA,Madfinger Games Legends,,,,,,,0
+761,net.peakgames.toonblast,NA,Toon Blast,,,,,,,0
+762,com.android.gallery3d,NA,Android Gallery,,,,,,,0
+763,com.crunchyroll.crunchyroid,NA,Crunchyroll,,,,,,,0
+764,com.gamestar.perfectpiano,NA,Perfect Piano,,,,,,,0
+765,com.google.android.videos,NA,Google Videos,,,,,,,0
+766,com.hld.anzenbokusucal,NA,Safety Calculation App,,,,,,,0
+767,com.hld.anzenbokusufake,NA,Fake Safety App,,,,,,,0
+768,com.kii.safe,NA,Kii Safe,,,,,,,0
+769,com.lexa.fakegps,NA,Fake GPS,,,,,,,0
+770,com.lge.filemanager,NA,LG File Manager,,,,,,,0
+771,com.lge.hifirecorder,NA,LG Hi-Fi Recorder,,,,,,,0
+772,com.lge.lifetracker,NA,LG Life Tracker,,,,,,,0
+773,com.lge.lockscreensettings,NA,LG Lock Screen Settings,,,,,,,0
+774,com.scee.psxandroid,NA,PlayStation Mobile,,,,,,,0
+775,com.wallpaperscraft.wallpaper,NA,Wallpapers Craft,,,,,,,0
+776,com.windscribe.vpn,NA,Windscribe VPN,,,,,,,0
+777,tv.periscope.android,NA,Periscope,,,,,,,0
+778,com.google.Drive.ShareExtension,NA,Google Drive Share,,,,,,,0
+779,com.GreenTomatoMedia.spinit,NA,Spin It,,,,,,,0
+780,com.seamlessweb.aramarkCustomer,NA,Aramark Customer,,,,,,,0
+781,com.weheartit,NA,We Heart It,,,,,,,0
+782,com.wheretoget.Wheretoget,NA,Where to Get,,,,,,,0
+783,co.byte,NA,Byte,,,,,,,0
+784,com.activision.callofduty.shooter,NA,Call of Duty Mobile,,,,,,,0
+785,com.bushiroad.en.bangdreamgbp,NA,BanG Dream! Girls Band Party,,,,,,,0
+786,com.citymapper.app.release,NA,Citymapper,,,,,,,0
+787,com.cyberstep.gudetama,NA,Gudetama Game,,,,,,,0
+788,com.cyberstep.toreba.android,NA,Toreba,,,,,,,0
+789,com.devsisters.gb,NA,Cookie Run,,,,,,,0
+790,com.freerice.android,NA,Free Rice,,,,,,,0
+791,com.giphy.messenger,NA,Giphy Messenger,social,,,,,,0
+792,com.google.android.apps.nexuslauncher,NA,Nexus Launcher,,,,,,,0
+793,com.guidebook.android,NA,Guidebook,,,,,,,0
+794,com.imgur.mobile,NA,Imgur,,,,,,,0
+795,com.ingyomate.shakeit,NA,Shake It,,,,,,,0
+796,com.ionicframework.tarot371308,NA,Tarot App,,,,,,,0
+797,com.justyo,NA,Yo,,,,,,,1
+798,com.life360.android.safetymapd,NA,Life360,,,,,,,1
+799,com.longnguyen.savingstracker,NA,Savings Tracker,,,,,,,0
+800,com.nintendo.zaca,NA,Nintendo,,,,,,,0
+801,com.pearlabyss.blackdesertm.gl,NA,Black Desert Mobile,,,,,,,0
+802,com.qooapp.qoohelper,NA,QooApp,,,,,,,0
+803,com.skype.raider,NA,Skype,,,,,,,1
+804,com.SocialClub.SocialClub,NA,Social Club,,,,,,,1
+805,com.splashtop.m360.tx.promethean,NA,Splashtop,,,,,,,0
+806,com.starbucks.mobilecard,NA,Starbucks,,,,,,,0
+807,com.vsco.cam,NA,VSCO,,,,,,,0
+808,com.youthhr.phonto,NA,Phonto,,,,,,,0
+809,jp.co.shueisha.mangaplus,NA,Manga Plus,,,,,,,1
+810,me.zepeto.main,NA,Zepeto,,,,,,,0
+811,photo.editor.polarr,NA,Polarr Photo Editor,,,,,,,0
+812,sp0n.citizen,NA,Citizen,,,,,,,0
+813,com.componentstudios.InstaFollowFree,NA,Insta Follow Free,,,,,,,0
+814,com.gfycat.Gfycat,NA,Gfycat,,,,,,,0
+815,com.google.Tachyon,NA,Google Tachyon,,,,,,,0
+816,com.khoury.daycount,NA,Day Count,,,,,,,0
+817,com.insponetwork.InspoApp,NA,Inspo App,,,,,,,0
+818,com.jetblue.jetBlueiPhone,NA,JetBlue,,,,,,,0
+819,com.voltage.hykoi.en,NA,Voltage Game,,,,,,,0
+820,com.apple.AppleAccountUI.AAUIFollowUpExtension,NA,Apple Account,,,,,,,0
+821,com.apple.store.Jolly,NA,Apple Store,,,,,,,0
+822,com.atebits.Tweetie2.ShareExtension,NA,Tweetie (Twitter),,,,,,,0
+823,com.bitstrips.imoji.iMessageExtension,NA,Bitmoji iMessage,,,,,,,0
+824,com.discovery.mobile.tlcgo,NA,TLC GO,,,,,,,0
+825,com.emdigital.jm,NA,EM Digital,,,,,,,0
+826,com.grootersproductions.fivelovelanguages,NA,Five Love Languages,,,,,,,0
+827,com.icandiapps.nightsky,NA,Night Sky,,,,,,,0
+828,com.imdb.imdb,NA,IMDb,,,,,,,0
+829,com.mywickr.wickr,NA,Wickr,,,,,,,0
+830,com.nguyenvh.holeio,NA,Hole.io,,,,,,,0
+831,com.nike.nikeplus-gps,NA,Nike+,,,,,,,0
+832,com.picolo.ios,NA,Picolo,,,,,,,0
+833,com.readdle.Scanner,NA,Readdle Scanner,,,,,,,0
+834,com.droidinfinity.healthplus,NA,Health Plus,,,,,,,0
+835,info.mta.mymta,NA,MTA - NYC Transit App,,,,,,,0
+836,net.skyscanner.iphone,NA,Skyscanner,,,,,,,0
+837,com.tapcart.4AYAtTKCHn,NA,Tapcart Shopping,,,,,,,0
+838,cool.monkey.ios,NA,Monkey iOS,,,,,,,0
+839,com.EOAG.IceOnline,NA,Ice Online,,,,,,,0
+840,com.fiverr.fiverr,NA,Fiverr,,,,,,,0
+841,com.lge.wifisettings,NA,LG WiFi Settings,,,,,,,0
+842,com.sillens.shapeupclub,NA,Shape Up Club,,,,,,,0
+843,com.water.reminder.perfect,NA,Water Reminder,,,,,,,0
+844,com.natgeomobile.GeoBeeiPad,NA,National Geographic GeoBee,,,,,,,0
+845,omnipresence.fmoji.ios,NA,Fmoji,,,,,,,0
+846,cc.moov.five,NA,Moov Five,,,,,,,0
+847,com.adobe.spark.post,NA,Adobe Spark Post,,,,,,,0
+848,com.bublup.bublup,NA,Bublup,,,,,,,0
+849,com.citi.citimobile,NA,Citi Mobile,,,,,,,0
+850,com.doximity.doximitydroid,NA,Doximity,,,,,,,0
+851,com.dropbox.android,NA,Dropbox,,,,,,,0
+852,com.groupon,NA,Groupon,,,,,,,0
+853,com.innersource.android,NA,Innersource,,,,,,,0
+854,com.joinhoney.honeyandroid,NA,Honey,,,,,,,0
+855,com.qmee.mobile,NA,Qmee,,,,,,,0
+856,com.seamlessweb.android.view,NA,Seamless,,,,,,,0
+857,com.sotg.surveys,NA,Surveys,,,,,,,0
+858,com.soul.android.international,NA,Soul International,,,,,,,0
+859,org.craigslist.CraigslistMobile,NA,Craigslist Mobile,,,,,,,0
+860,com.apple.DocumentsApp,NA,Documents (Apple),,,,,,,0
+861,com.apple.iBooks,NA,iBooks,,,,,,,0
+862,com.apple.Music.MediaPicker,NA,Music Media Picker (Apple),,,,,,,0
+863,com.apple.ScreenshotServicesService,NA,Screenshot Services (Apple),,,,,,,0
+864,com.buzzfeed.buzzfeed,NA,Buzzfeed,,,,,,,0
+865,com.edible.consumer,NA,Edible Consumer,,,,,,,0
+866,com.evite.iphone.core,NA,Evite,,,,,,,0
+867,com.fitonapp.fiton,NA,FitOn,,,,,,,0
+868,com.google.hangouts.ShareExtension,NA,Google Hangouts Share,,,,,,,0
+869,com.greenlight,NA,Greenlight,,,,,,,0
+870,com.microsoft.Office.Excel,NA,Microsoft Excel,,,,,,,0
+871,com.microsoft.onenote,NA,Microsoft OneNote,,,,,,,0
+872,com.moonlab.unfoldstories,NA,Unfold Stories,,,,,,,0
+873,com.powerschool.portal,NA,PowerSchool,,,,,,,0
+874,com.starz.starzplay,NA,Starz,,,,,,,0
+875,com.vans.vansfamily,NA,Vans Family,,,,,,,0
+876,com.verizon.fios.tv,NA,Verizon Fios TV,,,,,,,0
+877,com.apple.AuthKitUIService,NA,AuthKit UI Service (Apple),,,,,,,0
+878,com.ohmgames.cheatandrun,NA,Cheat and Run,,,,,,,0
+879,Devkrushna.VideoToMP3,NA,Video to MP3,,,,,,,0
+880,com.adobe.rush,NA,Adobe Rush,,,,,,,0
+881,com.avcr.Funimate,NA,Funimate,,,,,,,0
+882,com.google.Chromecast,NA,Google Chromecast,,,,,,,0
+883,CampusGroups,NA,Campus Groups,,,,,,,0
+884,com.alonesy.app,NA,Alonesy,,,,,,,0
+885,com.apirox.sleeprecorder.free,NA,Sleep Recorder Free,,,,,,,0
+886,com.apple.CloudDocsUI.CloudSharing,NA,Cloud Sharing (Apple),,,,,,,0
+887,com.apple.WorkflowUI.WidgetConfigurationExtension,NA,Widget Configuration (Apple),,,,,,,0
+888,com.baronapp.cameo,NA,Cameo,,,,,,,0
+889,com.bitstrips.imoji,NA,Imoji,,,,,,,0
+890,com.burbn.instagram.shareextension,NA,Instagram Share Extension,,,,,,,0
+891,com.caredfor.npa2,NA,CaredFor NPA,,,,,,,0
+892,com.drop.molly,NA,Drop Molly,,,,,,,0
+893,com.facebook.Facebook.ShareExtension,NA,Facebook Share Extension,,,,,,,1
+894,com.google.ios.youtube.MessagesExtension,NA,YouTube Messages Extension,,,,,,,0
+895,com.jbbbsla.ttalk,NA,T Talk,,,,,,,0
+896,com.klara.doctor-app,NA,Klara Doctor App,,,,,,,0
+897,com.michaels.michaelsstores,NA,Michaels Stores,,,,,,,0
+898,com.olo.noodles,NA,Noodles & Company,,,,,,,0
+899,com.paychex.paychexmobile,NA,Paychex Mobile,,,,,,,0
+900,com.redbubble.rb,NA,Redbubble,,,,,,,0
+901,com.sferrazza.Days-Since-Days-Til,NA,Days Since Days Til,,,,,,,0
+902,com.VideoShop.VideoShop,NA,VideoShop,,,,,,,0
+903,com.wakingup.wakingup,NA,Waking Up,,,,,,,0
+904,com.wallwisher.Padlet,NA,Padlet,,,,,,,0
+905,honeyApps.morning,NA,Morning (Honey Apps),,,,,,,0
+906,net.poopmap.poop-map,NA,Poop Map,,,,,,,0
+907,org.wfp.ios.freerice,NA,Free Rice,,,,,,,0
+908,uk.co.mxdata.NewYorkSubwayMap,NA,New York Subway Map,,,,,,,0
+909,com.ilike.manhuareni18n,NA,Manhuar Comics,,,,,,,0
+910,jp.co.bandainamcogames.BNGI0221,NA,Bandai Namco Games,,,,,,,0
+911,com.dunkinbrands.otgo,NA,Dunkin',,,,,,,0
+912,com.bytro.callofwar1942,NA,Call of War 1942,,,,,,,0
+913,com.facepunch.rust.companion,NA,Rust Companion,,,,,,,0
+914,com.google.android.apps.meetings,NA,Google Meet,,,,,,,0
+915,com.google.earth,NA,Google Earth,,,,,,,0
+916,com.hudsonvalleyfcu.hudsonvalleyfcu,NA,Hudson Valley FCU,,,,,,,0
+917,com.lebleby.gearrace3d,NA,Gear Race 3D,,,,,,,0
+918,com.pikpok.dr2.play,NA,Dr2 Play,,,,,,,0
+919,mobi.ifunny,NA,iFunny,,,,,,,0
+920,com.bethsoft.falloutshelter,NA,Fallout Shelter,,,,,,,0
+921,com.dotgraphics.groovebook,NA,Groovebook,,,,,,,0
+922,com.foxnextgames.m3,NA,Match 3,,,,,,,0
+923,com.helloclue.clue,NA,Clue Period Tracker,,,,,,,0
+924,com.intuit.mobilebanking01423,NA,Intuit Mobile Banking,,,,,,,0
+925,com.neocortext.doublicatapp,NA,Doublicate,,,,,,,0
+926,com.novadevelopment.freeprints,NA,FreePrints,,,,,,,0
+927,com.tapasmedia.Tapastic,NA,Tapastic,,,,,,,0
+928,com.thinkdirty.thinkdirtyapp,NA,Think Dirty,,,,,,,0
+929,com.walmart.electronics,NA,Walmart Electronics,,,,,,,0
+930,gov.ny.its.healthpassport.wallet,NA,NY Health Passport Wallet,,,,,,,0
+931,io.faceapp.ios,NA,FaceApp,,,,,,,0
+932,pw.katsu.katsu,NA,Katsu,,,,,,,0
+933,com.bookofthemonth.bookofthemonth,NA,Book of the Month,,,,,,,0
+934,com.scoir.tour.Scoir,NA,Scoir,,,,,,,0
+935,com.socialdataservices.nimble,NA,Nimble Social Data Services,,,,,,,0
+936,edu.vassar.mobileapp,NA,Vassar Mobile App,,,,,,,0
+937,jp.co.sony.playmemoriesmobile,NA,PlayMemories Mobile (Sony),,,,,,,0
+938,co.gov.migracion.app,NA,Migración Colombia,,,,,,,0
+939,com.bluecrossma.BCBSMA,NA,Blue Cross MA,,,,,,,0
+940,com.btgs.calenmobfree,NA,CalenMob Free,,,,,,,0
+941,com.chase,NA,Chase,,,,,,,0
+942,com.ChowNow.Joju,NA,Joju (ChowNow),,,,,,,0
+943,com.cloudmosa.PuffinFree,NA,Puffin Browser Free,,,,,,,0
+944,com.filmm.filmm,NA,FILMM,,,,,,,0
+945,com.fitshow.app,NA,Fit Show,,,,,,,0
+946,com.fivestars.FiveStars-Consumer,NA,FiveStars Consumer,,,,,,,0
+947,com.greyhound.mobile.Greyhound,NA,Greyhound,,,,,,,0
+948,com.mbta.mobileapp.STORE,NA,MBTA,,,,,,,0
+949,com.motto.production,NA,Motto,,,,,,,0
+950,com.principal.classify.ios,NA,Principal Classify,,,,,,,0
+951,com.sensio.instapreview,NA,InstaPreview,,,,,,,0
+952,com.therowhouse,NA,The Row House,,,,,,,0
+953,com.tmobile.TMOAccess,NA,T-Mobile Access,,,,,,,0
+954,com.two-bricks.manga-zone,NA,Manga Zone,,,,,,,0
+955,org.lirr.portal.TrainTime,NA,LIRR Train Time,,,,,,,0
+956,com.android.printspooler,NA,Android Print Spooler,,,,,,,0
+957,com.chepri.mrbeastburger,NA,MrBeast Burger,,,,,,,0
+958,com.fender.play,NA,Fender Play,,,,,,,0
+959,com.fender.tuner,NA,Fender Tuner,,,,,,,0
+960,com.imaginalis.HouseFlipperMobile,NA,House Flipper Mobile,,,,,,,0
+961,com.pa.gs.ai,NA,Perfect AI,,,,,,,0
+962,com.samsung.android.app.contacts,NA,Samsung Contacts,,,,,,,0
+963,com.samsung.android.themestore,NA,Samsung Theme Store,,,,,,,0
+964,com.sugardaddydatingapp.spoilme,NA,Sugar Daddy Dating,,,,,,,0
+965,com.tmobile.pr.mytmobile,NA,T-Mobile,,,,,,,0
+966,com.tmobile.tuesdays,NA,T-Mobile Tuesdays,,,,,,,0
+967,com.topps.marvel,NA,Marvel (Topps),,,,,,,0
+968,com.zellepay.zelle,NA,Zelle,,,,,,,0
+969,live.bunch.group.video.chat.party.games,NA,Bunch Party Games,,,,,,,0
+970,tech.hypergames.lifesim2,NA,Life Simulator 2,,,,,,,0
+971,co.loona,NA,Loona,,,,,,,0
+972,com.amazon.dee.app,NA,Amazon Music,,,,,,,0
+973,com.azure.authenticator,NA,Microsoft Authenticator,,,,,,,0
+974,com.bellalovesme.app.android,NA,Bella Loves Me,,,,,,,0
+975,com.canva.editor,NA,Canva,,,,,,,0
+976,com.chewy.android,NA,Chewy,,,,,,,0
+977,com.current.app,NA,Current App,,,,,,,0
+978,com.dately,NA,Dately,,,,,,,0
+979,com.dsw.android,NA,DSW,,,,,,,0
+980,com.etsy.android,NA,Etsy,,,,,,,0
+981,com.etsy.android.soe,NA,Etsy Seller,,,,,,,0
+982,com.facebook.npe.tuned,NA,Tuned (Facebook),,,,,,,0
+983,com.fedex.ida.android,NA,FedEx,,,,,,,0
+984,com.fetchrewards.fetchrewards.hop,NA,Fetch Rewards,,,,,,,0
+985,com.fifthfinger.clients.joann,NA,JOANN,,,,,,,0
+986,com.foxit.mobile.pdf.lite,NA, Foxit PDF Lite,,,,,,,0
+987,com.google.android.apps.adm,NA, Android Device Manager,,,,,,,0
+988,com.google.android.play.games,NA, Google Play Games,,,,,,,0
+989,com.gpshopper.nastygal,NA, Nasty Gal,,,,,,,0
+990,com.heartfull.forms,NA, Heartfull Forms,,,,,,,0
+991,com.hopper.mountainview.play,NA, Hopper Mountain View,,,,,,,0
+992,com.house.jjs,NA, JJ's House,,,,,,,0
+993,com.main.gopuff,NA, GoPuff,,,,,,,0
+994,com.makro_music.app,NA, Makro Music,,,,,,,0
+995,com.manjul.utility.nfc.writer,NA, NFC Writer by Manjul,,,,,,,0
+996,com.mcdonalds.app,NA, McDonald's App,,,,,,,0
+997,com.media.bestrecorder.audiorecorder,NA, Best Recorder: Audio Recorder,,,,,,,0
+998,com.microsoft.xboxone.smartglass,NA, Xbox SmartGlass,,,,,,,0
+999,com.palabs.fonty,NA, Fonty,,,,,,,0
+1000,com.panda.catchtoy,NA, Catch Toy,,,,,,,1
+1001,com.pinssible.fancykey.gifkeyboard,NA, FancyKey Keyboard,,,,,,,0
+1002,com.popshow.yolo,NA, YOLO,,,,,,,0
+1003,com.poshmark.app,NA, Poshmark,,,,,,,0
+1004,com.pz.life.android,NA, Plague Inc.,,,,,,,0
+1005,com.rarewire.forever21,NA, Forever 21,,,,,,,0
+1006,com.shopify.arrive,NA, Arrive by Shopify,,,,,,,0
+1007,com.sideline.phone.number,NA, Sideline,,,,,,,0
+1008,com.smiledoctors.monitoring,NA, Smile Doctors Monitoring,,,,,,,0
+1009,com.stellium,NA, Stellium,,,,,,,0
+1010,com.step.step,NA, Step,,,,,,,1
+1011,com.streetbees,NA, Streetbees,,,,,,,0
+1012,com.talkatone.android,NA, Talkatone,,,,,,,0
+1013,com.wakdev.wdnfc,NA, NFC Tools,,,,,,,0
+1014,com.werewolfapps.online,NA, Werewolf Online,,,,,,,0
+1015,com.woebot,NA, Woebot,,,,,,,0
+1016,com.yoti.mobile.android.live,NA, Yoti,,,,,,,0
+1017,com.yy.hiyo,NA, Hiyo,,,,,,,0
+1018,connectiq.miles.app,NA, Miles,,,,,,,0
+1019,gwicks.com.earsnokeyboard,NA, EarSn0 Keyboard,,,,,,,0
+1020,id.revoke,NA, Revoke,,,,,,,0
+1021,in.sweatco.app,NA, Sweatcoin,,,,,,,0
+1022,me.easyline.call.text,NA, Easyline Call & Text,,,,,,,0
+1023,org.videolan.vlc,NA, VLC for Mobile,,,,,,,0
+1024,to.reachapp.android,NA, ReachApp,,,,,,,0
+1025,us.kindu.kinduforcouples,NA, Kindu,,,,,,,0
+1026,com.facebook.Messenger.ShareExtension,NA, Facebook Messenger Share Extension,,,,,,,0
+1027,com.aa.AmericanAirlines,NA, American Airlines,,,,,,,0
+1028,com.bose.bosemusic,NA, Bose Music,,,,,,,0
+1029,com.courtneycircle.Radiant,NA, Radiant,,,,,,,0
+1030,com.daon.glide.person.app,NA, Glide,,,,,,,0
+1031,com.dhgate.DHgateBuyer,NA, DHgate,,,,,,,0
+1032,com.doctorondemand.doctorondemand,NA, Doctor On Demand,,,,,,,0
+1033,com.engauge.Chick-fil-A,NA,fil-A - Chick-fil-A,,,,,,,0
+1034,com.expedia.booking,NA, Expedia,,,,,,,0
+1035,com.halickman.ShackHQ,NA, ShackHQ,,,,,,,0
+1036,com.kayak.travel,NA, Kayak,,,,,,,0
+1037,com.newtoyinc.WordsWithFriendsFree,NA, Words With Friends,,,,,,,0
+1038,com.quora.app.mobile,NA, Quora,,,,,,,0
+1039,com.sittercity.Sittercity,NA, Sittercity,,,,,,,0
+1040,com.StreetEasyInc.Streeteasy,NA, StreetEasy,,,,,,,0
+1041,com.thredup.thredup,NA, thredUP,,,,,,,0
+1042,crumbl.cookies,NA, Crumbl Cookies,,,,,,,0
+1043,com.elevateapp.elevate,NA, Elevate,,,,,,,0
+1044,com.gamestop.powerup,NA, GameStop PowerUp Rewards,,,,,,,0
+1045,com.hypah.io.slither,NA, Slither.io,,,,,,,0
+1046,com.QH.Apollo,NA," Apollo (likely a specific app, context needed)",,,,,,,0
+1047,es.socialpoint.dragoncity,NA, Dragon City,,,,,,,0
+1048,jp.pokemon.pokemonhome,NA, Pokémon HOME,,,,,,,0
+1049,org.khanacademy.Khan-Academy,NA,Academy - Khan Academy,,,,,,,0
+1050,com.apple.findmy,NA, Find My (Apple),,,,,,,0
+1051,com.hortemo.photoguessr,NA, PhotoGuessr,,,,,,,0
+1052,org.gamatech.Movie-Friends,NA,Friends - Movie Friends,,,,,,,0
+1053,com.apple.mobileslideshow.photo-picker,NA,picker - Photos (Apple),,,,,,,0
+1054,com.apple.tv,NA, Apple TV,,,,,,,0
+1055,com.jadedlabs.arrive,NA, Arrive,,,,,,,0
+1056,com.n3twork.tetris,NA, Tetris,,,,,,,0
+1057,co.swasth.cbtcompanion,NA, CBT Companion,,,,,,,0
+1058,co.swasth.dbtcoach,NA, DBT Coach,,,,,,,0
+1059,com.aspiration.app,NA, Aspiration,,,,,,,0
+1060,com.blushmark.android,NA, Blushmark,,,,,,,0
+1061,com.bncollege.yuzu,NA, Yuzu (Barnes & Noble College),,,,,,,0
+1062,com.boltrend.dogen,NA," Dogen (likely a game, context needed)",,,,,,,0
+1063,com.calm.android,NA, Calm,,,,,,,0
+1064,com.candywriter.doglife,NA, DogLife,,,,,,,0
+1065,com.capigami.outofmilk,NA, Out of Milk,,,,,,,0
+1066,com.cbord.get,NA, GET (CBORD),,,,,,,0
+1067,com.chess,NA, Chess.com,,,,,,,0
+1068,com.codigames.university.empire.idle.tycoon,NA, University Empire: Idle Tycoon,,,,,,,0
+1069,com.dave,NA, Dave,,,,,,,0
+1070,com.deserve.deserve,NA, Deserve,,,,,,,0
+1071,com.dragonfly.max.live,NA, Max Live,,,,,,,0
+1072,com.eab.se,NA," EAB (likely a specific app, context needed)",,,,,,,0
+1073,com.eddress.getgoodys,NA, Goodys,,,,,,,0
+1074,com.fitbod.fitbod,NA, Fitbod,,,,,,,0
+1075,com.fiton.android,NA, FitOn,,,,,,,0
+1076,com.gen.workoutme,NA, WorkoutMe,,,,,,,0
+1077,com.google.android.apps.nbu.files,NA, Google Files,,,,,,,0
+1078,com.google.android.documentsui,NA, Google Files (Document UI),,,,,,,0
+1079,com.greyhound.mobile.consumer,NA, Greyhound,,,,,,,0
+1080,com.grubhub.android,NA, Grubhub,,,,,,,0
+1081,com.hitthebank.game,NA, Hit the Bank,,,,,,,0
+1082,com.instacart.client,NA, Instacart,,,,,,,0
+1083,com.jokr.delivery,NA, Jokr,,,,,,,0
+1084,com.kaylaitsines.sweatwithkayla,NA, Sweat with Kayla,,,,,,,0
+1085,com.kfc.us.mobile,NA, KFC,,,,,,,0
+1086,com.myunidays,NA, UNiDAYS,,,,,,,0
+1087,com.nixgames.truthordare,NA, Truth or Dare,,,,,,,0
+1088,com.offerup,NA, OfferUp,,,,,,,0
+1089,com.papajohns.android,NA, Papa Johns,,,,,,,0
+1090,com.popularapp.periodcalendar,NA, Period Calendar,,,,,,,0
+1091,com.poqstudio.app.platform.boohoo,NA, Boohoo,,,,,,,0
+1092,com.postmates.android,NA, Postmates,,,,,,,0
+1093,com.public.app,NA, Public,,,,,,,0
+1094,com.romwe,NA, ROMWE,,,,,,,0
+1095,com.sei.android,NA, SEI Investments,,,,,,,0
+1096,com.target.GuestRegistry,NA, Target Registry,,,,,,,0
+1097,com.truebill,NA, Truebill (now Rocket Money),,,,,,,0
+1098,com.unicostudio.lifechoices,NA, Life Choices,,,,,,,0
+1099,com.Vysgames.Exposed,NA, Exposed,,,,,,,0
+1100,com.waze,NA, Waze,,,,,,,1
+1101,com.weareher.her,NA, HER,,,,,,,0
+1102,com.work.fit.out.day,NA, FitDay,,,,,,,0
+1103,digit.android,NA, Digit,,,,,,,0
+1104,loseweight.weightloss.workout.fitness,NA, Weight Loss Workout Fitness,,,,,,,0
+1105,net.kairosoft.android.school2_enL,NA, School Story 2,,,,,,,0
+1106,us.current.android,NA, Current,,,,,,,0
+1107,co.bird.android,NA, Bird,,,,,,,0
+1108,com.asana.app,NA, Asana,,,,,,,0
+1109,com.bighealth.daylight,NA, Daylight,,,,,,,0
+1110,com.caribou.caribouapp,NA, Caribou Coffee,,,,,,,0
+1111,com.clue.android,NA, Clue,,,,,,,0
+1112,com.doordash.driverapp,NA, DoorDash Driver,,,,,,,0
+1113,com.ea.game.simcitymobile_row,NA, SimCity BuildIt,,,,,,,0
+1114,com.fidelity.link,NA, Fidelity Investments,,,,,,,0
+1115,com.getsomeheadspace.android,NA, Headspace,,,,,,,0
+1116,com.goodrx,NA, GoodRx,,,,,,,0
+1117,com.google.android.apps.nbu.paisa.user,NA, Google Pay (India),,,,,,,0
+1118,com.hustleinc.hustle,NA, Hustle,,,,,,,0
+1119,com.influx.marcus.theatres,NA, Marcus Theatres,,,,,,,0
+1120,com.ksxkq.autoclick,NA, Auto Clicker,,,,,,,0
+1121,com.linkedin.android,NA, LinkedIn,,,,,,,0
+1122,com.merkuryinnovations.geeni,NA, Geeni,,,,,,,0
+1123,com.mint,NA, Mint,,,,,,,0
+1124,com.northcube.sleepcycle,NA, Sleep Cycle,,,,,,,0
+1125,com.oneplus.account,NA, OnePlus Account,,,,,,,0
+1126,com.oneplus.contacts,NA, OnePlus Contacts,,,,,,,0
+1127,com.oneplus.deskclock,NA, OnePlus Clock,,,,,,,0
+1128,com.oneplus.dialer,NA, OnePlus Dialer,,,,,,,0
+1129,com.oneplus.filemanager,NA, OnePlus File Manager,,,,,,,0
+1130,com.oneplus.gallery,NA, OnePlus Gallery,,,,,,,0
+1131,com.panera.bread,NA, Panera Bread,,,,,,,0
+1132,com.parcelpendingmobile.app,NA, Parcel Pending,,,,,,,0
+1133,com.radcollab.tasktree,NA, TaskTree,,,,,,,0
+1134,com.supercell.clashroyale,NA, Clash Royale,,,,,,,0
+1135,com.target.ui,NA, Target,,,,,,,0
+1136,com.todoist,NA, Todoist,,,,,,,0
+1137,com.truedevelopersstudio.automatictap.autoclicker,NA, Automatic Tap: Auto Clicker,,,,,,,0
+1138,com.ultimatesoftware.ultipromobile,NA, UltiPro Mobile,,,,,,,0
+1139,com.wf.wellsfargomobile,NA, Wells Fargo Mobile,,,,,,,0
+1140,edu.umn.ote.eventus.app,NA, Eventus (University of Minnesota),,,,,,,0
+1141,net.oneplus.forums,NA, OnePlus Community,,,,,,,1
+1142,org.codeforcommunity.Outvote,NA, Outvote,,,,,,,1
+1143,com.americanexpress.amexservice,NA, American Express,,,,,,,0
+1144,com.apple.PassbookUIService,NA, Apple Wallet,,,,,,,0
+1145,com.bankofamerica.BofA,NA, Bank of America,,,,,,,0
+1146,com.bgg.jump,NA," Jump (likely a specific app, context needed)",,,,,,,0
+1147,com.delta.iphone.ver1,NA, Delta Air Lines,,,,,,,0
+1148,com.mobilewareinc.ontime-mnr-ad,NA,mnr-ad - OnTime (Metro-North Railroad),,,,,,,0
+1149,com.my.widgetdragon,NA, WidgetDragon,,,,,,,0
+1150,com.pressedjuicery.app,NA, Pressed Juicery,,,,,,,0
+1151,com.stoneproject.appstore,NA, Stone Project App Store,,,,,,,0
+1152,com.StreetEasyInc.Streeteasy.rentals,NA, StreetEasy Rentals,,,,,,,0
+1153,com.tbd.Done,NA, Done,,,,,,,0
+1154,garden.blossm,NA, Blossm,,,,,,,0
+1155,npetrova.DaysSince,NA, Days Since,,,,,,,0
+1156,com.2ksports.nbasupercard,NA, NBA SuperCard,,,,,,,0
+1157,com.2KSports.WWE2K14Mobile,NA, WWE 2K14 Mobile,,,,,,,0
+1158,com.espn.fantasyFootball,NA, ESPN Fantasy Football,,,,,,,0
+1159,com.etermax.trivia.preguntados2,NA, Preguntados,,,,,,,0
+1160,com.fingersoft.hillclimbracing2,NA, Hill Climb Racing 2,,,,,,,0
+1161,com.firsttouch.smp,NA, Score! Match,,,,,,,0
+1162,com.mattel163.uno,NA, UNO!,,,,,,,0
+1163,com.newstargames.retrobowl,NA, Retro Bowl,,,,,,,0
+1164,com.subway.mobile.subwayapp03,NA, Subway,,,,,,,0
+1165,com.timewarnercable.simulcast,NA, Spectrum TV,,,,,,,0
+1166,com.usps.uspsmobile,NA, USPS Mobile,,,,,,,0
+1167,com.arielsapps.LIRR-Commuter,NA,Commuter - LIRR Commuter,,,,,,,0
+1168,com.Cheritz.MysticMessenger,NA, Mystic Messenger,,,,,,,0
+1169,com.mcdonalds.gma,NA, McDonald’s GMA,,,,,,,0
+1170,com.miHoYo.tot.glb,NA, Tears of Themis,,,,,,,0
+1171,com.monefyapp.monefy,NA, Monefy,,,,,,,0
+1172,com.ncsoft.universeapp,NA, Universe (NCSoft),,,,,,,0
+1173,com.water.mancalabestboardgame,NA, Mancala,,,,,,,0
+1174,jp.co.cybird.appli.sgk.en,NA, Shall We Date? (Otome Games),,,,,,,0
+1175,com.gofundme.GoFundMe,NA, GoFundMe,,,,,,,0
+1176,com.kodak.steptouch,NA, KODAK Step Touch,,,,,,,0
+1177,com.nutrislice.schoollunch,NA, Nutrislice School Lunch,,,,,,,0
+1178,com.showtime.standalone,NA, SHOWTIME,,,,,,,0
+1179,com.turningtechnologies.responseware,NA, ResponseWare,,,,,,,0
+1180,com.cmex.cocofreshteaandjuice,NA, Coco Fresh Tea & Juice,,,,,,,0
+1181,com.crunchyroll.iphone,NA, Crunchyroll,,,,,,,0
+1182,com.everbridge.mobile.iv.Recipient,NA, Everbridge,,,,,,,0
+1183,com.grailed.production,NA, Grailed,,,,,,,0
+1184,com.panerabread.mobile.minneapolis,NA, Panera Bread (Minneapolis),,,,,,,0
+1185,com.philips.lighting.hue2,NA, Philips Hue,,,,,,,0
+1186,com.vzw.hss.myverizon,NA, My Verizon,,,,,,,0
+1187,com.path36.SpliceFree,NA, Splice,,,,,,,0
+1188,com.sixmix.minder,NA, Minder,,,,,,,0
+1189,com.supercell.magic,NA, Magic: The Gathering (likely a Supercell game),,,,,,,0
+1190,com.xfinity.digitalhome,NA, Xfinity xFi,,,,,,,0
+1191,con.insta.saver,NA, Insta Saver,,,,,,,0
+1192,org.affinityplus.bankingon,NA, Affinity Plus Banking,,,,,,,0
+1193,surveyjunkie.polls.cash.rewards,NA, Survey Junkie,,,,,,,0
+1194,com.6DegreeLabs.apps.Likewise,NA, Likewise,,,,,,,0
+1195,com.alexlaza.autoclicker,NA, Auto Clicker,,,,,,,0
+1196,com.doanducthien.taptool,NA, Tap Tool,,,,,,,0
+1197,com.FetchRewards.HopBeta,NA, Fetch Rewards,,,,,,,0
+1198,com.find.out.hidden.objects,NA, Find Out: Hidden Objects,,,,,,,0
+1199,com.ido.veryfit,NA, VeryFit (IDO Fitness),,,,,,,0
+1200,com.lionstudios.hookedinc,NA, Hooked Inc: Fisher Tycoon,,,,,,,0
+1201,com.popcap.ios.PvZ2,NA, Plants vs. Zombies 2,,,,,,,0
+1202,com.RK.BikesHill,NA, Bikes Hill,,,,,,,0
+1203,droidhang.twgame.restaurant,NA, Restaurant Story,,,,,,,0
+1204,com.aa.android,NA, American Airlines,,,,,,,0
+1205,com.adobe.lrmobile,NA, Adobe Lightroom Mobile,,,,,,,0
+1206,com.alaskaairlines.android,NA, Alaska Airlines,,,,,,,0
+1207,com.coinbase.android,NA, Coinbase,,,,,,,0
+1208,com.delta.mobile.android,NA, Delta Air Lines,,,,,,,0
+1209,com.flightradar24free,NA, Flightradar24,,,,,,,0
+1210,com.google.android.apps.authenticator2,NA, Google Authenticator,,,,,,,0
+1211,com.honeygain.make.money,NA, Honeygain,,,,,,,0
+1212,com.ibotta.android,NA, Ibotta,,,,,,,0
+1213,com.microblink.photomath,NA, Photomath,,,,,,,0
+1214,com.nextradioapp.nextradio,NA, NextRadio,,,,,,,0
+1215,com.nhn.android.band,NA, Band (NHN),,,,,,,0
+1216,com.nicehash.metallum,NA, NiceHash,,,,,,,0
+1217,com.osp.app.signin,NA, OSP Sign-In,,,,,,,0
+1218,com.payrange.payrange,NA, PayRange,,,,,,,0
+1219,com.samsung.android.samsungpass,NA, Samsung Pass,,,,,,,0
+1220,com.schoolofrock.mobile,NA, School of Rock,,,,,,,0
+1221,com.sec.android.app.music,NA, Samsung Music,,,,,,,0
+1222,com.sec.android.app.myfiles,NA, My Files (Samsung),,,,,,,0
+1223,com.sec.android.app.samsungapps,NA, Galaxy Store,,,,,,,0
+1224,com.sec.android.app.shealth,NA, Samsung Health,,,,,,,0
+1225,com.sirnic.atomas,NA, Atomas,,,,,,,0
+1226,com.united.mobile.android,NA, United Airlines,,,,,,,0
+1227,com.wendys.nutritiontool,NA, Wendy’s Nutrition Tool,,,,,,,0
+1228,fr.two4tea.fightlist,NA, FightList,,,,,,,0
+1229,jp.co.canon.ic.cameraconnect,NA, Canon Camera Connect,,,,,,,0
+1230,net.liveatc.liveatc_app,NA, LiveATC,,,,,,,0
+1231,org.redcross.volunteerconnection,NA, Red Cross Volunteer Connection,,,,,,,0
+1232,com.backstage.casting,NA, Backstage,,,,,,,0
+1233,com.bigrunstudios.blackoutblitz,NA, Blackout Blitz,,,,,,,0
+1234,com.wb.GoT.Conquest,NA, Game of Thrones: Conquest,,,,,,,0
+1235,ai.kai.app,NA, Kai (AI Assistant),,,,,,,0
+1236,com.acciio.howler,NA, Howler,,,,,,,0
+1237,com.adjoy.dabbl-app,NA,app - Dabbl,,,,,,,0
+1238,com.AeroBand.AeroDrummer,NA, AeroDrummer,,,,,,,0
+1239,com.apple.mobilenotes.SharingExtension,NA, Apple Notes Sharing Extension,,,,,,,0
+1240,com.collegehumor.chdropout,NA, Dropout (CollegeHumor),,,,,,,0
+1241,com.creditsesame.mobile.ios.finance,NA, Credit Sesame,,,,,,,0
+1242,com.ex-human.botify,NA,human.botify - Botify,,,,,,,0
+1243,com.hatfield.grid,NA, Grid,,,,,,,0
+1244,com.i2cinc.clincard,NA, Clincard,,,,,,,0
+1245,com.JamieParish.TheWanderer,NA, The Wanderer,,,,,,,0
+1246,com.kidschoose.choosi,NA, Choosi,,,,,,,0
+1247,com.MYZY.AlterEgo,NA, Alter Ego,,,,,,,0
+1248,com.peacocktv.peacock,NA, Peacock,,,,,,,0
+1249,com.psychicunion,NA, Psychic Union,,,,,,,0
+1250,com.seatgeek.SeatGeek,NA, SeatGeek,,,,,,,0
+1251,com.trycaviar.consumer,NA, Caviar,,,,,,,0
+1252,com.womboai.paint,NA, WOMBO Dream,,,,,,,0
+1253,health.sharespace,NA, ShareSpace,,,,,,,0
+1254,jp.co.imagineer.sumikkogurashi.sumisumi,NA, Sumikko Gurashi,,,,,,,0
+1255,net.wrightflyer.le.reality,NA, REALITY,,,,,,,0
+1256,world.playme.mechat,NA, MeChat,,,,,,,0
+1257,YSOFTWARE.ChangeMyLocationFREE,NA, Change My Location,,,,,,,0
+1258,com.apple.SharingViewService,NA, Apple Sharing View Service,,,,,,,0
+1259,com.bungieinc.bungie,NA, Bungie,,,,,,,0
+1260,com.choiceofgames.o,NA, Choice of Games,,,,,,,0
+1261,com.csod.release.learning-ios,NA,ios - Cornerstone OnDemand,,,,,,,0
+1262,com.microsoft.Office.Outlook.compose-shareextension,NA,shareextension - Outlook Share Extension,,,,,,,0
+1263,com.trinet.hrpmobile,NA, TriNet HRP Mobile,,,,,,,0
+1264,org.hostedgames.zexsh,NA, Zexsh,,,,,,,0
+1265,com.eddress.gorillas,NA, Gorillas,,,,,,,0
+1266,com.elfster.ios.wishes,NA, Elfster,,,,,,,0
+1267,com.linksocial.link,NA, Link,,,,,,,0
+1268,com.mobilityware.SolitaireFree,NA, Solitaire,,,,,,,0
+1269,gov.nyc.doitt.recovery,NA, NYC Recovery,,,,,,,0
+1270,net.kortina.labs.Venmo.iMessageExtension,NA, Venmo iMessage Extension,,,,,,,0
+1271,org.orau.ima.orisego,NA, ORISE GO,,,,,,,0
+1272,com.hyperbeard.pocketlove,NA, Pocket Love,,,,,,,0
+1273,com.burbn.igtv,NA, IGTV (Instagram TV),,,,,,,0
+1274,com.coverified.coverified,NA, Coverified,,,,,,,0
+1275,com.ellevest.ellevest,NA, Ellevest,,,,,,,0
+1276,com.fogcreek.trello,NA, Trello,,,,,,,0
+1277,com.locket.Locket,NA, Locket,,,,,,,0
+1278,com.planetfitness.lunkinator,NA, Planet Fitness Lunk Alarm,,,,,,,0
+1279,com.bandcamp.iosapp,NA, Bandcamp,,,,,,,0
+1280,com.getsomeheadspace.headspace,NA, Headspace,,,,,,,0
+1281,com.labyrinthos.app,NA, Labyrinthos,,,,,,,0
+1282,com.mevpmdd.app,NA, MeVP,,,,,,,0
+1283,com.randonautica.app,NA, Randonautica,,,,,,,0
+1284,com.sillens.iShape,NA, iShape,,,,,,,0
+1285,com.yottaram.eMoods,NA, eMoods,,,,,,,0
+1286,info.mta.metro-north.train-time,NA,north.train-time - Metro-North TrainTime,,,,,,,0
+1287,org.inaturalist.iNatLite,NA, iNaturalist,,,,,,,0
+1288,org.inaturalist.inaturalist,NA, iNaturalist,,,,,,,0
+1289,org.navyfederal.nfcuforiphone,NA, Navy Federal Credit Union,,,,,,,0
+1290,br.com.tapps.myboo,NA, My Boo,,,,,,,0
+1291,com.airgoat.goat.ios,NA, GOAT,,,,,,,1
+1292,com.facebook.Messenger.NotifContentExtension,NA, Messenger Notifications Extension,,,,,,,0
+1293,com.farfetch.discover,NA, Farfetch,,,,,,,0
+1294,com.mash.mashminus,NA, Mash,,,,,,,0
+1295,com.adobe.scan.ios,NA, Adobe Scan,,,,,,,0
+1296,com.musescore.player,NA, MuseScore,,,,,,,0
+1297,com.reelgoodapp.Reelgood,NA, Reelgood,,,,,,,1
+1298,com.roqbot.clientapp,NA, Roqbot,,,,,,,0
+1299,com.tinyspeck.chatlyio.share,NA, Chatly,,,,,,,0
+1300,com.totaltransitapp.totaltransit,NA, Total Transit,,,,,,,0
+1301,com.yourcompany.TVShowtracker,NA, TV Show Tracker,,,,,,,0
+1302,BuildApp.JajaPoker,NA, Jaja Poker,,,,,,,0
+1303,com.apple.stocks,NA, Apple Stocks,,,,,,,0
+1304,com.comcast.cim.x2,NA, Xfinity xFi,,,,,,,0
+1305,com.coreyroberts.anilist,NA, AniList,,,,,,,0
+1306,com.dowjones.WSJ.ipad,NA, The Wall Street Journal,,,,,,,0
+1307,com.jackadam.darksky,NA, Dark Sky,,,,,,,0
+1308,com.kukosk.BraceletBook,NA, BraceletBook,,,,,,,0
+1309,jp.buyee.ios.prd,NA, Buyee,,,,,,,0
+1310,net.fanfiction.ios,NA, Fanfiction.net,,,,,,,0
+1311,org.kp.m,NA, Kaiser Permanente,,,,,,,0
+1312,com.fontes.BestBrokers,NA, Best Brokers,,,,,,,0
+1313,com.freeplay.runandfight,NA, Run and Fight,,,,,,,0
+1314,com.quvideo.VISO,NA, VISO,,,,,,,0
+1315,co.thefabulous.app,NA, Fabulous,,,,,,,0
+1316,com.abouttime.coffee,NA, About Time Coffee,,,,,,,0
+1317,com.alertus.zenly,NA, Zenly,,,,,,,0
+1318,com.apple.Fitness,NA, Apple Fitness,,,,,,,0
+1319,com.asos.asos,NA, ASOS,,,,,,,0
+1320,com.chegg.mobile.consumer,NA, Chegg,,,,,,,0
+1321,com.flixbus.ios.Flixbus,NA, FlixBus,,,,,,,0
+1322,com.igtracker.insights,NA, IG Tracker,,,,,,,0
+1323,com.imleagues.ios.app,NA, IMLeagues,,,,,,,0
+1324,com.macmillan.REEFEducation,NA, REEF Education,,,,,,,0
+1325,com.nytimes.NYTimes,NA, The New York Times,,,,,,,0
+1326,com.orangetheoryfitness.orangetheory,NA, Orangetheory Fitness,,,,,,,0
+1327,com.shopcider.identifier,NA, Cider,,,,,,,0
+1328,com.whering.app,NA, Whering,,,,,,,0
+1329,com.appfinca.flora.ios,NA, Flora,,,,,,,0
+1330,com.apple.shortcuts.runtime,NA, Apple Shortcuts,,,,,,,0
+1331,com.findmeglutenfree.free,NA, Find Me Gluten Free,,,,,,,0
+1332,com.impacttest.passport-parent-app,NA,parent-app - Passport Parent App,,,,,,,0
+1333,com.lululemon.shopapp,NA, Lululemon,,,,,,,0
+1334,com.squareup.payroll.team,NA, Square Payroll,,,,,,,0
+1335,com.swagbucksApp,NA, Swagbucks,,,,,,,0
+1336,com.united.UnitedCustomerFacingIPhone,NA, United Airlines,,,,,,,0
+1337,com.vrbo.traveler,NA, Vrbo,,,,,,,0
+1338,fit.paceline.pacelinefit,NA, Paceline,,,,,,,0
+1339,com.adobe.fresco.ios,NA, Adobe Fresco,,,,,,,0
+1340,com.cbsvideo.app,NA, CBS,,,,,,,0
+1341,com.nintendo.znca,NA, Nintendo Switch Online,,,,,,,0
+1342,com.pandarg.pxmobileapp,NA, Pandora AR,,,,,,,0
+1343,com.pinterest.shufflesapp,NA, Pinterest Shuffles,,,,,,,0
+1344,com.tacobell.ARgame,NA, Taco Bell AR Game,,,,,,,0
+1345,com.calm.calmapp,NA, Calm,,,,,,,0
+1346,com.discovery.mobile.discoveryplus,NA, Discovery+,,,,,,,0
+1347,com.enigma.shadowhunter.free,NA, Shadow Hunter,,,,,,,0
+1348,fun.ask,NA, Ask,,,,,,,0
+1349,<null>,NA, (Unknown or invalid package name),,,,,,,0
+1350,ai.moises,NA, Moises,,,,,,,0
+1351,app.davidsdisposable.davids-disposable-ios,NA,disposable-ios - David’s Disposable,,,,,,,0
+1352,app.grotinou.sushi,NA, Sushi,,,,,,,0
+1353,app.trackwidget.followerstracker,NA, Followers Tracker,,,,,,,0
+1354,chillpay.ios,NA, Chillpay,,,,,,,0
+1355,cm.confide.ios,NA, Confide,,,,,,,0
+1356,co.bird.Ride,NA, Bird,,,,,,,0
+1357,co.compoze.scoreskills,NA, Score Skills,,,,,,,0
+1358,co.nelo,NA, Nelo,,,,,,,0
+1359,com.adp.e,NA, ADP,,,,,,,0
+1360,com.affirm.Amplify,NA, Affirm,,,,,,,0
+1361,com.afterpay.afterpay-consumer-us,NA,consumer-us - Afterpay,,,,,,,0
+1362,com.apple.mobilegarageband,NA, GarageBand,,,,,,,0
+1363,com.backmarket,NA, Back Market,,,,,,,0
+1364,com.bandlab.bandlab.iphone,NA, BandLab,,,,,,,0
+1365,com.beatstars.Studio,NA, BeatStars,,,,,,,0
+1366,com.benjamin.yotta,NA, Yotta,,,,,,,0
+1367,com.camerasideas.InstaShot,NA, InstaShot,,,,,,,0
+1368,com.capitalone.enterprisemobilebanking,NA, Capital One,,,,,,,0
+1369,com.card.dda,NA, DDA Card,,,,,,,0
+1370,com.chips.app,NA, Chips,,,,,,,0
+1371,com.codeway.wonder,NA, Wonder,,,,,,,0
+1372,com.current.currentapp,NA, Current,,,,,,,0
+1373,com.douugh.douughapp,NA, Douugh,,,,,,,0
+1374,com.draftkings.sportsbook,NA, DraftKings Sportsbook,,,,,,,0
+1375,com.dreamapp.app,NA, Dream,,,,,,,0
+1376,com.finishline.winnerscircledist,NA, Finish Line,,,,,,,0
+1377,com.google.paisa,NA, Google Paisa,,,,,,,0
+1378,com.gospelmusicians.PureSynthPlatinum,NA, Pure Synth Platinum,,,,,,,0
+1379,com.harri.apps.teamlive,NA, Harri TeamLive,,,,,,,0
+1380,com.inflow.app,NA, Inflow,,,,,,,0
+1381,com.ipsy.Ipsy,NA, Ipsy,,,,,,,0
+1382,com.jackpocket.JackPocket,NA, Jackpocket,,,,,,,0
+1383,com.kikoff,NA, Kikoff,,,,,,,0
+1384,com.klarna.app,NA, Klarna,,,,,,,0
+1385,com.levermore.linkr,NA, Linkr,,,,,,,0
+1386,com.LomotifPteLtd.Lomotif,NA, Lomotif,,,,,,,0
+1387,com.medlylabs.medly,NA, Medly,,,,,,,0
+1388,com.michaelmatics.chordprogressiongenerator,NA, Chord Progression Generator,,,,,,,0
+1389,com.microsoft.msedge,NA, Microsoft Edge,,,,,,,0
+1390,com.mnymstrs,NA, Mnymstrs,,,,,,,0
+1391,com.more.lastfortress.appstore,NA, Last Fortress,,,,,,,0
+1392,com.musicAI.MusicAIApp,NA, MusicAI,,,,,,,0
+1393,com.mustafayuksel.LoveDays,NA, Love Days,,,,,,,0
+1394,com.NH.Secret-Messenger,NA,Messenger - Secret Messenger,,,,,,,1
+1395,com.omada.Social,NA, Omada Social,,,,,,,0
+1396,com.oneq.askvert-mobile,NA,mobile - AskVert,,,,,,,0
+1397,com.paywithfour,NA, Pay with Four,,,,,,,0
+1398,com.payzilch.app,NA, Zilch,,,,,,,0
+1399,com.pgt.veoride,NA, VeoRide,,,,,,,0
+1400,com.philo.tv.philo,NA, Philo,,,,,,,0
+1401,com.photocollege.best,NA, PhotoCollege,,,,,,,0
+1402,com.pinger.pingerphone2,NA, Pinger,,,,,,,0
+1403,com.pinger.textfreeWithVoice,NA, TextFree,,,,,,,0
+1404,com.pointabout.cars,NA, Cars,,,,,,,0
+1405,com.polywise.weekly,NA, Polywise,,,,,,,0
+1406,com.poqstudio.prettylittlething,NA, PrettyLittleThing,,,,,,,0
+1407,com.quadpay.mobile-app,NA,app - Zip (formerly Quadpay),,,,,,,0
+1408,com.remente.app,NA, Remente,,,,,,,0
+1409,com.rent.mobile.iphone.app,NA, Rent,,,,,,,0
+1410,com.ridecharge.TaxiMagic,NA, Taxi Magic,,,,,,,0
+1411,com.roli.Equator,NA, Equator,,,,,,,0
+1412,com.rotatelab.riddlelabs,NA, Riddle Labs,,,,,,,0
+1413,com.sezzle.sezzlemobile,NA, Sezzle,,,,,,,0
+1414,com.skoop.sarku,NA, Sarku,,,,,,,0
+1415,com.tagged.meetme,NA, MeetMe,,,,,,,0
+1416,com.varomoney.VaroBank,NA, Varo Bank,,,,,,,0
+1417,com.verypositive.iQuran,NA, iQuran,,,,,,,0
+1418,com.visible.phoneservice,NA, Visible,,,,,,,0
+1419,com.withapollo.ios,NA, Apollo,,,,,,,0
+1420,com.zogo.child1.1,NA, Zogo,,,,,,,0
+1421,de.paulstelzer.iqtest,NA, IQ Test,,,,,,,0
+1422,io.mobilize.app,NA, Mobilize,,,,,,,0
+1423,me.bukovitz.NoteIt,NA, NoteIt,,,,,,,0
+1424,net.metaquotes.MetaTrader5Terminal,NA, MetaTrader 5,,,,,,,0
+1425,com.abillionveg.mobile,NA, abillion,,,,,,,0
+1426,com.alarm.Alarm,NA, Alarm,,,,,,,0
+1427,com.apple.mobileslideshow.photospicker,NA, Photos (Apple),,,,,,,0
+1428,com.apple.news,NA, Apple News,,,,,,,0
+1429,com.davetech.habit,NA, Habit,,,,,,,0
+1430,com.davetech.todo,NA, Todo,,,,,,,0
+1431,com.elfcosmetics.app,NA, e.l.f. Cosmetics,,,,,,,0
+1432,com.foodisgood.fig,NA, FIG,,,,,,,0
+1433,com.keepsafe.KeepSafe,NA, KeepSafe,,,,,,,0
+1434,com.leomehlig.today,NA, Today,,,,,,,0
+1435,com.neighbourhoodeffect.mobileApp,NA, Neighbourhood Effect,,,,,,,0
+1436,com.smoothlandon.happycow,NA, HappyCow,,,,,,,0
+1437,com.storm8.hdpropertybrothers,NA, Property Brothers,,,,,,,0
+1438,com.tinyco.potter,NA, Harry Potter: Hogwarts Mystery,,,,,,,0
+1439,com.vegsafe,NA, VegSafe,,,,,,,0
+1440,com.wholefoods.WholeFoods,NA, Whole Foods,,,,,,,0
+1441,com.wordreference.WordReferenceDictionary,NA, WordReference,,,,,,,0
+1442,com.wwdfe.wizardingworld,NA, Wizarding World,,,,,,,0
+1443,com.zynga.pottermatch,NA, Potter Match,,,,,,,0
+1444,de.bmw.connected.mobile20.na,NA, BMW Connected,,,,,,,0
+1445,com.followmee.FollowMeeFree,NA, FollowMee,,,,,,,0
+1446,com.kitkagames.fallbuddies,NA, Fall Buddies,,,,,,,0
+1447,com.wftllc.metro-card-fixer,NA,card-fixer - Metro Card Fixer,,,,,,,0
+1448,com.krispykreme.hotlight,NA, Krispy Kreme,,,,,,,0
+1449,com.songkick.iphone,NA, Songkick,,,,,,,0
+1450,fm.dice.Dice,NA, DICE,,,,,,,0
+1451,jp.co.japantimes.jtpaudioplayer,NA, The Japan Times,,,,,,,0
+1452,com.acorns.android,NA, Acorns,,,,,,,0
+1453,com.adidas.app,NA, adidas,,,,,,,0
+1454,com.appkarma.app,NA, AppKarma,,,,,,,0
+1455,com.audible.application,NA, Audible,,,,,,,0
+1456,com.blinkfitness.app,NA, Blink Fitness,,,,,,,0
+1457,com.cbs.app,NA, CBS,,,,,,,0
+1458,com.clickworker.clickworkerapp,NA, Clickworker,,,,,,,0
+1459,com.episodeinteractive.android.catalog,NA, Episode,,,,,,,0
+1460,com.gap.mobile.oldnavy,NA, Old Navy,,,,,,,0
+1461,com.gigantic.clawee,NA, Clawee,,,,,,,0
+1462,com.google.android.apps.dynamite,NA, Google Docs/Sheets/Slides,,,,,,,0
+1463,com.grammarly.android.keyboard,NA, Grammarly Keyboard,,,,,,,0
+1464,com.klovercredit.android_app,NA, Klover,,,,,,,0
+1465,com.ninjakiwi.bloonstdbattles,NA, Bloons TD Battles,,,,,,,0
+1466,com.rover.android,NA, Rover,,,,,,,0
+1467,com.samsung.android.biometrics.app.setting,NA, Samsung Biometrics Settings,,,,,,,0
+1468,com.samsung.android.bixby.agent,NA, Bixby,,,,,,,0
+1469,com.samsung.android.spay,NA, Samsung Pay,,,,,,,0
+1470,com.samsung.ecomm,NA, Samsung Shop,,,,,,,0
+1471,com.samsung.knox.securefolder,NA, Secure Folder,,,,,,,0
+1472,com.stockx.stockx,NA, StockX,,,,,,,0
+1473,com.yousician.yousician,NA, Yousician,,,,,,,0
+1474,com.zydtech.hiboys2,NA, HiBoys,,,,,,,0
+1475,net.fieldagent,NA, Field Agent,,,,,,,0
+1476,org.dayup.stocks,NA, Stocks,,,,,,,0
+1477,app.qrcode,NA, QR Code Scanner,,,,,,,0
+1478,io.voodoo.crowdcity,NA, Crowd City,,,,,,,0
+1479,com.flipline.papasscooperiatogo,NA, Papa’s Scooperia To Go,,,,,,,0
+1480,com.ilbsoft.irelax,NA, iRelax,,,,,,,0
+1481,com.ios.partyio,NA, Party.io,,,,,,,0
+1482,com.neonplay.casualsoccerkick,NA, Casual Soccer Kick,,,,,,,0
+1483,com.brokenreality.planemerger.android,NA, Plane Merger,,,,,,,0
+1484,com.gpshopper.stadiumgoods,NA, Stadium Goods,,,,,,,0
+1485,com.mgc.runnergame,NA, Runner Game,,,,,,,0
+1486,com.sitrr.rktkjy,NA," (Unknown, context needed)",,,,,,,0
+1487,com.skl.voicememos,NA, Voice Memos,,,,,,,0
+1488,com.soundtrap.studioapp,NA, Soundtrap,,,,,,,0
+1489,com.wb.goog.mkx,NA, Mortal Kombat X,,,,,,,0
+1490,teovogel.deepfryer,NA, Deep Fryer,,,,,,,0
+1491,com.apple.SiriViewService,NA, Siri View Service,,,,,,,0
+1492,com.n3twork.legendary,NA, Legendary: Game of Heroes,,,,,,,0
+1493,com.scopely.yux,NA," (Unknown, context needed)",,,,,,,0
+1494,com.smallgiantgames.empires,NA, Empires & Puzzles,,,,,,,0
+1495,com.tether.solitaire.klondike,NA, Solitaire,,,,,,,0
+1496,com.colorpresets.colourtone,NA, ColourTone,,,,,,,0
+1497,com.dsw.MobileApp,NA, DSW,,,,,,,0
+1498,com.kachalobalashoff.iStudent,NA, iStudent,,,,,,,0
+1499,com.labarchives.labarchives,NA, LabArchives,,,,,,,0
+1500,com.meetcleo.cleo,NA, Cleo,,,,,,,0
+1501,iMorfix,NA, Morfix,,,,,,,0
+1502,com.tapcart.wxlOqVwNTv,NA, Tapcart,,,,,,,0
+1503,org.carnegielibrary.boopsie.clp,NA, Carnegie Library,,,,,,,0
+1504,com.mind.quiz.brain.out,NA, Brain Out,,,,,,,0
+1505,ai.medialab.mangamaster,NA, Manga Master,,,,,,,0
+1506,br.com.beholdstudios.knightspp,NA, Knights of Pen & Paper,,,,,,,0
+1507,com.AbyteEntertainment.DealersLifeFull,NA, Dealer’s Life,,,,,,,0
+1508,com.archison.randomadventureroguelikepro,NA, Random Adventure Roguelike,,,,,,,0
+1509,com.asiainno.uplive,NA, Uplive,,,,,,,0
+1510,com.bemyeyes.bemyeyes,NA, Be My Eyes,,,,,,,0
+1511,com.bitbybitstudios.fiz,NA, Fiz: Brewery Management Game,,,,,,,0
+1512,com.chipotle.ordering,NA, Chipotle,,,,,,,0
+1513,com.cmcm.live,NA, CMCM Live,,,,,,,0
+1514,com.codebrewgames.pocketcitygame,NA, Pocket City,,,,,,,0
+1515,com.earlymorningstudio.vampiresfall2,NA, Vampire’s Fall: Origins,,,,,,,0
+1516,com.factory608.DMSeng,NA," (Unknown, context needed)",,,,,,,0
+1517,com.gamesture.questland,NA, Questland,,,,,,,0
+1518,com.GDVGames.LoneWolfBiblio,NA, Lone Wolf,,,,,,,0
+1519,com.gianteagle.apps.perksapp,NA, Giant Eagle Perks,,,,,,,0
+1520,com.github.kolandroid.kol,NA, Kingdom of Loathing,,,,,,,0
+1521,com.happygoatstudios.bt,NA," (Unknown, context needed)",,,,,,,0
+1522,com.IfelseMedia.SwordAndGlory,NA, Sword and Glory,,,,,,,0
+1523,com.igg.android.lordsmobile,NA, Lords Mobile,,,,,,,0
+1524,com.kurechii.postknight,NA, Postknight,,,,,,,0
+1525,com.luckyday.app,NA, LuckyDay,,,,,,,0
+1526,com.naquatic.civclicker,NA, CivClicker,,,,,,,0
+1527,com.notabasement.mangarock.android.titan,NA, Manga Rock,,,,,,,0
+1528,com.oneq.askvert,NA, AskVert,,,,,,,0
+1529,com.outerminds.pixelings,NA, Pixelings,,,,,,,0
+1530,com.paynuver.mobile,NA, Paynuver,,,,,,,0
+1531,com.pinger.textfree,NA, TextFree,,,,,,,1
+1532,com.pixio.google.art.inc,NA, Art Inc.,,,,,,,0
+1533,com.pixio.google.evl,NA, EVL,,,,,,,0
+1534,com.ringapp,NA, Ring,,,,,,,0
+1535,com.samsung.android.oneconnect,NA, Samsung One Connect,,,,,,,0
+1536,com.stronglifts.app,NA, StrongLifts,,,,,,,0
+1537,com.sungardps.plus360home,NA, Plus 360 Home,,,,,,,0
+1538,com.superplanet.videogameguardians,NA, Video Game Guardians,,,,,,,0
+1539,com.tfgco.games.sports.free.tennis.clash,NA, Tennis Clash,,,,,,,0
+1540,com.tinybuildgames.punchclub,NA, Punch Club,,,,,,,0
+1541,com.tricksterarts.monolisk,NA, Monolisk,,,,,,,0
+1542,com.trueaxis.trueskate,NA, True Skate,,,,,,,0
+1543,com.usm.catanuniverse,NA, Catan Universe,,,,,,,0
+1544,com.wikia.singlewikia.bokunoheroacademia,NA, My Hero Academia Wiki,,,,,,,0
+1545,com.xabber.android,NA, Xabber,,,,,,,0
+1546,com.zynga.livepoker,NA, Zynga Poker,,,,,,,0
+1547,com.zynga.words3,NA, Words With Friends,,,,,,,0
+1548,de.shugasu.itrtg,NA," (Unknown, context needed)",,,,,,,0
+1549,droom.sleepIfUCan,NA, Sleep If U Can,,,,,,,0
+1550,eu.funventure.CosmosQuest,NA, Cosmos Quest,,,,,,,0
+1551,me.fstoke.MonsterShop,NA, Monster Shop,,,,,,,0
+1552,me.jckpn.cerilauncher,NA, Ceri Launcher,,,,,,,0
+1553,moonbear.PocketBuild,NA, Pocket Build,,,,,,,0
+1554,net.dinglisch.android.taskerm,NA, Tasker,,,,,,,0
+1555,net.kairosoft.android.depart_en,NA, Dream House Days,,,,,,,0
+1556,net.kairosoft.android.gamecenterdx,NA, Game Dev Story,,,,,,,0
+1557,net.kairosoft.android.kingdom_en,NA, Kingdom Adventurers,,,,,,,0
+1558,net.kairosoft.android.magazine_en,NA, Magazine Mogul,,,,,,,0
+1559,net.kairosoft.android.paddock_en,NA, Pocket Stables,,,,,,,0
+1560,net.kairosoft.android.school2_en,NA, School Story 2,,,,,,,0
+1561,net.kairosoft.android.ski_en,NA, Pocket Ski Resort,,,,,,,0
+1562,org.hostedgames.greattournament,NA, The Great Tournament,,,,,,,0
+1563,org.hostedgames.greattournament2,NA, The Great Tournament 2,,,,,,,0
+1564,org.hostedgames.lifeofamerc,NA, Life of a Mercenary,,,,,,,0
+1565,ru.hqVNwRrN.BmbDYYAVt,NA," (Unknown, context needed)",,,,,,,0
+1566,simplehat.clicker,NA, Clicker Game,,,,,,,0
+1567,uk.co.yakuto.TableTennisTouch,NA, Table Tennis Touch,,,,,,,0
+1568,me.rapchat.RapChat,NA, RapChat,,,,,,,0
+1569,com.adultdating.app,NA, Adult Dating,,,,,,,0
+1570,com.fwbadultfriendfinder.app,NA, Adult Friend Finder,,,,,,,0
+1571,com.localhookupdating.ios,NA, Local Hookup Dating,,,,,,,0
+1572,com.skype.skype,NA, Skype,,,,,,,0
+1573,com.superdreammake.wild,NA, SuperDream,,,,,,,0
+1574,com.meijimedia.MusicApp,NA, Music App,,,,,,,0
+1575,com.app.calculator.vault.hider,NA, Calculator Vault,,,,,,,0
+1576,com.bandlab.bandlab,NA, BandLab,,,,,,,0
+1577,com.bungieinc.bungiemobile,NA, Bungie,,,,,,,0
+1578,com.ddgames.newmusicplayer,NA, Music Player,,,,,,,0
+1579,com.downloadmp3.musicdownload.downloadmusoc.musicmp3,NA, Music Downloader,,,,,,,0
+1580,com.freemusicworld.app.musicdownloader,NA, Free Music World,,,,,,,0
+1581,com.HeyNau.MegaQuizGaming,NA, Mega Quiz Gaming,,,,,,,0
+1582,com.musicworld.app.mp3downloader,NA, Music World,,,,,,,0
+1583,com.netease.ddsfna,NA," (Unknown, context needed)",,,,,,,0
+1584,com.orangenose.trick,NA, Trick,,,,,,,0
+1585,com.pandora.android,NA, Pandora,,,,,,,0
+1586,com.plarium.raidlegends,NA, Raid: Shadow Legends,,,,,,,0
+1587,com.samsung.android.app.reminder,NA, Samsung Reminder,,,,,,,0
+1588,com.samsung.android.mobileservice,NA, Samsung Members,,,,,,,0
+1589,com.sec.android.app.popupcalculator,NA, Samsung Calculator,,,,,,,0
+1590,com.sec.android.daemonapp,NA, Samsung Weather,,,,,,,0
+1591,com.tubitv,NA, Tubi,,,,,,,0
+1592,com.voltage.lovestruck.ggl.en,NA, Lovestruck,,,,,,,0
+1593,com.yodo1.crossyroad,NA, Crossy Road,,,,,,,0
+1594,com.YoStarEN.Arknights,NA, Arknights,,,,,,,0
+1595,org.free.music.downloader.mp3.download,NA, Free Music Downloader,,,,,,,0
+1596,com.google.android.apps.tachyon,NA, Google Duo,,,,,,,0
+1597,com.google.android.apps.youtube.creator,NA, YouTube Creator Studio,,,,,,,0
+1598,com.sirius,NA, SiriusXM,,,,,,,0
+1599,com.zephyo.LivePortraitMaker,NA, Live Portrait Maker,,,,,,,0
+1600,com.zephyo.LivePortraitMakerM,NA, Live Portrait Maker M,,,,,,,0
+1601,and.audm,NA, Audm,,,,,,,0
+1602,app.follow.unfollow,NA, Follow Unfollow,,,,,,,0
+1603,au.com.shiftyjelly.pocketcasts,NA, Pocket Casts,,,,,,,0
+1604,co.hinge.app,NA, Hinge,,,,,,,0
+1605,com.airbnb.android,NA, Airbnb,,,,,,,0
+1606,com.android.certinstaller,NA, Certificate Installer,,,,,,,0
+1607,com.android.emergency,NA, Emergency,,,,,,,0
+1608,com.cbord.csg.mobileid,NA, Mobile ID,,,,,,,0
+1609,com.coffeebeanventures.easyvoicerecorder,NA, Easy Voice Recorder,,,,,,,0
+1610,com.coursicle.coursicle,NA, Coursicle,,,,,,,0
+1611,com.cube.arc.blood,NA, Blood,,,,,,,0
+1612,com.disney.datg.videoplatforms.android.abc,NA, ABC,,,,,,,0
+1613,com.efi.PrintMeGoogle,NA, PrintMe,,,,,,,0
+1614,com.FantasyPresidentClient,NA, Fantasy President,,,,,,,0
+1615,com.google.android.apps.docs.editors.slides,NA, Google Slides,,,,,,,0
+1616,com.guidebook.apps.UVAGuides.android,NA, UVA Guides,,,,,,,0
+1617,com.HBO,NA, HBO,,,,,,,0
+1618,com.hellotalk,NA, HelloTalk,,,,,,,0
+1619,com.instagram.followcop,NA, FollowCop,,,,,,,0
+1620,com.joinhandshake.student,NA, Handshake,,,,,,,0
+1621,com.medisafe.android.client,NA, Medisafe,,,,,,,0
+1622,com.motorola.motodisplay,NA, Moto Display,,,,,,,0
+1623,com.nytimes.android,NA, The New York Times,,,,,,,0
+1624,com.period.tracker.lite,NA, Period Tracker,,,,,,,0
+1625,com.socketwire.wordfinder,NA, Word Finder,,,,,,,0
+1626,com.softwaretofit.unscramble,NA, Unscramble,,,,,,,0
+1627,com.tabsina.bahaiprayers,NA, Bahá’í Prayers,,,,,,,0
+1628,com.taobao.taobao,NA, Taobao,,,,,,,0
+1629,com.tapingo,NA, Tapingo,,,,,,,0
+1630,com.technicosa.unjumble,NA, Unjumble,,,,,,,0
+1631,com.transloc.microtransit,NA, TransLoc,,,,,,,0
+1632,com.viki.android,NA, Viki,,,,,,,0
+1633,net.sharewire.gomobilepgh,NA, GoMobile PGH,,,,,,,0
+1634,com.chewy.chewy,NA, Chewy,,,,,,,0
+1635,com.tgc.sky.ios,NA, Sky: Children of the Light,,,,,,,0
+1636,com.bigbluebubble.singingmonsters.full,NA, My Singing Monsters,,,,,,,0
+1637,com.crossfield.goldfish,NA, Goldfish,,,,,,,0
+1638,com.delgeo.desygner,NA, Desygner,,,,,,,0
+1639,com.dramaton.squisher,NA, Squisher,,,,,,,0
+1640,com.fox.now,NA, FOX NOW,,,,,,,0
+1641,com.gamegrumps.ddadds,NA, Game Grumps,,,,,,,0
+1642,com.gameloft.android.ANMP.GloftIAHM,NA, Asphalt 8: Airborne,,,,,,,0
+1643,com.groundspeak.geocaching.intro,NA, Geocaching,,,,,,,0
+1644,com.hily.app,NA, Hily,,,,,,,0
+1645,com.htc.android.worldclock,NA, HTC World Clock,,,,,,,0
+1646,com.htc.captiveportallogin,NA, HTC Captive Portal Login,,,,,,,0
+1647,com.htc.launcher,NA, HTC Launcher,,,,,,,0
+1648,com.ist.quotescreator,NA, Quotes Creator,,,,,,,0
+1649,com.lambda_apps.insta_vid_dlder,NA, Insta Video Downloader,,,,,,,0
+1650,com.lgbt.qutie,NA, Qutie,,,,,,,0
+1651,com.micge.keyboard,NA, Micge Keyboard,,,,,,,0
+1652,com.ministrycentered.PlanningCenter,NA, Planning Center,,,,,,,0
+1653,com.nextgames.android.twd,NA, The Walking Dead: No Man’s Land,,,,,,,0
+1654,com.simejikeyboard,NA, Simeji Keyboard,,,,,,,0
+1655,com.takimi.android,NA, Takimi,,,,,,,0
+1656,com.thetransitapp.droid,NA, Transit,,,,,,,0
+1657,com.tivola.animals.home,NA, Animals Home,,,,,,,0
+1658,fatburningworkout.feeltheburn.burnfatworkout,NA, Fat Burning Workout,,,,,,,0
+1659,io.yoba.storysaverforinsta,NA, Story Saver for Instagram,,,,,,,0
+1660,me.tomhicks.asketchaday,NA, A Sketch A Day,,,,,,,0
+1661,photocollage.photoeditor.collagemaker,NA, Photo Collage Maker,,,,,,,0
+1662,si.fan.shawnmendes,NA, Shawn Mendes,,,,,,,0
+1663,la.freebird.Freebird,NA, Freebird,,,,,,,0
+1664,com.simplepractice.video,NA, SimplePractice Video,,,,,,,0
+1665,co.9count.wink,NA, Wink,,,,,,,0
+1666,com.adp.wiselymobile,NA, Wisely by ADP,,,,,,,0
+1667,com.appfever.vintage,NA, Vintage,,,,,,,0
+1668,com.apple.WorkflowUI.AddShortcutExtension,NA, Shortcuts (Apple),,,,,,,0
+1669,com.carmax.carmax,NA, CarMax,,,,,,,0
+1670,com.cec.racingworld,NA, Racing World,,,,,,,0
+1671,com.CitizensBank.MobileBankingApp,NA,Citizens Mobile banking ,,,,,,,0
+1672,com.game.jam.brain.puzzle.iq.challenge.test,NA, Brain Puzzle IQ Challenge,,,,,,,0
+1673,com.glu.stardomkim,NA, Stardom: Kim Kardashian,,,,,,,0
+1674,com.gnc.GNC,NA, GNC,,,,,,,0
+1675,com.google.Wallet.MessagesExtension,NA, Google Wallet,,,,,,,0
+1676,com.guitarcenter.mobile.app,NA, Guitar Center,,,,,,,0
+1677,com.healthspective.ios,NA, Healthspective,,,,,,,0
+1678,com.jellybtn.boardkings,NA, Board Kings,,,,,,,0
+1679,com.nttsolmare.game.ios.anime,NA, Anime Game,,,,,,,0
+1680,com.overdrive.wishbone,NA, Wishbone,,,,,,,0
+1681,com.petsmart.consumermobile,NA, PetSmart,,,,,,,0
+1682,com.placed.panel,NA, Placed Panel,,,,,,,0
+1683,com.quidd.quidd,NA, Quidd,,,,,,,0
+1684,com.receiptpalapp.iphoneapp,NA, ReceiptPal,,,,,,,0
+1685,com.SafeRoadsAlliance.RoadReady,NA, RoadReady,,,,,,,0
+1686,com.sheetz.sheetzretapp,NA, Sheetz,,,,,,,0
+1687,com.snagajob.iphoneclient,NA, Snagajob,,,,,,,0
+1688,com.tg17.subjectud,NA, Subjectud,,,,,,,0
+1689,com.trickybricky,NA, Tricky Bricky,,,,,,,0
+1690,com.yunbu.brain.boom,NA, Brain Boom,,,,,,,0
+1691,com.apple.exchangesyncexpress.framework.EASOAuthService,NA, Exchange Sync (Apple),,,,,,,0
+1692,com.autodesk.ios.pixlrexpressplus,NA, Pixlr Express+,,,,,,,0
+1693,com.moocho.pittfuel,NA, PittFuel,,,,,,,0
+1694,com.rev.callrecorder,NA, Call Recorder,,,,,,,0
+1695,com.TapMediaLtd.VoiceRecorderFREE,NA, Voice Recorder,,,,,,,0
+1696,xyz.starship.projectmercury,NA, Project Mercury,,,,,,,0
+1697,com.ChillyRoom.DungeonShooter,NA, Dungeon Shooter,,,,,,,0
+1698,com.chucklefish.stardewvalley,NA, Stardew Valley,,,,,,,0
+1699,com.duolingo.tinycards,NA, Tinycards by Duolingo,,,,,,,0
+1700,com.google.android.apps.walletnfcrel,NA, Google Wallet,,,,,,,0
+1701,com.pnc.ecommerce.mobile,NA, PNC Mobile,,,,,,,0
+1702,com.redfin.android,NA, Redfin,,,,,,,0
+1703,com.supercell.clashofclans,NA, Clash of Clans,,,,,,,0
+1704,com.tinytitanstudios.kfz,NA, KFZ,,,,,,,0
+1705,com.wb.goog.dcuniverse,NA, DC Universe,,,,,,,0
+1706,gov.nasa,NA, NASA,,,,,,,0
+1707,com.evilapples.evilapples,NA, Evil Apples,,,,,,,0
+1708,com.fungames.tennisclash,NA, Tennis Clash,,,,,,,0
+1709,com.pandora,NA, Pandora,,,,,,,0
+1710,org.socratic.Socratic,NA, Socratic,,,,,,,0
+1711,air.kengineairpro,NA, KEngine Air Pro,,,,,,,0
+1712,by.lsdsl.gta.imgtool,NA, GTA IMG Tool,,,,,,,0
+1713,ca.vsong.scpreader,NA, SCP Reader,,,,,,,0
+1714,com.appblockgames.freecraftexploration,NA, Free Craft Exploration,,,,,,,0
+1715,com.appidea.pixelswordfishio,NA, Pixel Swordfish,,,,,,,0
+1716,com.baek.Gatalk_market,NA, Gatalk,,,,,,,0
+1717,com.besome.sketch,NA, Sketch,,,,,,,0
+1718,com.bigfishgames.gamesappAndroidGoogleFree,NA, Big Fish Games,,,,,,,0
+1719,com.blogspot.newapphorizons.fakegps,NA, Fake GPS,,,,,,,0
+1720,com.cardinalcommerce.greendot,NA, Green Dot,,,,,,,0
+1721,com.charles.bewlouhaqw,NA," (Unknown, context needed)",,,,,,,0
+1722,com.citizensbank.androidapp,NA, Citizens Bank,,,,,,,0
+1723,com.clickano.auto.matiqueno1,NA," (Unknown, context needed)",,,,,,,0
+1724,com.craftgamedev.cleomodmaster,NA, Cleo Mod Master,,,,,,,0
+1725,com.domobile.game.evolution,NA, Evolution,,,,,,,0
+1726,com.eastedgestudios.ehbeeroyale,NA, Beer Royale,,,,,,,0
+1727,com.etermax.apalabrados.lite,NA, Apalabrados,,,,,,,0
+1728,com.inscode.autoclicker,NA, Auto Clicker,,,,,,,0
+1729,com.intuit.mobile.taxcaster,NA, TaxCaster,,,,,,,0
+1730,com.intuit.turbo,NA, TurboTax,,,,,,,0
+1731,com.intuit.turbotax.mobile,NA, TurboTax Mobile,,,,,,,0
+1732,com.ionicframework.tornv2301860,NA, Torn,,,,,,,0
+1733,com.ismaker.android.simsimi,NA, SimSimi,,,,,,,0
+1734,com.keiwando.Evolution,NA, Evolution,,,,,,,0
+1735,com.kissapp.appmodsminecraft,NA, Minecraft Mods,,,,,,,0
+1736,com.lyxoto.master.forminecraftpe,NA, Minecraft PE Master,,,,,,,0
+1737,com.mwm.drum,NA, Drum,,,,,,,0
+1738,com.mygamesisland.is.snake.mlg.edition,NA, Snake MLG Edition,,,,,,,0
+1739,com.percent.royaldice,NA, Royal Dice,,,,,,,0
+1740,com.putnoczki.CharacterKeep,NA, Character Keep,,,,,,,0
+1741,com.radiocom,NA, Radio.com,,,,,,,0
+1742,com.rarlab.rar,NA, RAR,,,,,,,0
+1743,com.rise.automatic.autoclicker.clicker,NA, Auto Clicker,,,,,,,0
+1744,com.stash.stashinvest,NA, Stash,,,,,,,0
+1745,com.supersolid.snake,NA, Snake,,,,,,,0
+1746,com.ultimategamestudio.mcpecenter.mods,NA, MCPE Center Mods,,,,,,,0
+1747,com.utplus.cosmicwars,NA, Cosmic Wars,,,,,,,0
+1748,com.vinforlabteam.vmod,NA, VMod,,,,,,,0
+1749,com.wb.goog.scribbleremix,NA, Scribble Remix,,,,,,,0
+1750,com.zuuks.bus.simulator.ultimate,NA,bus simulator ,,,,,,,0
+1751,com.zynga.words,NA, Words With Friends,,,,,,,0
+1752,io.utk.android,NA, UTK,,,,,,,0
+1753,mcpe.mods.modsforminecraft.lari,NA, Minecraft Mods,,,,,,,0
+1754,me.nanoleaf.nanoleaf,NA, Nanoleaf,,,,,,,0
+1755,name.antonsmirnov.android.cppdroid,NA, CppDroid,,,,,,,0
+1756,ru.GgxhSJXH.NtyThNDLX,NA," (Unknown, context needed)",,,,,,,0
+1757,web.dassem.livewebsiteeditorfree,NA, Live Website Editor,,,,,,,0
+1758,com.fcagroup.us.nguaa,NA, NGUA,,,,,,,0
+1759,com.metamoki.weed,NA, Weed,,,,,,,0
+1760,com.supershuttle.execucar,NA, ExecuCar,,,,,,,0
+1761,com.tencent.ig,NA, PUBG Mobile,,,,,,,0
+1762,app.beerbuddy.ios,NA, BeerBuddy,,,,,,,0
+1763,se.dagsappar.beertime,NA, BeerTime,,,,,,,0
+1764,com.apartmentlist.mobile,NA, Apartment List,,,,,,,0
+1765,com.aws.android,NA, AWS,,,,,,,0
+1766,com.care.android.careview.providerapp,NA, CareView,,,,,,,0
+1767,com.handmark.expressweather,NA, ExpressWeather,,,,,,,0
+1768,com.Hyatt.hyt,NA, Hyatt,,,,,,,0
+1769,com.icemediacreative.timetable,NA, Timetable,,,,,,,0
+1770,com.key.android,NA, Key,,,,,,,0
+1771,com.newtonmobile.eatnpark,NA, Eat’n Park,,,,,,,0
+1772,com.sec.vsim.ericssonnsds.webapp,NA, Ericsson NSDS,,,,,,,0
+1773,com.shutterfly,NA, Shutterfly,,,,,,,0
+1774,com.thredup.android,NA, thredUP,,,,,,,0
+1775,com.trulia.android,NA, Trulia,,,,,,,0
+1776,com.vitotechnology.StarWalk2Free,NA, Star Walk 2,,,,,,,0
+1777,com.weather.Weather,NA, Weather,,,,,,,0
+1778,com.zumper.rentals,NA, Zumper,,,,,,,0
+1779,smsr.com.cw,NA," (Unknown, context needed)",,,,,,,0
+1780,com.ensparkle.ensparkle,NA, Ensparkle,,,,,,,0
+1781,com.tophat.Top-Hat,NA,Hat - Top Hat,,,,,,,0
+1782,com.youate.ate,NA, YouAte,,,,,,,0
+1783,air.com.flipline.papaspancakeriatogo,NA, Papa’s Pancakeria To Go,,,,,,,0
+1784,ata.squid.pimd,NA, PIMD,,,,,,,0
+1785,biz.trans,NA, Trans,,,,,,,0
+1786,co.spoonme,NA, SpoonMe,,,,,,,0
+1787,com.adhoclabs.burner,NA, Burner,,,,,,,0
+1788,com.antiland,NA, Antiland,,,,,,,0
+1789,com.ariel.zanyants,NA, Zanyants,,,,,,,0
+1790,com.beaverpro.beaverpro,NA, BeaverPro,,,,,,,0
+1791,com.best.video.download,NA, Video Downloader,,,,,,,0
+1792,com.boo.bmoji,NA, Bmoji,,,,,,,0
+1793,com.chatgum.chat.rooms,NA, ChatGum,,,,,,,0
+1794,com.cherryteam.cherry,NA, Cherry,,,,,,,0
+1795,com.classdojo.android,NA, ClassDojo,,,,,,,0
+1796,com.clearchannel.iheartradio.controller,NA, iHeartRadio,,,,,,,0
+1797,com.duige.hzw.multilingual,NA, Multilingual,,,,,,,0
+1798,com.evilapples.app,NA, Evil Apples,,,,,,,0
+1799,com.eyelid.steady,NA, Steady,,,,,,,0
+1800,com.fireteam.firelight,NA, Firelight,,,,,,,0
+1801,com.genius.halfblood,NA, Halfblood,,,,,,,0
+1802,com.match.zhayan,NA, Zhayan,,,,,,,0
+1803,com.maverick.lobby,NA, Maverick Lobby,,,,,,,0
+1804,com.nttsolmare.game.android.obeyme,NA, Obey Me!,,,,,,,0
+1805,com.okcupid.okcupid,NA, OkCupid,,,,,,,0
+1806,com.parentskit.app,NA, ParentsKit,,,,,,,0
+1807,com.PGE.WolfSimEvo,NA, Wolf Sim Evo,,,,,,,0
+1808,com.playrix.homescapes,NA, Homescapes,,,,,,,0
+1809,com.rexetstudio.prophuntportable,NA, Prop Hunt,,,,,,,0
+1810,com.streamlabs,NA, Streamlabs,,,,,,,0
+1811,com.supercell.hayday,NA, Hay Day,,,,,,,0
+1812,com.td.transdr,NA, Transdr,,,,,,,0
+1813,com.tencent.wecomic,NA, WeComic,,,,,,,0
+1814,com.textmeinc.textme3,NA, TextMe,,,,,,,0
+1815,com.ts.transer,NA, Transer,,,,,,,0
+1816,com.vidku.app.flipgrid,NA, Flipgrid,,,,,,,0
+1817,com.vimeocreate.videoeditor.moviemaker,NA, Vimeo Create,,,,,,,0
+1818,dotsoa.anonymous.chat,NA, Anonymous Chat,,,,,,,1
+1819,kr.jungrammer.ranchat,NA, RanChat,,,,,,,1
+1820,kr.jungrammer.randomchat,NA, Random Chat,,,,,,,1
+1821,ly.omegle.android,NA, Omegle,,,,,,,1
+1822,traveldating.findtrippartners,NA, Travel Dating,,,,,,,0
+1823,au.org.goodonyou.goodonyou,NA, Good On You,,,,,,,0
+1824,cn.danatech.xingseus,NA, Xingseus,,,,,,,0
+1825,co.grove.android,NA, Grove,,,,,,,0
+1826,com.airwatch.androidagent,NA, AirWatch,,,,,,,0
+1827,com.alliancelaundry.app.speedqueen,NA, Speed Queen,,,,,,,0
+1828,com.alt.goodmorning,NA, Good Morning,,,,,,,0
+1829,com.americanexpress.android.acctsvcs.us,NA, American Express,,,,,,,0
+1830,com.bearpty.talkcampus,NA, TalkCampus,,,,,,,1
+1831,com.bp.mobile.bpme.us,NA, BPme,,,,,,,0
+1832,com.butterflyray.DrawingGrid,NA, Drawing Grid,,,,,,,0
+1833,com.chickfila.cfaflagship,NA, Chick-fil-A,,,,,,,0
+1834,com.clipwiregames.bingostory,NA, Bingo Story,,,,,,,0
+1835,com.codigames.idle.prison.empire.manager.tycoon,NA, Idle Prison Empire,,,,,,,0
+1836,com.costarastrology,NA, Co–Star Astrology,,,,,,,0
+1837,com.creditkarma.mobile,NA, Credit Karma,,,,,,,0
+1838,com.d2l.brightspace.student.android,NA, Brightspace,,,,,,,0
+1839,com.deuscraft.TurboTeam,NA, Turbo Team,,,,,,,0
+1840,com.dinnerly,NA, Dinnerly,,,,,,,0
+1841,com.dragonplus.cookingfrenzy,NA, Cooking Frenzy,,,,,,,0
+1842,com.ecobee.athenamobile,NA, ecobee,,,,,,,0
+1843,com.everydollar.android,NA, EveryDollar,,,,,,,0
+1844,com.everyplate.android,NA, EveryPlate,,,,,,,0
+1845,com.experian.android,NA, Experian,,,,,,,0
+1846,com.fidelity.wi.activity,NA, Fidelity,,,,,,,0
+1847,com.fouronetwo.foodrescue,NA, Food Rescue,,,,,,,0
+1848,com.gamefirst.free.strategy.god.simulator,NA, God Simulator,,,,,,,0
+1849,com.google.android.apps.fitness,NA, Google Fit,,,,,,,0
+1850,com.google.android.apps.health.research.studies,NA, Google Health Studies,,,,,,,0
+1851,com.google.android.apps.magazines,NA, Google News,,,,,,,0
+1852,com.google.android.apps.paidtasks,NA, Google Opinion Rewards,,,,,,,0
+1853,com.google.android.apps.wellbeing,NA, Digital Wellbeing,,,,,,,0
+1854,com.halfbrick.fruitninjax,NA, Fruit Ninja,,,,,,,0
+1855,com.hellofresh.androidapp,NA, HelloFresh,,,,,,,0
+1856,com.hp.printercontrol,NA, HP Smart,,,,,,,0
+1857,com.hualai,NA, Hualai,,,,,,,0
+1858,com.ikea.kompis,NA, IKEA Kompis,,,,,,,0
+1859,com.involvio.chatham.src,NA, Chatham,,,,,,,0
+1860,com.kickstarter.kickstarter,NA, Kickstarter,,,,,,,0
+1861,com.kk.braincode,NA, Brain Code,,,,,,,0
+1862,com.logmein.gotowebinar,NA, GoToWebinar,,,,,,,0
+1863,com.matchington.mansion,NA, Matchington Mansion,,,,,,,0
+1864,com.microsoft.office.officehubrow,NA, Office,,,,,,,0
+1865,com.moneyracestudios.moneyrace2,NA, Money Race 2,,,,,,,0
+1866,com.olo.piada,NA, Piada,,,,,,,0
+1867,com.parkhurstdining.hellobistro,NA, Hello Bistro,,,,,,,0
+1868,com.PSECUMobilePlus.com,NA, PSE Mobile,,,,,,,0
+1869,com.quip.astor.android,NA, Quip,,,,,,,0
+1870,com.red.business,NA, Red Business,,,,,,,0
+1871,com.rfi.sams.android,NA, SAMS,,,,,,,0
+1872,com.sephora,NA, Sephora,,,,,,,0
+1873,com.shipt.groceries,NA, Shipt,,,,,,,0
+1874,com.sourceapp.bru,NA, Bru,,,,,,,0
+1875,com.starbucksglobalacademy.courses,NA, Starbucks Global Academy,,,,,,,0
+1876,com.studentbeans.studentbeans,NA, Student Beans,,,,,,,0
+1877,com.thuzi.firstwatch,NA, First Watch,,,,,,,0
+1878,com.toyota.oneapp,NA, Toyota,,,,,,,0
+1879,com.tplink.kasa_android,NA, Kasa,,,,,,,0
+1880,com.tplink.tether,NA, Tether,,,,,,,0
+1881,com.tungnv.pdsupport,NA, PD Support,,,,,,,0
+1882,com.tuya.smartlife,NA, Smart Life,,,,,,,0
+1883,com.upmc.enterprises.myupmc,NA, MyUPMC,,,,,,,0
+1884,com.uvnv.mintsim,NA, MintSim,,,,,,,0
+1885,com.vitalsource.bookshelf,NA, Bookshelf,,,,,,,0
+1886,com.wahlburgers.app,NA, Wahlburgers,,,,,,,0
+1887,com.washingtonpost.android,NA, The Washington Post,,,,,,,0
+1888,com.youneedabudget.evergreen.app,NA, YNAB,,,,,,,0
+1889,de.smuttlewerk.fleetbattle,NA, Fleet Battle,,,,,,,0
+1890,ent.starbucks.wfm.sbuxteamworks,NA, Starbucks Teamworks,,,,,,,0
+1891,gbis.gbandroid,NA, GBIS,,,,,,,0
+1892,gov.pa.covidtracker,NA, COVID Tracker,,,,,,,0
+1893,org.mygreatlakes.borrower.mobile,NA, Great Lakes,,,,,,,0
+1894,us.crema.vera,NA, Vera,,,,,,,0
+1895,com.greatclips.greatclipsapp,NA, Great Clips,,,,,,,0
+1896,com.littlealchemy2,NA, Little Alchemy 2,,,,,,,0
+1897,org.redcross.blood,NA, Red Cross Blood,,,,,,,0
+1898,com.android.egg,NA, Android Easter Egg,,,,,,,0
+1899,com.boltrend.disgaea.en,NA, Disgaea RPG,,,,,,,0
+1900,com.google.android.apps.recorder,NA, Google Recorder,,,,,,,0
+1901,com.jobrapp.jobr,NA, Jobr,,,,,,,0
+1902,com.jrtstudio.AnotherMusicPlayer,NA, Another Music Player,,,,,,,0
+1903,com.keylesspalace.tusky,NA, Tusky,,,,,,,0
+1904,com.niksoftware.snapseed,NA, Snapseed,,,,,,,0
+1905,com.pokedex_v1,NA, Pokédex,,,,,,,0
+1906,com.serve.mobile,NA, Serve,,,,,,,0
+1907,com.talzz.datadex,NA, DataDex,,,,,,,0
+1908,com.usps.myusps_mobile_app_android,NA, USPS Mobile,,,,,,,0
+1909,com.wissamhbooss.colorpicker,NA, Color Picker,,,,,,,0
+1910,com.android.launcher3,NA, Android Launcher,,,,,,,0
+1911,io.voodoo.paperio,NA,Crowd City,,,,,,,0
+1912,co.bazaart.app,NA, Bazaart,,,,,,,0
+1913,com.EdwardPetrak.WidgetPet,NA, WidgetPet,,,,,,,0
+1914,com.kwalee.artchallenge,NA, Art Challenge,,,,,,,0
+1915,com.thriftbooks.mobileapp,NA, ThriftBooks,,,,,,,0
+1916,com.webnovel.reader,NA, Webnovel,,,,,,,0
+1917,io.blackcandy.archersio,NA, Archers.io,,,,,,,0
+1918,com.stitchfix.StitchFix-Appstore,NA,Appstore - Stitch Fix,,,,,,,0
+1919,com.85cbakerycafe.app,NA, 85°C Bakery Cafe,,,,,,,0
+1920,com.roaringsky.dineoncampus,NA, Dine On Campus,,,,,,,0
+1921,com.wahidpayne.Charts,NA, Charts,,,,,,,0
+1922,com.coupons.coupons,NA, Coupons,,,,,,,0
+1923,com.ibotta.Ibotta,NA, Ibotta,,,,,,,0
+1924,com.dayforce.Dayforce,NA, Dayforce,,,,,,,0
+1925,com.qdoba.qdoba,NA, Qdoba,,,,,,,0
+1926,com.zaful.Zaful,NA, Zaful,,,,,,,0
+1927,com.southwest.iphoneprod,NA, Southwest Airlines,,,,,,,0
+1928,com.gotv.crackle.handset,NA, Crackle,,,,,,,0
+1929,com.lge.bluetoothsetting,NA, LG Bluetooth Settings,,,,,,,0
+1930,com.lge.ime,NA, LG Keyboard,,,,,,,0
+1931,com.lge.privacylock,NA, LG Privacy Lock,,,,,,,0
+1932,com.lge.sizechangable.weather.platform,NA, LG Weather,,,,,,,0
+1933,com.luni.android.fitnesscoach.app,NA, Fitness Coach,,,,,,,0
+1934,com.myhomescreen.fitness,NA, Fitness,,,,,,,0
+1935,com.wordgame.puzzle.resort.story,NA, Word Game Resort Story,,,,,,,0
+1936,io.hexman.xiconchanger,NA, X Icon Changer,,,,,,,0
+1937,org.nanobit.hollywood,NA, Hollywood Story,,,,,,,0
+1938,com.agilebits.onepassword-ios.autofill-extension,NA,ios.autofill-extension - 1Password,,,,,,,0
+1939,dev.genesy.animalcrossingnhguide,NA, Animal Crossing Guide,,,,,,,0
+1940,com.djit.apps.stream,NA, Stream,,,,,,,0
+1941,com.ea.gp.simsmobile,NA, The Sims Mobile,,,,,,,0
+1942,com.ebooksstudio.free.books,NA, Free Books,,,,,,,0
+1943,com.thelostproject.dreams,NA, Dreams,,,,,,,0
+1944,com.plutoniumapps.gradebuddy,NA, GradeBuddy,,,,,,,0
+1945,com.punchh.moes,NA, Moe’s,,,,,,,0
+1946,com.giantc.mobile,NA, Giant,,,,,,,0
+1947,com.2ksports.nba2km,NA, NBA 2K Mobile,,,,,,,0
+1948,com.ea.ios.maddennfl21mobile,NA, Madden NFL 21 Mobile,,,,,,,0
+1949,com.nomadicdigitals.footballwallpapers,NA, Football Wallpapers,,,,,,,0
+1950,com.inkboard.animatic,NA, Animatic,,,,,,,0
+1951,com.reference.dictionary.dictionary,NA, Dictionary,,,,,,,0
+1952,com.even.Harmony,NA, Harmony,,,,,,,0
+1953,co.benx.weverse,NA, Weverse,,,,,,,0
+1954,com.autumn.skullgirls,NA, Skullgirls,,,,,,,0
+1955,com.chaninicholas.chaniapp,NA, Chaniapp,,,,,,,0
+1956,com.dorian.playtogether,NA, PlayTogether,,,,,,,0
+1957,com.epal.epal,NA, Epal,,,,,,,0
+1958,com.flippintoast.Mafia,NA, Mafia,,,,,,,0
+1959,com.gametimeunited.gametime,NA, Gametime,,,,,,,0
+1960,com.highcore.hoopstars,NA, Hoopstars,,,,,,,0
+1961,com.igg.ios.scriptsuntoldsecretsen,NA, Scripts Untold Secrets,,,,,,,0
+1962,com.lightster.app,NA, Lightster,,,,,,,0
+1963,com.lovinga.ios,NA, Lovinga,,,,,,,0
+1964,com.lunime.gachaclub,NA, Gacha Club,,,,,,,0
+1965,com.madoGames.BatDoll,NA, BatDoll,,,,,,,0
+1966,com.madogames.moonstory,NA, Moon Story,,,,,,,0
+1967,com.mindswarms.responderApp,NA, Responder App,,,,,,,0
+1968,com.mmm.projectcarmen,NA, Project Carmen,,,,,,,0
+1969,com.mydramalist.app,NA, MyDramaList,,,,,,,0
+1970,com.navercorp.globalv,NA, GlobalV,,,,,,,0
+1971,com.nttsolmare.game.ios.obeyme,NA, Obey Me!,,,,,,,0
+1972,com.outfit7.talkingtomgoldrun,NA, Talking Tom Gold Run,,,,,,,0
+1973,com.pearsoned.poptropica,NA, Poptropica,,,,,,,0
+1974,com.pixelwarestudio.moonscloset,NA, Moon’s Closet,,,,,,,0
+1975,com.rollic.tanglemaster3d,NA, Tangle Master 3D,,,,,,,0
+1976,com.sugastudio.homedecor,NA, Home Decor,,,,,,,0
+1977,com.thepattern.thepattern,NA, The Pattern,,,,,,,0
+1978,com.tozelabs.tvshowtime,NA, TVShow Time,,,,,,,0
+1979,com.whatnot,NA, Whatnot,,,,,,,0
+1980,com.alibaba.sourcing,NA, Alibaba Sourcing,,,,,,,0
+1981,com.chilistogo.prod,NA, Chili’s To Go,,,,,,,0
+1982,com.google.bubblecharacters,NA, Bubble Characters,,,,,,,0
+1983,com.naraorganics.nara,NA, Nara Organics,,,,,,,0
+1984,com.publix.delivery,NA, Publix Delivery,,,,,,,0
+1985,com.publix.main,NA, Publix,,,,,,,0
+1986,com.shutterfly.ShutterflyUploader,NA, Shutterfly Uploader,,,,,,,0
+1987,com.thorley.FourMoms.test,NA, Four Moms,,,,,,,0
+1988,com.tijuanaflats.app,NA, Tijuana Flats,,,,,,,0
+1989,com.usablenet.walgreens,NA, Walgreens,,,,,,,0
+1990,com.wendys.NutritionTool,NA, Wendy’s Nutrition Tool,,,,,,,0
+1991,com.ziprecruiter.jobs,NA, ZipRecruiter,,,,,,,0
+1992,net.surveysonthego.surveysonthego,NA, Surveys On The Go,,,,,,,0
+1993,com.aceable.AceableDrivingDE,NA, Aceable,,,,,,,0
+1994,com.apple.ReminderKitUI.ReminderCreationViewService,NA, Apple Reminders,,,,,,,0
+1995,com.konylabs.capitalone,NA, Capital One,,,,,,,0
+1996,com.livenation.LiveNation,NA, Live Nation,,,,,,,0
+1997,com.lolli.Lolli,NA, Lolli,,,,,,,0
+1998,com.motorola.timeweatherwidget,NA, Motorola Time & Weather Widget,,,,,,,0
+1999,com.sonic.sonicdrivein,NA, Sonic Drive-In,,,,,,,0
+2000,com.tumblr.tumblr.share,NA, Tumblr Share,,,,,,,0
+2001,com.Whataburger.Production,NA, Whataburger,,,,,,,0
+2002,exodus-movement.exodus,NA,Exodus,,,,,,,0
+2003,net.yqtrack.app,NA, YQTrack,,,,,,,0
+2004,com.einnovation.temu,NA, Temu,,,,,,,0
+2005,com.genius.vampirehostclub,NA, Vampire Host Club,,,,,,,0
+2006,com.overdrive.mobile.android.libby,NA, Libby by OverDrive,,,,,,,0
+2007,com.tracfone.tracfone.myaccount,NA, TracFone My Account,,,,,,,0
+2008,com.ust.sheetzretapp,NA, Sheetz,,,,,,,0
+2009,com.vrelnir.DegreesOfLewdity,NA, Degrees of Lewdity,,,,,,,0
+2010,jp.ne.ibis.ibispaintx.app,NA, Ibis Paint X,,,,,,,0
+2011,uk.org.stem4.calmharm,NA, Calm Harm,,,,,,,0
+2012,com.fitnow.loseit,83,Fitnow,nonsocial,diet/exercise,,-,PREDICT_MAPS,,NA
+2013,com.myfitnesspal.mfp,301,MyFitnessPal,nonsocial,diet/exercise,,-,PREDICT_MAPS,,NA
+2014,com.Peloton.PelotonApp,268,Peloton,nonsocial,diet/exercise,,-,additional_added_for_maps,,NA
+2015,,NA,,,,,,,,NA
+2016,com.Funimation.FunimationNow,NA, Funimation,,,,,,,NA
+2017,com.valvesoftware.Steam,NA,Steam,nonsocial,game,,,additional_added_for_maps,,NA
+2018,com.fanatee.stop,64,Stop,nonsocial,game,,_,PREDICT_ONLY,,NA
+2019,,NA,,,,,,,,NA
+2020,com.fullfat.textordie,188,Text or Die,nonsocial,game,,-,PREDICT_ONLY,,NA
+2021,,NA,,,,,,,,NA
+2022,,NA,,,,,,,,NA
+2023,ru.iamtagir.tla4,336,that level again,nonsocial,game,,-,additional_added_for_maps,,NA
+2024,com.blockchainvault,NA, Blockchain Vault,,,,,,,NA

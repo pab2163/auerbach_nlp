@@ -1,0 +1,519 @@
+---
+title: "Preprocessing Pipeline"
+author: "Isaac Treves, Lilian Li, Paul Bloom,..."
+date: "2025-02-11"
+output: html_document
+---
+# This preprocessing invovlves python
+# you can do everything except optional POS tagging without setting up an environment (not in SL manuscript)
+# otherwise, you need an environment with python 3.9
+
+# at present, cleaning repeated special characters (see end) to remove more searches and nonsensical messages, but not ellipses. 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(rwhatsapp)
+library(reticulate)
+library(cleanNLP)
+library(qdapRegex)
+library(readr)
+
+# for isaac to run optional preprocessing
+#use_condaenv(condaenv = "py39", conda = "/opt/anaconda3/bin/conda")
+```
+
+
+
+# Load data
+Combine all raw key input files - possible problems , if hidden files in directory
+
+
+```{r data loading,echo=FALSE,message=FALSE}
+dir=""
+files = list.files(path = dir)
+
+
+combine_files = function(dir, fname) {
+  id = as.numeric(fname)
+  crnt_path = paste0(dir,"/",fname)
+  data = list.files(path = crnt_path, pattern = "deidentified_hashed_language.csv", recursive = T)
+  check<-data %>%
+    map_df(~read_csv(paste0(crnt_path,"/",.)))
+
+  check<-check %>%
+    mutate(subjectID = id) %>%
+    select(subjectID, tm_message_start, tm_message_end, strinput_text, id_app, cat_tz)
+}
+# watch out for ghost files in directories if you get any errors ,from terminal you can do ls -a
+
+safeFUN = safely(.f = combine_files)
+combined = files %>%
+  map_df(~safeFUN(dir = dir, fname = .)) %>%
+  .$result %>%
+  arrange(subjectID, tm_message_start)
+
+# combined<-files%>%map_df(~combine_files(dir=dir,fname=.)) %>% .$result %>% arrange(subjectID,tm_message_start)
+head(combined)
+#rm(dir,files)
+```
+#Optional checking of language sufficiency (>15 days of data) and demographics 
+```{r,echo=FALSE}
+
+load("demos.Rda") # not supplied 
+combinedcheck<-combined %>% mutate(day= format(tm_message_start, "%Y-%m-%d"))
+combinedcheck<-combinedcheck %>% group_by(subjectID) %>% summarize(days=length(unique(day)),message=length(unique(tm_message_start)))
+combinedcheck$WeeksLanguageSufficient=combinedcheck$days>15
+selfreport<-merge(selfreport,combinedcheck,by.x="ID",by.y="subjectID",all.x=TRUE)
+rm(selfreport_itemwise, selfreport_long)
+```
+
+```{r,echo=FALSE}
+table(selfreport$sex,selfreport$WeeksLanguageSufficient,useNA = "ifany")
+table(selfreport$GROUP,selfreport$WeeksLanguageSufficient,useNA = "ifany")
+#t.test(selfreport$age~selfreport$WeeksLanguageSufficient)
+#t.test(selfreport$age~selfreport$WeeksLanguageSufficient)
+
+```
+# Check for null app labels 
+mostly a problem for 1100s, so we should make sure not to filter based on social or not
+``` {r,echo=FALSE} 
+
+sum(combined$id_app == "<null>")/length(combined$id_app)*100  
+check = combined %>%
+  group_by(subjectID) %>%
+  summarise(n = n(), withoutApp = sum(id_app == "<null>")/length(id_app)*100) %>%
+  ungroup() 
+```
+
+# Check if additional apps and label with social media
+```{r} 
+socialMedia = read_csv("apps_list_withai.csv")
+#appsCleaned = readxl::read_excel("applications_check.xlsx")
+appsCurrentData = combined %>% distinct(id_app) %>% filter(id_app != "<null>") 
+
+appsMore<-appsCurrentData%>%filter(!(appsCurrentData$id_app %in% intersect(appsCurrentData$id_app,socialMedia$ID)))
+
+#appsSocialMedia=socialMedia$ID[socialMedia$is_social_media==1];
+#combined<-combined %>% mutate(socialOrNot=ifelse(id_app %in% appsSocialMedia,1,0))
+combined <- merge(combined,socialMedia %>% select(ID,Name,Social.or.Nonsocial,is_social_media),by.x="id_app", by.y="ID",all.x=T)
+combined<-combined %>% mutate(socialOrNot=ifelse(is_social_media==1,1,0)) %>% select(-is_social_media) %>% rename(app_name=Name) 
+rm(socialMedia)
+
+#write_csv(appsMore, "appsMore.csv")
+```
+remove lock screen
+```{r}
+combined <- combined %>% filter(id_app != "com.htc.lockscreen" & id_app != "com.android.systemui")
+combined <- combined %>% filter(app_name != "Dialer" & app_name != "OnePlus Dialer" & app_name != "Contacts")
+
+
+
+```
+
+# beginning cleaning
+changed the loading of groovy and pls 
+``` {r} 
+combined_save=combined # for putting aside combined in case you want to adjust preprocessing
+device = read_csv("device list") # get device list , not provided
+
+
+android = device %>% filter(OS != "iOS") 
+
+# remove empty rows and unreadable characters "\ufffc"
+combined = combined %>%
+  arrange(subjectID, tm_message_start) %>%
+  mutate(strinput_text = gsub("\ufffc","",strinput_text)) %>%
+  filter(!(is.na(strinput_text) | strinput_text == "")) 
+
+
+emojis = emojis 
+
+# ;-; crying face
+
+
+
+tmp = combined %>% filter(nchar(strinput_text) == 1) %>% left_join(emojis, by = c("strinput_text" = "emoji")) # remove everything except for emoji
+
+# remove strings with only 1 character other than emojis
+combined = combined %>%
+  filter(nchar(strinput_text) > 1 | strinput_text %in% emojis$emoji)
+
+# identify system generated texts: common messages across pts
+## only seems to appear in android devices except discord commands
+#sys.txt = read_csv("EARS_language_dictionaries/text_msg_exclusion.csv")
+
+tmp = combined %>%
+  count(strinput_text) %>%
+  ungroup() %>%
+  filter(n > 1) %>%
+  arrange(-n)
+
+tmp_android = combined %>%
+  filter(subjectID %in% android$subject_id) %>%
+  count(strinput_text) %>%
+  # filter(n > 1) %>%
+  arrange(-n)
+
+tmp_ios = combined %>%
+  filter(!(subjectID %in% android$subject_id)) %>%
+  count(strinput_text) %>%
+  filter(n > 1) %>%
+  arrange(-n)
+
+# this is a vector of 'automatic' strings: 'Send a chat' to remove, based on Lilian's perusal
+# we're looking for exact matches, which is probably not the best
+# ideally you would use regular expressions e.g. 'say something in .* chat'
+load("android_strings.RData")
+sys.txt=test
+rm(test)
+
+discord = combined %>% filter(id_app == "com.hammerandchisel.discord"| id_app == "com.hammerandchisel.discord.Share" | id_app == "com.discord" | id_app=="Discord") %>% count(strinput_text) %>% arrange(-n)
+
+
+plsCom=readLines("pls command.txt")
+plsCom=data.frame(command=plsCom[!plsCom==""])
+pls = "^pls (animals"
+for (k in 2:dim(plsCom)[1]) {
+  pls = paste(pls, plsCom$command[k], sep = "|")
+}
+pls = paste(pls, ").*", sep = "")
+
+
+groovyCom=readLines("groovy command.txt")
+groovyCom=data.frame(command=groovyCom[!groovyCom==""])
+groovy = "^/(play"
+for (k in 2:dim(groovyCom)[1]) {
+  groovy = paste(groovy, groovyCom$command[k], sep = "|")
+}
+groovy = paste(groovy, ").*", sep = "")
+
+
+# the reason this doesn't replace valid text is it has to start with pls or groovy to be replaced
+check = discord %>%
+  mutate(strinput_text = gsub("^owo .*","", strinput_text, ignore.case = T)) %>%
+  filter(strinput_text != "Owo" & strinput_text != "owo") %>%
+  mutate(strinput_text = gsub("^(Owocdaily|Owocookie|Owocpropose|Owozoo).*","", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub(pls,"", strinput_text, ignore.case = T)) %>%
+  filter(strinput_text != "Plsb" & strinput_text != "Plsnm" & strinput_text != "Ppls bal") %>%
+  mutate(strinput_text = gsub(groovy,"", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub("^/(mx|ma|mg|hx|ha|hg|wx|wa|wg|im|ima|tu|kakera|overview|settings|help|commandsearch|pokeslot).*","", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub("^\\$[a-z].*","", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub("^:-[a-z].*","", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub("^![a-z].*","", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub("^p![a-z].*","", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub("^\\?[a-ln-z].*","", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub("^\\?mute .*","", strinput_text, ignore.case = T)) %>%
+  filter(!(is.na(strinput_text) | strinput_text == ""))
+
+reddit = combined %>% filter(id_app == "com.reddit.Reddit"| id_app == "com.reddit.frontpage" | id_app == "com.christianselig.Apollo" | id_app == "free.reddit.news" | id_app=="Reddit") %>% count(strinput_text) %>% arrange(-n) #
+
+# looking at rapid messages  "where are", "where are you"
+check = combined %>%
+  group_by(subjectID) %>%
+  mutate(timeDiff = difftime(tm_message_start, lag(tm_message_start), units = "secs"),
+         val_contain = stringr::str_detect(tolower(strinput_text), coll(tolower(lag(strinput_text))))) %>%
+  mutate(sus = ifelse(lead(val_contain == T) & id_app == lead(id_app), 1, 0)) %>%
+  ungroup() %>%
+  filter(!(is.na(strinput_text) | strinput_text == ""))
+
+tmp = check %>%
+  filter(lag(sus) == 1) 
+
+quantile(tmp$timeDiff, .95) #95% pctile is 49 sec
+
+```
+# Full cleaning 
+
+
+``` {r, echo= FALSE}
+
+# remove empty rows and unreadable characters "\ufffc"
+combined = combined %>%
+  arrange(subjectID, tm_message_start) %>%
+  mutate(strinput_text = gsub("\ufffc","",strinput_text)) %>%
+  filter(!(is.na(strinput_text) | strinput_text == "")) 
+
+#  for android only, clean 
+combined = combined %>%
+  mutate(strinput_text = ifelse(subjectID %in% android$subject_id, gsub(".*…$","",strinput_text), strinput_text)) %>%
+  mutate(strinput_text = ifelse(subjectID %in% android$subject_id, gsub("^Search.*","",strinput_text), strinput_text)) %>%
+  mutate(strinput_text = ifelse(subjectID %in% android$subject_id, gsub("^Reply to.*","",strinput_text), strinput_text)) %>%
+  mutate(strinput_text = ifelse(subjectID %in% android$subject_id & strinput_text %in% sys.txt, "", strinput_text)) %>%
+  mutate(strinput_text = gsub("Get Outlook for Android","",strinput_text)) %>%
+  mutate(strinput_text = gsub("Add A Heading","",strinput_text)) %>%
+  mutate(strinput_text = ifelse(subjectID %in% android$subject_id, gsub("^\u2022[^ ].*","",strinput_text, ignore.case = T), strinput_text)) %>% #remove texts starting bullets
+  mutate(strinput_text = ifelse(subjectID %in% android$subject_id, gsub(".*[^ ]\u2022$","",strinput_text, ignore.case = T), strinput_text)) %>% #remove texts ending bullets
+  mutate(strinput_text = ifelse(subjectID %in% android$subject_id, gsub("#","3",strinput_text), strinput_text)) %>%
+  filter(!(is.na(strinput_text) | strinput_text == ""))
+
+# now we're replacing - not just to discord but the strings are probably rare
+combined = combined %>%
+  mutate(strinput_text=gsub("say something in .* chat","",strinput_text,ignore.case=T)) %>%
+  mutate(strinput_text=gsub("Send .* message .*","",strinput_text,ignore.case=T)) %>%
+  mutate(strinput_text=gsub("Type your message here...","",strinput_text,ignore.case=T)) %>%
+  mutate(strinput_text=gsub("New message","",strinput_text,ignore.case=T)) %>%
+  mutate(strinput_text = gsub("^owo .*","", strinput_text, ignore.case = T)) %>%
+  filter(strinput_text != "Owo" & strinput_text != "owo") %>%
+  mutate(strinput_text = gsub("^(Owocdaily|Owocookie|Owocpropose|Owozoo).*","", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub(pls,"", strinput_text, ignore.case = T)) %>%
+  filter(strinput_text != "Plsb" & strinput_text != "Plsnm" & strinput_text != "Ppls bal") %>%
+  mutate(strinput_text = gsub(groovy,"", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub("^/(mx|ma|mg|hx|ha|hg|wx|wa|wg|im|ima|tu|kakera|overview|settings|help|commandsearch|pokeslot).*","", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub("^\\$[a-z].*","", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub("^:-[a-z].*","", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub("^![a-z].*","", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub("^p![a-z].*","", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub("^\\?[a-ln-z].*","", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub("^\\?mute .*","", strinput_text, ignore.case = T)) %>%
+  mutate(strinput_text = gsub("^r/.*","", strinput_text, ignore.case = T)) %>%
+  filter(!(is.na(strinput_text) | strinput_text == ""))
+
+# removing fast responses 
+combined = combined %>%
+  group_by(subjectID) %>%
+  mutate(timeDiff = difftime(tm_message_start, lag(tm_message_start), units = "secs"),
+         val_contain = stringr::str_detect(tolower(strinput_text), coll(tolower(lag(strinput_text))))) %>%
+  filter(!(lead(val_contain == T) & id_app == lead(id_app) & lead(timeDiff) <= 60)) %>%
+  ungroup() %>%
+  filter(!(is.na(strinput_text) | strinput_text == ""))
+
+
+# removing twitter urls and mentions 
+combined = combined %>%
+  mutate(text_clean = rm_url(strinput_text, pattern = pastex("@rm_twitter_url", "@rm_url"), extract = F)) %>% #remove URLs
+  mutate(text_clean = gsub('\\S*@\\S*\\s?', '', text_clean)) %>% #remove mentions and emails
+  mutate(text_clean = gsub(' +',' ', text_clean)) %>% #remove extra whitespaces
+  mutate(text_clean = gsub("^[[:space:]]*","", text_clean)) %>% #remove leading space
+  mutate(text_clean = gsub("[[:space:]]*$","", text_clean)) %>% #remove trailing space
+  filter(!(is.na(text_clean) | text_clean == ""))
+```
+
+# doing some python in R, this takes cares of emails and ursl etc. will take time to build all packages , this isn't simple regular expressions
+# + final removal of search queries that aren't explictly urls , needs to load function in other cell 'remove_search_text_entries", this part is slower
+```{r call python script}
+
+
+library(reticulate)
+
+#py_install("ekphrasis")
+
+py_install("ekphrasis",pip=TRUE)
+# Run the Python script
+combined_copy=combined # just to make sure this script doesn't do anything weird
+rm(py)
+py$strinput_text <- r_to_py(combined_copy$text_clean)
+
+py_run_string("
+from ekphrasis.classes.preprocessor import TextPreProcessor
+
+# doesn't work as well as regular expressions for .com 
+text_processor = TextPreProcessor(
+    normalize=['url', 'email', 'percent', 'money', 'phone', 'user', 'time', 'date'],
+    annotate={},
+    segmenter='twitter',
+    corrector='twitter',
+    unpack_hashtags=True,
+    unpack_contractions=False)
+    #spell_correct_elong=True # I think we don't want to replace elongated words, but # this doesn't work super well
+
+def remove_tags(doc):
+    doc = ' '.join(word for word in doc.split() if not (word[0]=='<' and word[-1] == '>'))
+    return doc
+    
+#text = 'Check out this URL: https://example.com, email me at user@example.com, and #call me at 1234567890! #awesome'
+
+# Process each string in the R dataframe column
+processed_texts = []
+for text in strinput_text:
+    processed_text = text_processor.pre_process_doc(text)
+    processed_text=remove_tags(processed_text)
+    processed_texts.append(processed_text)
+    
+# Store the processed texts back in R
+r.processed_texts = processed_texts
+")
+# Access the processed texts in R
+
+combined_copy$text_clean <- processed_texts
+combined_copy<-combined_copy%>%filter(!(is.na(text_clean) | text_clean == ""))
+combined_copy$toremove<-remove_search_text_entries(combined_copy$text_clean)
+combined_copy2<-combined_copy%>%filter(toremove==FALSE)
+
+```
+# saving batch
+```{r,echo=FALSE}
+# Define the finalmessages dataframe
+finalmessages <- combined_copy2
+
+# Define the base path
+
+path<-""
+# Suggested formats - annotate type of preprocessing and date
+date=format(Sys.Date(),format = "%Y_%m_%d")
+# Construct the file paths
+rdata_file <- file.path(path, paste0("", date, ".RData"))
+pickle_file <- file.path(path, paste0("", date, ".pkl"))
+
+# Save the R dataframe to an .RData file
+save(finalmessages, file = rdata_file)
+
+# Save to a csv
+write_csv(finalmessages, "/", date,".csv")  # readr uses UTF-8 by default
+
+
+#summary <- finalmessages %>% mutate(text_clean=str_to_lower(text_clean)) %>% summarize(n=NROW(text_clean),.by=text_clean) %>% filter(n>50)
+
+# Convert the R dataframe to a Pandas dataframe - if you have unicode problems go down to problem identification
+# 
+
+py_install("pandas")
+pd <- import("pandas")  # Import the Pandas module
+py_df <- pd$DataFrame(finalmessages)  # Convert R dataframe to Pandas dataframe
+
+# Save the Pandas dataframe to a pickle file
+py_save_object(py_df, pickle_file)
+
+# Print confirmation
+cat("RData file saved to:", rdata_file, "\n")
+cat("Pickle file saved to:", pickle_file, "\n")
+```
+
+# saving individuals 
+```{r, echo=FALSE}
+library(readr) # for encoding
+finalmessages <- combined_copy2
+date=format(Sys.Date(),format = "%Y_%m_%d")
+for (i in unique(finalmessages$subjectID)){
+  dir=""
+  write_csv(finalmessages[finalmessages$subjectID==i,],file=paste0(dir,i,"/Preprocessed_" ,date,".csv"))
+}
+
+```
+
+
+# function for removing search strings 
+```{r, echo=FALSE}
+remove_search_text_entries <- function(text, 
+                                            special_char_threshold = 3) {
+  # Conditions
+  starts_with_q <- grepl("^q=", text, ignore.case = TRUE)
+  contains_chrome <- grepl("chrome-mobile", text, ignore.case = TRUE)
+  
+  # Count special characters using regex
+  special_counts <- lengths(regmatches(text, gregexpr("[=_&+%#@$^*(){}\\[\\]|\\\\:;\"'<>,./`~]", text)))
+  too_many_specials <- special_counts > special_char_threshold
+  
+  url_like <- grepl("[=_&+%]{3,}", text)
+  base64_like <- grepl("[A-Za-z0-9]{50,}", text)
+  query_like <- grepl("(&[a-zA-Z]+=|\\?[a-zA-Z]+=)", text)
+  
+  # Combine all conditions
+  should_remove <- starts_with_q | contains_chrome | 
+                   too_many_specials | url_like | base64_like | query_like
+  
+  return(should_remove)
+}
+
+```
+
+
+# POS TAGGING (OPTIONAL NOT IN SL MANUSCRIPT)
+this sometimes doesn't work depending on python environment., can't find transformer model, not sure why/ works in python. 
+let's use the small model  instead - probably too strict for transformers but you can check it out , maybe good for word-level processing of messages 
+```{r optional parts of speech tagging, echo=FALSE}
+library(cleanNLP)
+
+py_install("cleannlp", pip = TRUE)
+py_install("spacy", pip = TRUE)
+cnlp_download_spacy("en_core_web_sm")
+py_config()  # This will show which Python version/environment is being used
+
+
+data_6mo = finalmessages %>% mutate(doc_id = row_number())
+
+
+#cnlp_download_spacy("en_core_web_sm")
+cnlp_init_spacy(model_name = "en_core_web_sm") # English, (so ideally do after translate)
+tmp_spacy = cnlp_annotate(data_6mo, 
+                          text_name = "text_clean", # did not remove punctuations etc. for improved accuracy
+                          doc_name = "doc_id",
+                          verbose = 100) 
+# saveRDS(tmp_spacy, "tmp_spacy.RDS")
+```
+
+
+# OPTIONAL 
+
+# IF YOU HAVE ENCODING PROBLEMS WITH EMOJIS
+```{r}
+# 1. Create a function to identify problematic entries
+# Fast vectorized approach using base R functions
+fast_find_problems <- function(df) {
+  problem_rows <- c()
+  
+  for (col in names(df)) {
+    if (is.character(df[[col]])) {
+      cat("Checking column:", col, "\n")
+      
+      col_data <- df[[col]]
+      
+      # Convert, handling NAs properly
+      converted <- iconv(col_data, from = "UTF-8", to = "UTF-8")
+      
+      # Only compare non-NA values
+      # Problem if: conversion failed (became NA when original wasn't) OR content changed
+      actual_problems <- which(
+        # Conversion failed: original was not NA but converted became NA
+        (!is.na(col_data) & is.na(converted)) |
+        # Content changed: both are not NA but different
+        (!is.na(col_data) & !is.na(converted) & col_data != converted)
+      )
+      
+      if (length(actual_problems) > 0) {
+        cat("Found", length(actual_problems), "actual encoding problems in column", col, "\n")
+        problem_rows <- unique(c(problem_rows, actual_problems))
+      }
+    }
+  }
+  
+  return(problem_rows)
+}
+# Run the fast detection
+problem_rows <- fast_find_problems(finalmessages)
+cat("Total problematic rows:", length(problem_rows), "\n")
+
+```
+# APP NAME PROBLEMS? 
+```{r}
+
+
+# Clean only the problematic entries in app_name
+for (i in problem_rows) {
+  if (!is.na(finalmessages$app_name[i])) {
+    tryCatch({
+      # Try multiple cleaning approaches
+      cleaned <- iconv(finalmessages$app_name[i], from = "UTF-8", to = "UTF-8", sub = "")
+      
+      if (is.na(cleaned)) {
+        # More aggressive - remove all non-ASCII
+        cleaned <- gsub("[^\x01-\x7F]", "", finalmessages$app_name[i])
+      }
+      
+      if (is.na(cleaned) || nchar(cleaned, allowNA = TRUE) == 0) {
+        # Nuclear option - keep only alphanumeric and basic punctuation
+        cleaned <- gsub("[^A-Za-z0-9 .,!?()-]", "", finalmessages$app_name[i])
+      }
+      
+      finalmessages$app_name[i] <- cleaned
+      
+    }, error = function(e) {
+      # Last resort
+      finalmessages$app_name[i] <- "[CORRUPTED]"
+    })
+  }
+}
+
+cat("Cleaned", length(problem_rows), "problematic app_name entries\n")
+
+```
