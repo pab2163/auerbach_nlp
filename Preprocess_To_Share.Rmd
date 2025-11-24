@@ -19,7 +19,6 @@ library(cleanNLP)
 library(qdapRegex)
 library(readr)
 
-# for isaac to run optional preprocessing
 #use_condaenv(condaenv = "py39", conda = "/opt/anaconda3/bin/conda")
 ```
 
@@ -139,9 +138,7 @@ tmp = combined %>% filter(nchar(strinput_text) == 1) %>% left_join(emojis, by = 
 combined = combined %>%
   filter(nchar(strinput_text) > 1 | strinput_text %in% emojis$emoji)
 
-# identify system generated texts: common messages across pts
-## only seems to appear in android devices except discord commands
-#sys.txt = read_csv("EARS_language_dictionaries/text_msg_exclusion.csv")
+
 
 tmp = combined %>%
   count(strinput_text) %>%
@@ -250,6 +247,8 @@ combined = combined %>%
 # now we're replacing - not just to discord but the strings are probably rare
 combined = combined %>%
   mutate(strinput_text=gsub("say something in .* chat","",strinput_text,ignore.case=T)) %>%
+  mutate(strinput_text=gsub("^Send a chat .*","",strinput_text,ignore.case=T)) %>%
+  mutate(strinput_text=gsub("^Add Reply.*","",strinput_text,ignore.case=T)) %>%
   mutate(strinput_text=gsub("Send .* message .*","",strinput_text,ignore.case=T)) %>%
   mutate(strinput_text=gsub("Type your message here...","",strinput_text,ignore.case=T)) %>%
   mutate(strinput_text=gsub("New message","",strinput_text,ignore.case=T)) %>%
@@ -287,6 +286,31 @@ combined = combined %>%
   mutate(text_clean = gsub("^[[:space:]]*","", text_clean)) %>% #remove leading space
   mutate(text_clean = gsub("[[:space:]]*$","", text_clean)) %>% #remove trailing space
   filter(!(is.na(text_clean) | text_clean == ""))
+```
+
+# function for removing search strings , used later
+```{r, echo=FALSE}
+remove_search_text_entries <- function(text, 
+                                            special_char_threshold = 3) {
+  # Conditions
+  starts_with_q <- grepl("^q=", text, ignore.case = TRUE)
+  contains_chrome <- grepl("chrome-mobile", text, ignore.case = TRUE)
+  
+  # Count special characters using regex
+  special_counts <- lengths(regmatches(text, gregexpr("[=_&+%#@$^*(){}\\[\\]|\\\\:;\"'<>,./`~]", text)))
+  too_many_specials <- special_counts > special_char_threshold
+  
+  url_like <- grepl("[=_&+%]{3,}", text)
+  base64_like <- grepl("[A-Za-z0-9]{50,}", text)
+  query_like <- grepl("(&[a-zA-Z]+=|\\?[a-zA-Z]+=)", text)
+  
+  # Combine all conditions
+  should_remove <- starts_with_q | contains_chrome | 
+                   too_many_specials | url_like | base64_like | query_like
+  
+  return(should_remove)
+}
+
 ```
 
 # doing some python in R, this takes cares of emails and ursl etc. will take time to build all packages , this isn't simple regular expressions
@@ -337,7 +361,7 @@ r.processed_texts = processed_texts
 
 combined_copy$text_clean <- processed_texts
 combined_copy<-combined_copy%>%filter(!(is.na(text_clean) | text_clean == ""))
-combined_copy$toremove<-remove_search_text_entries(combined_copy$text_clean)
+combined_copy$toremove<-remove_search_text_entries(combined_copy$text_clean) # uses function
 combined_copy2<-combined_copy%>%filter(toremove==FALSE)
 
 ```
@@ -392,30 +416,7 @@ for (i in unique(finalmessages$subjectID)){
 ```
 
 
-# function for removing search strings 
-```{r, echo=FALSE}
-remove_search_text_entries <- function(text, 
-                                            special_char_threshold = 3) {
-  # Conditions
-  starts_with_q <- grepl("^q=", text, ignore.case = TRUE)
-  contains_chrome <- grepl("chrome-mobile", text, ignore.case = TRUE)
-  
-  # Count special characters using regex
-  special_counts <- lengths(regmatches(text, gregexpr("[=_&+%#@$^*(){}\\[\\]|\\\\:;\"'<>,./`~]", text)))
-  too_many_specials <- special_counts > special_char_threshold
-  
-  url_like <- grepl("[=_&+%]{3,}", text)
-  base64_like <- grepl("[A-Za-z0-9]{50,}", text)
-  query_like <- grepl("(&[a-zA-Z]+=|\\?[a-zA-Z]+=)", text)
-  
-  # Combine all conditions
-  should_remove <- starts_with_q | contains_chrome | 
-                   too_many_specials | url_like | base64_like | query_like
-  
-  return(should_remove)
-}
 
-```
 
 
 # POS TAGGING (OPTIONAL NOT IN SL MANUSCRIPT)
